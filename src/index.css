@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+@keyframes kenBurnsCycle {
+  0% { opacity: 0; transform: scale(1); }
+  2% { opacity: 1; }
+  30% { opacity: 1; transform: scale(1.14); }
+  36% { opacity: 0; transform: scale(1.14); }
+  100% { opacity: 0; transform: scale(1.14); }
+}
+
+@keyframes chevronBounce {
+  0%, 100% { transform: translateY(0); opacity: .55; }
+  50% { transform: translateY(8px); opacity: 1; }
+}
+
+@keyframes marqueeScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-ken-burns {
+  animation: kenBurnsCycle 27s linear infinite;
+}
+
+.animate-chevron {
+  animation: chevronBounce 1.8s ease-in-out infinite;
+}
+
+.animate-marquee {
+  animation: marqueeScroll 32s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
