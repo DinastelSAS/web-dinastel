@@ -1,7 +1,7 @@
 # DINASTEL SAS — Sitio web
 
-Landing page de DINASTEL S.A.S., portada del diseño creado en claude.ai/design a un proyecto
-Vite + React + TypeScript + Tailwind + Framer Motion, listo para GitHub Pages.
+Landing page de DINASTEL S.A.S.: Vite + React + TypeScript + Tailwind + Framer Motion,
+publicada en GitHub Pages bajo `www.dinastel.com`.
 
 ## Desarrollo local
 
@@ -17,21 +17,12 @@ npm run build
 npm run preview
 ```
 
-## Publicar en GitHub Pages
+## Publicación
 
-1. Crea el repositorio en GitHub (recomendado: bajo el org `DinastelSAS`, no una cuenta personal).
-2. `git remote add origin <url-del-repo>` y `git push -u origin main`.
-3. En el repo → **Settings → Pages → Build and deployment**, selecciona **GitHub Actions**
-   (el workflow en `.github/workflows/deploy.yml` ya hace el build y deploy en cada push a `main`).
-4. En el mismo repo, activa **Settings → Pages → Custom domain** con `dinastel.com`
-   (el archivo `public/CNAME` ya lo declara).
-5. En el DNS de `dinastel.com` (panel de mi.com.co), agrega 4 registros **A** con nombre `@`
-   apuntando a las IPs de GitHub Pages:
-   - `185.199.108.153`
-   - `185.199.109.153`
-   - `185.199.110.153`
-   - `185.199.111.153`
-6. Espera a que el DNS propague y activa **Enforce HTTPS** en la misma pantalla de Pages.
+El repo está configurado para publicar automáticamente en cada push a `main`
+(`.github/workflows/deploy.yml` hace build y deploy a GitHub Pages). El dominio
+personalizado (`www.dinastel.com`, con `dinastel.com` redirigiendo) y el certificado
+HTTPS ya están activos.
 
 ## Notas de contenido pendientes
 
