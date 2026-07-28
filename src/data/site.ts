@@ -13,9 +13,9 @@ export const nav = [
 ];
 
 export const heroImages = [
-  "/assets/brochure/IMG_4353.jpg",
-  "/assets/brochure/IMG_6146.jpg",
-  "/assets/brochure/IMG_8521.jpg",
+  "/assets/brochure/IMG_4353.webp",
+  "/assets/brochure/IMG_6146.webp",
+  "/assets/brochure/IMG_8521.webp",
 ];
 
 export interface Linea {
@@ -32,28 +32,28 @@ export const lineas: Linea[] = [
     title: "Ingenieria electrica y de redes",
     summary: "Soluciones electricas integrales de baja y media tension, desde el diseno hasta la legalizacion RETIE.",
     bullets: ["Diseno, instalacion y subestaciones BT/MT", "Interventoria, legalizacion y eficiencia energetica"],
-    img: "/assets/brochure/IMG_4321.jpg",
+    img: "/assets/brochure/IMG_4321.webp",
   },
   {
     tag: "LINEA 02",
     title: "Sistemas solares llave en mano",
     summary: "Soluciones solares integrales a la medida de su consumo, sin tramites que coordinar por su cuenta.",
     bullets: ["Diseno, legalizacion e instalacion on-grid / hibrido", "Interventoria y puesta en marcha incluidas"],
-    img: "/assets/brochure/IMG_1690.jpg",
+    img: "/assets/brochure/IMG_1690.webp",
   },
   {
     tag: "LINEA 03",
     title: "Telecomunicaciones y automatizacion",
     summary: "Conectividad y automatizacion integradas a su infraestructura electrica.",
     bullets: ["Redes de datos y cableado estructurado", "Domotica, BMS/SCADA y PLC"],
-    img: "/assets/brochure/IMG_4131.jpg",
+    img: "/assets/brochure/IMG_4131.webp",
   },
   {
     tag: "LINEA 04",
     title: "Obras civiles y de remodelacion",
     summary: "Obra civil de soporte ejecutada por nuestro propio equipo tecnico.",
     bullets: ["Adecuacion de espacios tecnicos", "Interventoria de obra civil"],
-    img: "/assets/brochure/IMG_1756.jpg",
+    img: "/assets/brochure/IMG_1756.webp",
   },
 ];
 
@@ -62,11 +62,11 @@ export const omChips = ["Preventivo", "Correctivo", "Monitoreo remoto"];
 export const flujo = ["Diagnostico", "Diseno integrado", "Ejecucion", "Operacion y soporte"];
 
 export const marqueeImages = [
-  "/assets/brochure/IMG_4110.jpg",
-  "/assets/brochure/IMG_4227.jpg",
-  "/assets/brochure/IMG_3985.jpg",
-  "/assets/brochure/IMG_4556.jpg",
-  "/assets/brochure/IMG_4691.jpg",
+  "/assets/brochure/IMG_4110.webp",
+  "/assets/brochure/IMG_4227.webp",
+  "/assets/brochure/IMG_3985.webp",
+  "/assets/brochure/IMG_4556.webp",
+  "/assets/brochure/IMG_4691.webp",
 ];
 
 // NOTA: estas cifras no estan verificadas contra datos reales de DINASTEL SAS (constituida
@@ -81,4 +81,4 @@ export const stats = [
 
 export const aliados = ["GECA SOLAR SAS", "INCOM INGENIERIA SAS", "ECOELECTRICA", "INCOSERTEC SAS"];
 
-export const nosotrosImg = "/assets/brochure/IMG_1697.jpg";
+export const nosotrosImg = "/assets/brochure/IMG_1697.webp";
