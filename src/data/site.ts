@@ -29,37 +29,37 @@ export interface Linea {
 export const lineas: Linea[] = [
   {
     tag: "LINEA 01",
-    title: "Ingenieria electrica y de redes",
-    summary: "Soluciones electricas integrales de baja y media tension, desde el diseno hasta la legalizacion RETIE.",
-    bullets: ["Diseno, instalacion y subestaciones BT/MT", "Interventoria, legalizacion y eficiencia energetica"],
+    title: "Ingeniería eléctrica y de redes",
+    summary: "Soluciones eléctricas integrales de baja y media tensión, desde el diseño hasta la legalización RETIE.",
+    bullets: ["Diseño, instalación y subestaciones BT/MT", "Interventoría, legalización y eficiencia energética"],
     img: "/assets/brochure/IMG_4321.webp",
   },
   {
     tag: "LINEA 02",
     title: "Sistemas solares llave en mano",
-    summary: "Soluciones solares integrales a la medida de su consumo, sin tramites que coordinar por su cuenta.",
-    bullets: ["Diseno, legalizacion e instalacion on-grid / hibrido", "Interventoria y puesta en marcha incluidas"],
+    summary: "Soluciones solares integrales a la medida de su consumo, sin trámites que coordinar por su cuenta.",
+    bullets: ["Diseño, legalización e instalación on-grid / híbrido", "Interventoría y puesta en marcha incluidas"],
     img: "/assets/brochure/IMG_1690.webp",
   },
   {
     tag: "LINEA 03",
-    title: "Telecomunicaciones y automatizacion",
-    summary: "Conectividad y automatizacion integradas a su infraestructura electrica.",
-    bullets: ["Redes de datos y cableado estructurado", "Domotica, BMS/SCADA y PLC"],
+    title: "Telecomunicaciones y automatización",
+    summary: "Conectividad y automatización integradas a su infraestructura eléctrica.",
+    bullets: ["Redes de datos y cableado estructurado", "Domótica, BMS/SCADA y PLC"],
     img: "/assets/brochure/IMG_4131.webp",
   },
   {
     tag: "LINEA 04",
-    title: "Obras civiles y de remodelacion",
-    summary: "Obra civil de soporte ejecutada por nuestro propio equipo tecnico.",
-    bullets: ["Adecuacion de espacios tecnicos", "Interventoria de obra civil"],
+    title: "Obras civiles y de remodelación",
+    summary: "Obra civil de soporte ejecutada por nuestro propio equipo técnico.",
+    bullets: ["Adecuación de espacios técnicos", "Interventoría de obra civil"],
     img: "/assets/brochure/IMG_1756.webp",
   },
 ];
 
 export const omChips = ["Preventivo", "Correctivo", "Monitoreo remoto"];
 
-export const flujo = ["Diagnostico", "Diseno integrado", "Ejecucion", "Operacion y soporte"];
+export const flujo = ["Diagnóstico", "Diseño integrado", "Ejecución", "Operación y soporte"];
 
 export const marqueeImages = [
   "/assets/brochure/IMG_4110.webp",
@@ -69,16 +69,16 @@ export const marqueeImages = [
   "/assets/brochure/IMG_4691.webp",
 ];
 
-// NOTA: estas cifras no estan verificadas contra datos reales de DINASTEL SAS (constituida
-// julio 2026, sin proyectos ejecutados bajo la sociedad aun). Se dejan por decision explicita
+// NOTA: estas cifras no están verificadas contra datos reales de DINASTEL SAS (constituida
+// julio 2026, sin proyectos ejecutados bajo la sociedad aún). Se dejan por decisión explícita
 // del fundador (2026-07-28) pese a la advertencia. Revisar antes de publicar formalmente.
 export const stats = [
   { value: "+150", label: "Proyectos ejecutados" },
-  { value: "+12", label: "Anos de trayectoria" },
+  { value: "+12", label: "Años de trayectoria" },
   { value: "+8", label: "Regiones atendidas" },
   { value: "98%", label: "Clientes que repiten" },
 ];
 
-export const aliados = ["GECA SOLAR SAS", "INCOM INGENIERIA SAS", "ECOELECTRICA", "INCOSERTEC SAS"];
+export const aliados = ["GECA SOLAR SAS", "INCOM INGENIERÍA SAS", "ECOELÉCTRICA", "INCOSERTEC SAS"];
 
 export const nosotrosImg = "/assets/brochure/IMG_1697.webp";

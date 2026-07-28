@@ -17,7 +17,7 @@ export function Movimientos() {
             Nuestro trabajo en movimiento.
           </h2>
           <p className="text-[17px] leading-relaxed text-neutral-300">
-            Proyectos reales, en campo: instalaciones electricas y solares ejecutadas por nuestro
+            Proyectos reales, en campo: instalaciones eléctricas y solares ejecutadas por nuestro
             equipo.
           </p>
         </motion.div>

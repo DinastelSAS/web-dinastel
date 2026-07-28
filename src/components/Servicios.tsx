@@ -16,11 +16,11 @@ export function Servicios() {
         >
           <div className="mb-3.5 text-[13px] font-bold tracking-[0.14em] text-primary-600">SERVICIOS</div>
           <h2 className="mb-4 text-[1.9rem] font-extrabold tracking-tight text-neutral-900 sm:text-[2.75rem]">
-            Cuatro lineas de negocio, un mismo equipo tecnico.
+            Cuatro líneas de negocio, un mismo equipo técnico.
           </h2>
           <p className="text-[17px] leading-relaxed text-neutral-600">
-            Ingenieria electrica y de redes para proyectos B2B, y sistemas solares llave en mano
-            para hogares y empresas — con operacion y mantenimiento transversal a ambas lineas.
+            Ingeniería eléctrica y de redes para proyectos B2B, y sistemas solares llave en mano
+            para hogares y empresas — con operación y mantenimiento transversal a ambas líneas.
           </p>
         </motion.div>
 
@@ -70,10 +70,10 @@ export function Servicios() {
         >
           <div className="flex flex-wrap items-center justify-between gap-5">
             <div>
-              <h3 className="mb-1.5 text-xl font-extrabold text-neutral-900">Una solucion para alinear su operacion</h3>
+              <h3 className="mb-1.5 text-xl font-extrabold text-neutral-900">Una solución para alinear su operación</h3>
               <p className="max-w-[420px] text-sm leading-snug text-neutral-500">
-                Operacion y Mantenimiento — preventivo, correctivo y monitoreo remoto, para todas
-                nuestras lineas.
+                Operación y Mantenimiento — preventivo, correctivo y monitoreo remoto, para todas
+                nuestras líneas.
               </p>
             </div>
             <div className="flex flex-wrap gap-3">

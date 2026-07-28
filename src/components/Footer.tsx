@@ -15,11 +15,11 @@ export function Footer() {
           <div className="max-w-[320px]">
             <div className="mb-2.5 text-lg font-extrabold tracking-wide text-white">DINASTEL</div>
             <p className="text-sm leading-relaxed text-neutral-500">
-              Ingenieria electrica, energia solar y consultoria integradas para el crecimiento
+              Ingeniería eléctrica, energía solar y consultoría integradas para el crecimiento
               sostenido de su empresa.
             </p>
             <p className="mt-3 text-xs leading-relaxed text-neutral-600">
-              Comprometidos con la etica, la calidad y la seguridad en cada proyecto.
+              Comprometidos con la ética, la calidad y la seguridad en cada proyecto.
             </p>
           </div>
           <div className="flex flex-wrap gap-14">

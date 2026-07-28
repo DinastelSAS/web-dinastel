@@ -4,13 +4,13 @@ import { flujo } from "../data/site";
 import { slideUp, transition } from "../foundations/motion";
 
 const icons = [
-  // Diagnostico
+  // Diagnóstico
   <svg key="a" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>,
-  // Diseno integrado
+  // Diseño integrado
   <svg key="b" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 20h9" /><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4Z" /></svg>,
-  // Ejecucion
+  // Ejecución
   <svg key="c" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14.7 6.3a4 4 0 1 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.1 2.1-2-2z" /></svg>,
-  // Operacion y soporte
+  // Operación y soporte
   <svg key="d" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" /><polyline points="22 4 12 14.01 9 11.01" /></svg>,
 ];
 
@@ -54,12 +54,12 @@ export function Integraciones() {
           >
             <div className="mb-3.5 text-[13px] font-bold tracking-[0.14em] text-accent-600">INTEGRACIONES</div>
             <h2 className="mb-4 text-[1.9rem] font-extrabold tracking-tight text-neutral-900 sm:text-[2.75rem]">
-              Todo integrado, cero friccion.
+              Todo integrado, cero fricción.
             </h2>
             <p className="text-[17px] leading-relaxed text-neutral-600">
-              Nuestros equipos de electrica, solar y consultoria operan como uno solo, desde el
-              diagnostico hasta la puesta en operacion. Trabajamos con fabricantes y proveedores
-              certificados para respaldar cada proyecto bajo estandares internacionales.
+              Nuestros equipos de eléctrica, solar y consultoría operan como uno solo, desde el
+              diagnóstico hasta la puesta en operación. Trabajamos con fabricantes y proveedores
+              certificados para respaldar cada proyecto bajo estándares internacionales.
             </p>
           </motion.div>
 

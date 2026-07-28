@@ -24,10 +24,10 @@ export function Contacto() {
         <div className="mx-auto mb-10 max-w-[640px] text-center">
           <div className="mb-3.5 text-[13px] font-bold tracking-[0.14em] text-primary-300">CONTACTO</div>
           <h2 className="mb-4 text-[1.9rem] font-extrabold tracking-tight text-white sm:text-[2.75rem]">
-            Hablemos de su proximo proyecto.
+            Hablemos de su próximo proyecto.
           </h2>
           <p className="text-[17px] leading-relaxed text-neutral-300">
-            Cuentenos los requerimientos de su proyecto y le presentaremos una propuesta tecnica
+            Cuéntenos los requerimientos de su proyecto y le presentaremos una propuesta técnica
             y comercial a la medida.
           </p>
         </div>
@@ -68,16 +68,16 @@ export function Contacto() {
                 <input type="email" required placeholder="tu@empresa.com" className={inputClass} />
               </div>
               <div>
-                <label className="mb-2 block text-[13px] font-semibold text-neutral-700">Telefono</label>
+                <label className="mb-2 block text-[13px] font-semibold text-neutral-700">Teléfono</label>
                 <input type="tel" placeholder="+57 300 000 0000" className={inputClass} />
               </div>
             </div>
             <div>
               <label className="mb-2 block text-[13px] font-semibold text-neutral-700">Tipo de proyecto</label>
               <select className={inputClass}>
-                <option value="electrico">Electrico</option>
+                <option value="electrico">Eléctrico</option>
                 <option value="solar">Solar</option>
-                <option value="consultoria">Consultoria</option>
+                <option value="consultoria">Consultoría</option>
                 <option value="integral">Proyecto integral</option>
               </select>
             </div>

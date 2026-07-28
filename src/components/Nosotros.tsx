@@ -12,13 +12,13 @@ export function Nosotros() {
         >
           <div className="mb-3.5 text-[13px] font-bold tracking-[0.14em] text-primary-600">SOBRE NOSOTROS</div>
           <h2 className="mb-4 text-[1.9rem] font-extrabold tracking-tight text-neutral-900 sm:text-[2.75rem]">
-            Ingenieria con vision de negocio.
+            Ingeniería con visión de negocio.
           </h2>
           <p className="text-[17px] leading-[1.65] text-neutral-600">
-            Nacimos para resolver un problema concreto: las empresas necesitan energia confiable
-            para crecer, no mas proveedores que coordinar. Integramos ingenieria electrica, solar
-            y consultoria en un solo equipo tecnico, comprometido con el crecimiento sostenido de
-            su operacion y no solo con el proyecto de hoy.
+            Nacimos para resolver un problema concreto: las empresas necesitan energía confiable
+            para crecer, no más proveedores que coordinar. Integramos ingeniería eléctrica, solar
+            y consultoría en un solo equipo técnico, comprometido con el crecimiento sostenido de
+            su operación y no solo con el proyecto de hoy.
           </p>
         </motion.div>
         <motion.div
@@ -26,7 +26,7 @@ export function Nosotros() {
           variants={slideUp} transition={{ ...transition.base, delay: 0.15 }}
           className="aspect-[4/3] w-full overflow-hidden rounded-[20px]"
         >
-          <img src={nosotrosImg} alt="Equipo tecnico DINASTEL en obra" className="h-full w-full object-cover" loading="lazy" />
+          <img src={nosotrosImg} alt="Equipo técnico DINASTEL en obra" className="h-full w-full object-cover" loading="lazy" />
         </motion.div>
       </div>
     </section>

@@ -30,14 +30,14 @@ export function Hero() {
 
       <div className="relative z-[2] flex max-w-[920px] flex-col items-center gap-6 text-center">
         <div className="text-[13px] font-bold tracking-[0.16em] text-neutral-200">
-          INGENIERIA ELECTRICA · ENERGIA SOLAR · CONSULTORIA
+          INGENIERÍA ELÉCTRICA · ENERGÍA SOLAR · CONSULTORÍA
         </div>
         <h1 className="text-[2.4rem] font-extrabold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-[4.75rem]">
-          La energia detras del crecimiento corporativo.
+          La energía detrás del crecimiento corporativo.
         </h1>
         <p className="max-w-[640px] text-[1.05rem] leading-relaxed text-neutral-300 sm:text-xl">
-          Dinastel S.A.S. disena, construye y opera infraestructura electrica y solar de alta
-          exigencia, con la precision y el rigor tecnico que exigen las operaciones criticas.
+          Dinastel S.A.S. diseña, construye y opera infraestructura eléctrica y solar de alta
+          exigencia, con la precisión y el rigor técnico que exigen las operaciones críticas.
         </p>
         <div className="mt-2 flex flex-wrap justify-center gap-4">
           <button
@@ -56,7 +56,7 @@ export function Hero() {
       </div>
 
       <div className="absolute bottom-9 left-1/2 z-[2] flex -translate-x-1/2 flex-col items-center gap-1.5 text-neutral-200">
-        <div className="text-[11px] font-semibold tracking-[0.14em]">DESPLAZATE</div>
+        <div className="text-[11px] font-semibold tracking-[0.14em]">DESPLÁZATE</div>
         <svg
           width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"
           strokeLinecap="round" strokeLinejoin="round" className="animate-chevron"

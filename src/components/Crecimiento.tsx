@@ -53,7 +53,7 @@ export function Crecimiento() {
             Escalamos con nuestros clientes.
           </h2>
           <p className="text-[17px] leading-relaxed text-neutral-600">
-            Cada proyecto ejecutado fortalece nuestra capacidad tecnica y operativa. Asi medimos
+            Cada proyecto ejecutado fortalece nuestra capacidad técnica y operativa. Así medimos
             un crecimiento sostenido y verificable.
           </p>
         </motion.div>
@@ -70,7 +70,7 @@ export function Crecimiento() {
           className="col-span-full mx-auto mt-8 w-full max-w-[1180px] border-t border-neutral-200 pt-12"
         >
           <div className="mb-8 text-center text-[13px] font-semibold tracking-[0.1em] text-neutral-500">
-            ALIADOS ESTRATEGICOS
+            ALIADOS ESTRATÉGICOS
           </div>
           <div className="flex flex-wrap items-center justify-center gap-4">
             {aliados.map((name) => (
