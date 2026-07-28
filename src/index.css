@@ -20,8 +20,9 @@ body {
 }
 
 @keyframes chevronBounce {
-  0%, 100% { transform: translateY(0); opacity: .55; }
-  50% { transform: translateY(8px); opacity: 1; }
+  0% { transform: translateY(0); opacity: .55; }
+  45% { transform: translateY(7px); opacity: 1; }
+  100% { transform: translateY(0); opacity: .55; }
 }
 
 @keyframes marqueeScroll {
@@ -34,7 +35,7 @@ body {
 }
 
 .animate-chevron {
-  animation: chevronBounce 1.8s ease-in-out infinite;
+  animation: chevronBounce 1.8s cubic-bezier(0.22, 1, 0.36, 1) infinite;
 }
 
 .animate-marquee {
