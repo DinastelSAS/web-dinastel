@@ -63,7 +63,45 @@ export function Integraciones() {
             </p>
           </motion.div>
 
-          <div className="mt-16 flex flex-wrap items-center gap-0">
+          {/* Mobile: timeline vertical */}
+          <div className="mt-12 flex flex-col sm:hidden">
+            {flujo.map((label, i) => {
+              const isGreen = i < green;
+              const isActive = i === active;
+              const isLast = i === flujo.length - 1;
+              const dotColor = isGreen ? "#16a34a" : isActive ? "#2563eb" : "#93c5fd";
+              const dotGlow = isActive
+                ? "0 0 16px 4px rgba(37,99,235,0.55), 0 0 0 7px rgba(37,99,235,0.22)"
+                : isGreen
+                ? "0 0 16px 4px rgba(22,163,74,0.5), 0 0 0 7px rgba(22,163,74,0.22)"
+                : "none";
+              return (
+                <div key={label} className="flex gap-4">
+                  <div className="flex flex-col items-center">
+                    <div
+                      className="h-3.5 w-3.5 flex-shrink-0 rounded-full transition-all duration-700 ease-out"
+                      style={{ background: dotColor, boxShadow: dotGlow }}
+                    />
+                    {!isLast && (
+                      <div
+                        className="min-h-[28px] w-[1.5px] flex-1 transition-colors duration-700 ease-out"
+                        style={{ background: i < green ? "#16a34a" : "#bfdbfe" }}
+                      />
+                    )}
+                  </div>
+                  <div
+                    className="pb-7 text-[15px] transition-colors duration-700 ease-out"
+                    style={{ fontWeight: isGreen || isActive ? 700 : 600, color: isGreen ? "#16a34a" : "#0f172a" }}
+                  >
+                    {label}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Desktop / tablet: flujo horizontal */}
+          <div className="mt-16 hidden items-center gap-0 sm:flex sm:flex-wrap">
             {flujo.map((label, i) => {
               const isGreen = i < green;
               const isActive = i === active;
@@ -77,11 +115,11 @@ export function Integraciones() {
                 <div key={label} className="flex items-center">
                   <div className="flex min-w-[140px] flex-col items-center gap-3.5">
                     <div
-                      className="h-3.5 w-3.5 rounded-full transition-all duration-300"
+                      className="h-3.5 w-3.5 rounded-full transition-all duration-700 ease-out"
                       style={{ background: dotColor, boxShadow: dotGlow }}
                     />
                     <div
-                      className="text-center text-[15px] transition-colors duration-300"
+                      className="text-center text-[15px] transition-colors duration-700 ease-out"
                       style={{ fontWeight: isGreen || isActive ? 700 : 600, color: isGreen ? "#16a34a" : "#0f172a" }}
                     >
                       {label}
@@ -89,7 +127,7 @@ export function Integraciones() {
                   </div>
                   {i < flujo.length - 1 && (
                     <div
-                      className="mx-2 h-[1.5px] w-6 transition-colors duration-500 sm:w-16"
+                      className="mx-2 h-[1.5px] w-6 transition-colors duration-700 ease-out sm:w-16"
                       style={{ background: i < green ? "#16a34a" : "#bfdbfe" }}
                     />
                   )}
@@ -100,7 +138,7 @@ export function Integraciones() {
         </div>
 
         <div
-          className="sticky top-[120px] flex min-h-[220px] flex-col items-center justify-center rounded-[20px] border border-neutral-200 bg-white p-10 shadow-card transition-colors duration-300"
+          className="sticky top-[120px] flex min-h-[220px] flex-col items-center justify-center rounded-[20px] border border-neutral-200 bg-white p-10 shadow-card transition-colors duration-700 ease-out"
           style={{ color: isGreenState ? "#16a34a" : "#2563eb" }}
         >
           {icons[currentStep]}

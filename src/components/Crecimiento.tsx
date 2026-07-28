@@ -72,12 +72,17 @@ export function Crecimiento() {
           <div className="mb-8 text-center text-[13px] font-semibold tracking-[0.1em] text-neutral-500">
             ALIADOS ESTRATÉGICOS
           </div>
-          <div className="flex flex-wrap items-center justify-center gap-4">
-            {aliados.map((name) => (
-              <div key={name} className="rounded-[10px] border border-neutral-200 bg-neutral-50 px-[22px] py-3.5 text-sm font-bold tracking-wide text-neutral-700">
-                {name}
-              </div>
-            ))}
+          <div
+            className="overflow-hidden"
+            style={{ maskImage: "linear-gradient(90deg, transparent, black 6%, black 94%, transparent)", WebkitMaskImage: "linear-gradient(90deg, transparent, black 6%, black 94%, transparent)" }}
+          >
+            <div className="animate-marquee flex w-max items-center gap-4">
+              {[...aliados, ...aliados].map((name, i) => (
+                <div key={name + i} className="flex-shrink-0 whitespace-nowrap rounded-[10px] border border-neutral-200 bg-neutral-50 px-[22px] py-3.5 text-sm font-bold tracking-wide text-neutral-700">
+                  {name}
+                </div>
+              ))}
+            </div>
           </div>
         </motion.div>
       </div>
