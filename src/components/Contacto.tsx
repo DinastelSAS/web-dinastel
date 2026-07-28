@@ -15,13 +15,13 @@ export function Contacto() {
   }
 
   return (
-    <section id="contacto" className="relative overflow-hidden bg-[#3e4454] px-5 py-28 sm:px-10 lg:px-20">
+    <section id="contacto" className="relative overflow-hidden bg-[#3e4454] px-5 py-16 sm:px-10 sm:py-20 lg:px-20 lg:py-24">
       <motion.div
         initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }}
         variants={slideUp} transition={transition.base}
         className="relative z-[1] mx-auto max-w-[900px]"
       >
-        <div className="mx-auto mb-10 max-w-[640px] text-center">
+        <div className="mx-auto mb-7 max-w-[640px] text-center">
           <div className="mb-3.5 text-[13px] font-bold tracking-[0.14em] text-primary-300">CONTACTO</div>
           <h2 className="mb-4 text-[1.9rem] font-extrabold tracking-tight text-white sm:text-[2.75rem]">
             Hablemos de su próximo proyecto.
@@ -32,7 +32,7 @@ export function Contacto() {
           </p>
         </div>
 
-        <div className="mb-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-[15px] font-medium text-neutral-200">
+        <div className="mb-7 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-[15px] font-medium text-neutral-200">
           <a href={`mailto:${contacto.email}`} className="flex items-center gap-2 hover:text-white">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M4 4h16v16H4z" opacity="0" /><path d="M22 6 12 13 2 6" /><path d="M2 6h20v12H2z" />

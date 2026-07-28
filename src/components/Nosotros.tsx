@@ -4,8 +4,8 @@ import { slideUp, transition } from "../foundations/motion";
 
 export function Nosotros() {
   return (
-    <section id="nosotros" className="relative overflow-hidden bg-neutral-50 px-5 py-28 sm:px-10 lg:px-20">
-      <div className="relative z-[1] mx-auto grid max-w-[1180px] grid-cols-1 items-center gap-16 lg:grid-cols-2">
+    <section id="nosotros" className="relative overflow-hidden bg-neutral-50 px-5 py-16 sm:px-10 sm:py-20 lg:px-20 lg:py-24">
+      <div className="relative z-[1] mx-auto grid max-w-[1180px] grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-14">
         <motion.div
           initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.4 }}
           variants={slideUp} transition={transition.base}

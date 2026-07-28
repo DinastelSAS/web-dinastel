@@ -11,7 +11,7 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 pb-20 pt-32"
+      className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 pb-14 pt-24"
       style={{ background: "radial-gradient(ellipse at 30% 15%, #445da1 0%, #3c4455 55%, #3e4454 100%)" }}
     >
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
@@ -28,7 +28,7 @@ export function Hero() {
         />
       </div>
 
-      <div className="relative z-[2] flex max-w-[920px] flex-col items-center gap-6 text-center">
+      <div className="relative z-[2] flex max-w-[920px] flex-col items-center gap-5 text-center">
         <div className="text-[13px] font-bold tracking-[0.16em] text-neutral-200">
           INGENIERÍA ELÉCTRICA · ENERGÍA SOLAR · CONSULTORÍA
         </div>
@@ -39,7 +39,7 @@ export function Hero() {
           Dinastel S.A.S. diseña, construye y opera infraestructura eléctrica y solar de alta
           exigencia, con la precisión y el rigor técnico que exigen las operaciones críticas.
         </p>
-        <div className="mt-2 flex flex-wrap justify-center gap-4">
+        <div className="mt-1 flex flex-wrap justify-center gap-4">
           <button
             onClick={() => scrollToId("contacto")}
             className="rounded-full bg-primary-600 px-[30px] py-[15px] text-[15px] font-semibold text-white transition-all hover:-translate-y-px hover:bg-primary-700"

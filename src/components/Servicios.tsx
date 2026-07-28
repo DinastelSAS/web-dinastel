@@ -4,7 +4,7 @@ import { slideUp, transition } from "../foundations/motion";
 
 export function Servicios() {
   return (
-    <section id="servicios" className="relative overflow-hidden bg-neutral-50 px-5 py-28 sm:px-10 lg:px-20">
+    <section id="servicios" className="relative overflow-hidden bg-neutral-50 px-5 py-16 sm:px-10 sm:py-20 lg:px-20 lg:py-24">
       <div className="relative z-[1] mx-auto max-w-[1180px]">
         <motion.div
           initial="hidden"
@@ -24,7 +24,7 @@ export function Servicios() {
           </p>
         </motion.div>
 
-        <div className="mt-14 grid grid-cols-1 gap-7 sm:grid-cols-2">
+        <div className="mt-8 grid grid-cols-1 gap-6 sm:mt-10 sm:grid-cols-2">
           {lineas.map((linea, i) => (
             <motion.div
               key={linea.tag}
@@ -66,7 +66,7 @@ export function Servicios() {
           viewport={{ once: true, amount: 0.4 }}
           variants={slideUp}
           transition={{ ...transition.base, delay: 0.3 }}
-          className="relative z-[1] mx-auto mt-8 max-w-[1180px] rounded-2xl border border-neutral-200 bg-white p-7 shadow-card sm:px-8"
+          className="relative z-[1] mx-auto mt-6 max-w-[1180px] rounded-2xl border border-neutral-200 bg-white p-7 shadow-card sm:px-8"
         >
           <div className="flex flex-wrap items-center justify-between gap-5">
             <div>

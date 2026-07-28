@@ -6,7 +6,7 @@ export function Movimientos() {
   const loop = [...marqueeImages, ...marqueeImages];
 
   return (
-    <section id="movimientos" className="relative overflow-hidden bg-[#3e4454] px-5 py-28 sm:px-10 lg:px-20">
+    <section id="movimientos" className="relative overflow-hidden bg-[#3e4454] px-5 py-16 sm:px-10 sm:py-20 lg:px-20 lg:py-24">
       <div className="relative z-[1] mx-auto max-w-[900px]">
         <motion.div
           initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.4 }}
@@ -23,7 +23,7 @@ export function Movimientos() {
         </motion.div>
 
         <div
-          className="mt-14 overflow-hidden"
+          className="mt-8 overflow-hidden sm:mt-10"
           style={{ maskImage: "linear-gradient(90deg, transparent, black 6%, black 94%, transparent)", WebkitMaskImage: "linear-gradient(90deg, transparent, black 6%, black 94%, transparent)" }}
         >
           <div className="animate-marquee flex w-max gap-5">

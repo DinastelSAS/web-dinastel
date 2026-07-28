@@ -45,7 +45,7 @@ export function Integraciones() {
   const isGreenState = active === -1 && green > 0;
 
   return (
-    <section id="integraciones" ref={ref} className="relative overflow-hidden bg-white px-5 py-28 sm:px-10 lg:px-20">
+    <section id="integraciones" ref={ref} className="relative overflow-hidden bg-white px-5 py-16 sm:px-10 sm:py-20 lg:px-20 lg:py-24">
       <div className="relative z-[1] mx-auto grid max-w-[1180px] grid-cols-1 items-start gap-12 lg:grid-cols-[minmax(300px,1fr)_minmax(200px,260px)]">
         <div>
           <motion.div
@@ -64,7 +64,7 @@ export function Integraciones() {
           </motion.div>
 
           {/* Mobile: timeline vertical */}
-          <div className="mt-12 flex flex-col sm:hidden">
+          <div className="mt-8 flex flex-col sm:hidden">
             {flujo.map((label, i) => {
               const isGreen = i < green;
               const isActive = i === active;
@@ -101,7 +101,7 @@ export function Integraciones() {
           </div>
 
           {/* Desktop / tablet: flujo horizontal */}
-          <div className="mt-16 hidden items-center gap-0 sm:flex sm:flex-wrap">
+          <div className="mt-10 hidden items-center gap-0 sm:flex sm:flex-wrap">
             {flujo.map((label, i) => {
               const isGreen = i < green;
               const isActive = i === active;

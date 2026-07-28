@@ -9,8 +9,8 @@ function scrollToId(id: string) {
 
 export function Footer() {
   return (
-    <footer className="border-t border-neutral-800 bg-neutral-900 px-5 pb-10 pt-14 sm:px-10 lg:px-20">
-      <div className="mx-auto flex max-w-[1180px] flex-col gap-8">
+    <footer className="border-t border-neutral-800 bg-neutral-900 px-5 pb-8 pt-10 sm:px-10 lg:px-20">
+      <div className="mx-auto flex max-w-[1180px] flex-col gap-6">
         <div className="flex flex-wrap justify-between gap-8">
           <div className="max-w-[320px]">
             <div className="mb-2.5 text-lg font-extrabold tracking-wide text-white">DINASTEL</div>
