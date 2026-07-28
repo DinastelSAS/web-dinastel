@@ -19,7 +19,7 @@ body {
   100% { opacity: 0; transform: scale(1.14); }
 }
 
-@keyframes chevronBounce {
+@keyframes chevronNudge {
   0% { transform: translateY(0); opacity: .55; }
   45% { transform: translateY(7px); opacity: 1; }
   100% { transform: translateY(0); opacity: .55; }
@@ -35,7 +35,7 @@ body {
 }
 
 .animate-chevron {
-  animation: chevronBounce 1.8s cubic-bezier(0.22, 1, 0.36, 1) infinite;
+  animation: chevronNudge 1.8s cubic-bezier(0.22, 1, 0.36, 1) infinite;
 }
 
 .animate-marquee {
