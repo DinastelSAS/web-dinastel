@@ -56,9 +56,9 @@ export function Header() {
       >
         <button
           onClick={() => go("hero")}
-          className={`text-[22px] font-black leading-none tracking-wide sm:text-[26px] lg:text-[32px] ${isDark ? "text-white" : "text-primary-700"}`}
+          className={`text-[27px] font-black leading-none tracking-wide sm:text-[28px] lg:text-[32px] ${isDark ? "text-white" : "text-primary-700"}`}
         >
-          DINASTEL <span className="text-[0.5em] font-bold tracking-widest">SAS</span>
+          DINASTEL <span className="text-[0.55em] font-bold tracking-widest">SAS</span>
         </button>
 
         <nav className="hidden items-center gap-6 md:flex">
@@ -91,7 +91,7 @@ export function Header() {
       </header>
 
       <div
-        className={`fixed inset-x-0 top-[57px] z-40 overflow-hidden bg-white shadow-lg transition-[max-height] duration-300 ease-out md:hidden ${
+        className={`fixed inset-x-0 top-[62px] z-40 overflow-hidden bg-white shadow-lg transition-[max-height] duration-300 ease-out md:hidden ${
           menuOpen ? "max-h-[420px]" : "max-h-0"
         }`}
       >
