@@ -1,5 +1,5 @@
 export const contacto = {
-  email: "gerencia@dinastel.com",
+  email: "comercial@dinastel.com",
   telefono: "3145569567",
   telefonoDisplay: "+57 314 556 9567",
 };

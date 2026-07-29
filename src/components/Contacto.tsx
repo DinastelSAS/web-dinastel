@@ -6,12 +6,24 @@ import { slideUp, transition } from "../foundations/motion";
 const inputClass =
   "w-full rounded-lg border border-neutral-300 bg-neutral-50 px-3.5 py-3 font-sans text-[15px] text-neutral-900 outline-none transition-colors focus:border-primary-500";
 
-export function Contacto() {
-  const [submitted, setSubmitted] = useState(false);
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/maqrkdyn";
 
-  function handleSubmit(e: FormEvent) {
+export function Contacto() {
+  const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setSubmitted(true);
+    setStatus("sending");
+    try {
+      const res = await fetch(FORMSPREE_ENDPOINT, {
+        method: "POST",
+        body: new FormData(e.currentTarget),
+        headers: { Accept: "application/json" },
+      });
+      setStatus(res.ok ? "sent" : "error");
+    } catch {
+      setStatus("error");
+    }
   }
 
   return (
@@ -47,34 +59,35 @@ export function Contacto() {
           </a>
         </div>
 
-        {submitted ? (
+        {status === "sent" ? (
           <div className="rounded-2xl border border-neutral-200 bg-white p-12 text-center shadow-card">
             <div className="mb-2.5 text-xl font-bold text-neutral-900">¡Gracias!</div>
             <p className="text-[15px] text-neutral-500">Recibimos su solicitud. Le contactaremos en menos de 24 horas.</p>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="flex flex-col gap-5 rounded-2xl border border-neutral-200 bg-white p-6 shadow-card sm:p-12">
+            <input type="hidden" name="_subject" value="Nueva solicitud de cotización — dinastel.com" />
             <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
               <div>
                 <label className="mb-2 block text-[13px] font-semibold text-neutral-700">Nombre</label>
-                <input type="text" required placeholder="Su nombre" className={inputClass} />
+                <input type="text" name="nombre" required placeholder="Su nombre" className={inputClass} />
               </div>
               <div>
                 <label className="mb-2 block text-[13px] font-semibold text-neutral-700">Empresa</label>
-                <input type="text" placeholder="Nombre de su empresa" className={inputClass} />
+                <input type="text" name="empresa" placeholder="Nombre de su empresa" className={inputClass} />
               </div>
               <div>
                 <label className="mb-2 block text-[13px] font-semibold text-neutral-700">Email</label>
-                <input type="email" required placeholder="tu@empresa.com" className={inputClass} />
+                <input type="email" name="email" required placeholder="tu@empresa.com" className={inputClass} />
               </div>
               <div>
                 <label className="mb-2 block text-[13px] font-semibold text-neutral-700">Teléfono</label>
-                <input type="tel" placeholder="+57 300 000 0000" className={inputClass} />
+                <input type="tel" name="telefono" placeholder="+57 300 000 0000" className={inputClass} />
               </div>
             </div>
             <div>
               <label className="mb-2 block text-[13px] font-semibold text-neutral-700">Tipo de proyecto</label>
-              <select className={inputClass}>
+              <select name="tipo_proyecto" className={inputClass}>
                 <option value="electrico">Eléctrico</option>
                 <option value="solar">Solar</option>
                 <option value="consultoria">Consultoría</option>
@@ -83,13 +96,19 @@ export function Contacto() {
             </div>
             <div>
               <label className="mb-2 block text-[13px] font-semibold text-neutral-700">Mensaje</label>
-              <textarea rows={4} placeholder="Describa brevemente su proyecto" className={`${inputClass} resize-y`} />
+              <textarea name="mensaje" rows={4} placeholder="Describa brevemente su proyecto" className={`${inputClass} resize-y`} />
             </div>
+            {status === "error" && (
+              <p className="text-[14px] font-medium text-red-600">
+                No se pudo enviar. Intente de nuevo o escríbanos directamente a {contacto.email}.
+              </p>
+            )}
             <button
               type="submit"
-              className="mt-2 self-start rounded-full bg-primary-600 px-8 py-3.5 text-[15px] font-semibold text-white transition-all hover:-translate-y-px hover:bg-primary-700"
+              disabled={status === "sending"}
+              className="mt-2 self-start rounded-full bg-primary-600 px-8 py-3.5 text-[15px] font-semibold text-white transition-all hover:-translate-y-px hover:bg-primary-700 disabled:cursor-not-allowed disabled:opacity-60"
             >
-              Enviar solicitud
+              {status === "sending" ? "Enviando..." : "Enviar solicitud"}
             </button>
           </form>
         )}
