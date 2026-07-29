@@ -58,7 +58,7 @@ export function Header() {
           <img
             src={isDark ? "/assets/brand/logo-white.png" : "/assets/brand/logo.png"}
             alt="DINASTEL S.A.S."
-            className="h-8 w-auto sm:h-9"
+            className="h-11 w-auto sm:h-12"
           />
         </button>
 
