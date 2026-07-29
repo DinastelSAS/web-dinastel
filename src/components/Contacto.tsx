@@ -27,7 +27,7 @@ export function Contacto() {
   }
 
   return (
-    <section id="contacto" className="relative overflow-hidden bg-[#3e4454] px-5 py-16 sm:px-10 sm:py-20 lg:px-20 lg:py-24">
+    <section id="contacto" className="relative overflow-hidden bg-neutral-800 px-5 py-16 sm:px-10 sm:py-20 lg:px-20 lg:py-24">
       <motion.div
         initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.2 }}
         variants={slideUp} transition={transition.base}

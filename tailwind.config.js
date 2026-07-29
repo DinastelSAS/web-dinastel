@@ -3,20 +3,22 @@ export default {
   content: ["./index.html", "./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
-      // Misma paleta propuesta del design-system (azul=tecnico/confiable, ambar=energia/solar,
-      // slate=neutro) — PENDIENTE de validacion de marca real (logo, manual de marca).
+      // Manual de marca oficial (Diseño_Corporativo/Caracterización visual.png, 2026-07-29):
+      // primary = Azul Petróleo #0D4F73, neutral-800 = Gris Grafito #2E3238. accent (ámbar) se
+      // conserva como color funcional de UI (checks, degradados) — el manual no define un
+      // tercer color corporativo, así que no compite con la identidad oficial.
       colors: {
         primary: {
-          50: "#eff6ff",
-          100: "#dbeafe",
-          200: "#bfdbfe",
-          300: "#93c5fd",
-          400: "#60a5fa",
-          500: "#3b82f6",
-          600: "#2563eb",
-          700: "#1d4ed8",
-          800: "#1e40af",
-          900: "#1e3a8a",
+          50: "#edf7fd",
+          100: "#d6edfa",
+          200: "#a4d8f4",
+          300: "#69bfec",
+          400: "#25a1e4",
+          500: "#167eb6",
+          600: "#11628d",
+          700: "#0D4F73",
+          800: "#0b3c56",
+          900: "#07293b",
         },
         accent: {
           50: "#fffbeb",
@@ -31,20 +33,20 @@ export default {
           900: "#78350f",
         },
         neutral: {
-          50: "#f8fafc",
-          100: "#f1f5f9",
-          200: "#e2e8f0",
-          300: "#cbd5e1",
-          400: "#94a3b8",
-          500: "#64748b",
-          600: "#475569",
-          700: "#334155",
-          800: "#1e293b",
-          900: "#0f172a",
+          50: "#f9fafa",
+          100: "#f2f3f5",
+          200: "#e3e5e8",
+          300: "#c7cbd1",
+          400: "#9aa1ac",
+          500: "#737d8c",
+          600: "#575f6b",
+          700: "#434851",
+          800: "#2E3238",
+          900: "#1e2024",
         },
       },
       fontFamily: {
-        sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+        sans: ["Montserrat", "ui-sans-serif", "system-ui", "sans-serif"],
       },
       boxShadow: {
         card: "0 1px 2px 0 rgb(0 0 0 / 0.05), 0 1px 3px 0 rgb(0 0 0 / 0.08)",

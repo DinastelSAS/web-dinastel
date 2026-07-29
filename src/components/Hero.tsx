@@ -12,7 +12,7 @@ export function Hero() {
     <section
       id="hero"
       className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden px-6 pb-14 pt-24"
-      style={{ background: "radial-gradient(ellipse at 30% 15%, #445da1 0%, #3c4455 55%, #3e4454 100%)" }}
+      style={{ background: "radial-gradient(ellipse at 30% 15%, #11628d 0%, #0b3c56 55%, #2E3238 100%)" }}
     >
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
         {heroImages.map((src, i) => (

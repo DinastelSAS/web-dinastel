@@ -13,7 +13,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-[1180px] flex-col gap-6">
         <div className="flex flex-wrap justify-between gap-8">
           <div className="max-w-[320px]">
-            <div className="mb-2.5 text-lg font-extrabold tracking-wide text-white">DINASTEL</div>
+            <img src="/assets/brand/logo-white.png" alt="DINASTEL S.A.S." className="mb-3 h-7 w-auto" />
             <p className="text-sm leading-relaxed text-neutral-500">
               Ingeniería eléctrica, energía solar y consultoría integradas para el crecimiento
               sostenido de su empresa.

@@ -69,9 +69,9 @@ export function Integraciones() {
               const isGreen = i < green;
               const isActive = i === active;
               const isLast = i === flujo.length - 1;
-              const dotColor = isGreen ? "#16a34a" : isActive ? "#2563eb" : "#93c5fd";
+              const dotColor = isGreen ? "#16a34a" : isActive ? "#11628d" : "#69bfec";
               const dotGlow = isActive
-                ? "0 0 16px 4px rgba(37,99,235,0.55), 0 0 0 7px rgba(37,99,235,0.22)"
+                ? "0 0 16px 4px rgba(17,98,141,0.55), 0 0 0 7px rgba(17,98,141,0.22)"
                 : isGreen
                 ? "0 0 16px 4px rgba(22,163,74,0.5), 0 0 0 7px rgba(22,163,74,0.22)"
                 : "none";
@@ -85,13 +85,13 @@ export function Integraciones() {
                     {!isLast && (
                       <div
                         className="min-h-[28px] w-[1.5px] flex-1 transition-colors duration-700 ease-out"
-                        style={{ background: i < green ? "#16a34a" : "#bfdbfe" }}
+                        style={{ background: i < green ? "#16a34a" : "#a4d8f4" }}
                       />
                     )}
                   </div>
                   <div
                     className="pb-7 text-[15px] transition-colors duration-700 ease-out"
-                    style={{ fontWeight: isGreen || isActive ? 700 : 600, color: isGreen ? "#16a34a" : "#0f172a" }}
+                    style={{ fontWeight: isGreen || isActive ? 700 : 600, color: isGreen ? "#16a34a" : "#1e2024" }}
                   >
                     {label}
                   </div>
@@ -105,9 +105,9 @@ export function Integraciones() {
             {flujo.map((label, i) => {
               const isGreen = i < green;
               const isActive = i === active;
-              const dotColor = isGreen ? "#16a34a" : isActive ? "#2563eb" : "#93c5fd";
+              const dotColor = isGreen ? "#16a34a" : isActive ? "#11628d" : "#69bfec";
               const dotGlow = isActive
-                ? "0 0 16px 4px rgba(37,99,235,0.55), 0 0 0 7px rgba(37,99,235,0.22)"
+                ? "0 0 16px 4px rgba(17,98,141,0.55), 0 0 0 7px rgba(17,98,141,0.22)"
                 : isGreen
                 ? "0 0 16px 4px rgba(22,163,74,0.5), 0 0 0 7px rgba(22,163,74,0.22)"
                 : "none";
@@ -120,7 +120,7 @@ export function Integraciones() {
                     />
                     <div
                       className="text-center text-[15px] transition-colors duration-700 ease-out"
-                      style={{ fontWeight: isGreen || isActive ? 700 : 600, color: isGreen ? "#16a34a" : "#0f172a" }}
+                      style={{ fontWeight: isGreen || isActive ? 700 : 600, color: isGreen ? "#16a34a" : "#1e2024" }}
                     >
                       {label}
                     </div>
@@ -128,7 +128,7 @@ export function Integraciones() {
                   {i < flujo.length - 1 && (
                     <div
                       className="mx-2 h-[1.5px] w-6 transition-colors duration-700 ease-out sm:w-16"
-                      style={{ background: i < green ? "#16a34a" : "#bfdbfe" }}
+                      style={{ background: i < green ? "#16a34a" : "#a4d8f4" }}
                     />
                   )}
                 </div>
@@ -139,7 +139,7 @@ export function Integraciones() {
 
         <div
           className="sticky top-[120px] flex min-h-[220px] flex-col items-center justify-center rounded-[20px] border border-neutral-200 bg-white p-10 shadow-card transition-colors duration-700 ease-out"
-          style={{ color: isGreenState ? "#16a34a" : "#2563eb" }}
+          style={{ color: isGreenState ? "#16a34a" : "#11628d" }}
         >
           {icons[currentStep]}
           <div className="mt-4 text-center text-[13px] font-bold tracking-wide text-neutral-500">

@@ -54,11 +54,12 @@ export function Header() {
           scrolled || menuOpen ? "bg-white/95 shadow-[0_1px_0_rgba(15,23,42,0.08)] backdrop-blur-md" : "bg-transparent"
         }`}
       >
-        <button
-          onClick={() => go("hero")}
-          className={`text-[27px] font-black leading-none tracking-wide sm:text-[28px] lg:text-[32px] ${isDark ? "text-white" : "text-primary-700"}`}
-        >
-          DINASTEL <span className="text-[0.55em] font-bold tracking-widest">SAS</span>
+        <button onClick={() => go("hero")} aria-label="DINASTEL S.A.S. — Inicio">
+          <img
+            src={isDark ? "/assets/brand/logo-white.png" : "/assets/brand/logo.png"}
+            alt="DINASTEL S.A.S."
+            className="h-8 w-auto sm:h-9"
+          />
         </button>
 
         <nav className="hidden items-center gap-6 md:flex">
