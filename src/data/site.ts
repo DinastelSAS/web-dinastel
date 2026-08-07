@@ -10,12 +10,13 @@ export const nav = [
   { id: "movimientos", label: "Movimientos" },
   { id: "crecimiento", label: "Crecimiento" },
   { id: "nosotros", label: "Nosotros" },
+  { id: "/blog", label: "Blog" },
 ];
 
 export const heroImages = [
-  "/assets/brochure/IMG_4353.webp",
-  "/assets/brochure/IMG_6146.webp",
-  "/assets/brochure/IMG_8521.webp",
+  "/assets/brochure/almacenamiento-energia-01.webp",
+  "/assets/brochure/interventoria-01.webp",
+  "/assets/brochure/electrico-01.webp",
 ];
 
 export interface Linea {
@@ -39,21 +40,21 @@ export const lineas: Linea[] = [
     title: "Sistemas solares llave en mano",
     summary: "Soluciones solares integrales a la medida de su consumo, sin trámites que coordinar por su cuenta.",
     bullets: ["Diseño, legalización e instalación on-grid / híbrido", "Interventoría y puesta en marcha incluidas"],
-    img: "/assets/brochure/IMG_1690.webp",
+    img: "/assets/brochure/solar-01.webp",
   },
   {
     tag: "LINEA 03",
     title: "Telecomunicaciones y automatización",
     summary: "Conectividad y automatización integradas a su infraestructura eléctrica.",
     bullets: ["Redes de datos y cableado estructurado", "Domótica, BMS/SCADA y PLC"],
-    img: "/assets/brochure/IMG_4131.webp",
+    img: "/assets/brochure/telecom-racks-01.webp",
   },
   {
     tag: "LINEA 04",
     title: "Obras civiles y de remodelación",
     summary: "Obra civil de soporte ejecutada por nuestro propio equipo técnico.",
     bullets: ["Adecuación de espacios técnicos", "Interventoría de obra civil"],
-    img: "/assets/brochure/IMG_1756.webp",
+    img: "/assets/brochure/obras-civiles-01.webp",
   },
 ];
 
@@ -64,9 +65,9 @@ export const flujo = ["Diagnóstico", "Diseño integrado", "Ejecución", "Operac
 export const marqueeImages = [
   "/assets/brochure/IMG_4110.webp",
   "/assets/brochure/IMG_4227.webp",
-  "/assets/brochure/IMG_3985.webp",
-  "/assets/brochure/IMG_4556.webp",
-  "/assets/brochure/IMG_4691.webp",
+  "/assets/brochure/movilidad-01.webp",
+  "/assets/brochure/mantenimiento-plantas-01.webp",
+  "/assets/brochure/electrico-02.webp",
 ];
 
 // NOTA: estas cifras no están verificadas contra datos reales de DINASTEL SAS (constituida
@@ -81,4 +82,4 @@ export const stats = [
 
 export const aliados = ["GECA SOLAR SAS", "INCOM INGENIERÍA SAS", "ECOELÉCTRICA", "INCOSERTEC SAS"];
 
-export const nosotrosImg = "/assets/brochure/IMG_1697.webp";
+export const nosotrosImg = "/assets/brochure/interventoria-02.webp";

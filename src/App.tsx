@@ -1,24 +1,19 @@
+import { Routes, Route } from "react-router-dom";
 import { Header } from "./components/Header";
-import { Hero } from "./components/Hero";
-import { Servicios } from "./components/Servicios";
-import { Integraciones } from "./components/Integraciones";
-import { Movimientos } from "./components/Movimientos";
-import { Crecimiento } from "./components/Crecimiento";
-import { Nosotros } from "./components/Nosotros";
-import { Contacto } from "./components/Contacto";
 import { Footer } from "./components/Footer";
+import { Home } from "./pages/Home";
+import { Blog } from "./pages/Blog";
+import { BlogPost } from "./pages/BlogPost";
 
 export default function App() {
   return (
     <div className="w-full overflow-x-clip bg-neutral-50 text-neutral-900">
       <Header />
-      <Hero />
-      <Servicios />
-      <Integraciones />
-      <Movimientos />
-      <Crecimiento />
-      <Nosotros />
-      <Contacto />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
+      </Routes>
       <Footer />
     </div>
   );

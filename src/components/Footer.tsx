@@ -1,19 +1,33 @@
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { contacto, nav } from "../data/site";
 
-function scrollToId(id: string) {
-  const el = document.getElementById(id);
-  if (!el) return;
-  const top = el.getBoundingClientRect().top + window.scrollY - 84;
-  window.scrollTo({ top, behavior: "smooth" });
-}
-
 export function Footer() {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  function go(id: string) {
+    if (id.startsWith("/")) {
+      navigate(id);
+      return;
+    }
+    if (location.pathname !== "/") {
+      navigate("/", { state: { scrollTo: id } });
+      return;
+    }
+    const el = document.getElementById(id);
+    if (!el) return;
+    const top = el.getBoundingClientRect().top + window.scrollY - 84;
+    window.scrollTo({ top, behavior: "smooth" });
+  }
+
   return (
     <footer className="border-t border-neutral-800 bg-neutral-900 px-5 pb-8 pt-10 sm:px-10 lg:px-20">
       <div className="mx-auto flex max-w-[1180px] flex-col gap-6">
         <div className="flex flex-wrap justify-between gap-8">
           <div className="max-w-[320px]">
-            <img src="/assets/brand/logo-white.png" alt="DINASTEL S.A.S." className="mb-3 h-7 w-auto" />
+            <Link to="/">
+              <img src="/assets/brand/logo-white.png" alt="DINASTEL S.A.S." className="mb-3 h-7 w-auto" />
+            </Link>
             <p className="text-sm leading-relaxed text-neutral-500">
               Ingeniería eléctrica, energía solar y consultoría integradas para el crecimiento
               sostenido de su empresa.
@@ -26,7 +40,7 @@ export function Footer() {
             <div className="flex flex-col gap-2.5">
               <div className="mb-1 text-xs font-bold tracking-[0.1em] text-neutral-400">EMPRESA</div>
               {nav.filter((n) => n.id !== "integraciones" && n.id !== "crecimiento").map((n) => (
-                <button key={n.id} onClick={() => scrollToId(n.id)} className="text-left text-sm text-neutral-300 hover:text-white">
+                <button key={n.id} onClick={() => go(n.id)} className="text-left text-sm text-neutral-300 hover:text-white">
                   {n.label}
                 </button>
               ))}

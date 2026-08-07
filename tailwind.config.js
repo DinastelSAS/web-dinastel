@@ -3,46 +3,50 @@ export default {
   content: ["./index.html", "./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
-      // Manual de marca oficial (Diseño_Corporativo/Caracterización visual.png, 2026-07-29):
-      // primary = Azul Petróleo #0D4F73, neutral-800 = Gris Grafito #2E3238. accent (ámbar) se
-      // conserva como color funcional de UI (checks, degradados) — el manual no define un
-      // tercer color corporativo, así que no compite con la identidad oficial.
+      // Paleta oficial DINASTEL S.A.S. — sincronizada 2026-08-07 con design-system
+      // (`DINASTEL SAS/design-system/tailwind.config.js`), la fuente de verdad validada
+      // contra el manual real en OneDrive/04 NEGOCIOS/DINASTEL S.A.S/Diseño_Corporativo
+      // (identidad corporativa.png). primary-600 y neutral-800 son los hex exactos del
+      // manual (Azul Petróleo / Gris Grafito); antes el hex exacto vivía en primary-700,
+      // así que el color base de botones/nav (primary-600) no era el azul de marca real —
+      // corregido aquí. accent pasa de ámbar a la tinta de azul más clara que la propia
+      // marca ya usa en sus aplicaciones (bullets del tagline, icono de la app).
       colors: {
         primary: {
-          50: "#edf7fd",
-          100: "#d6edfa",
-          200: "#a4d8f4",
-          300: "#69bfec",
-          400: "#25a1e4",
-          500: "#167eb6",
-          600: "#11628d",
-          700: "#0D4F73",
-          800: "#0b3c56",
-          900: "#07293b",
+          50: "#eef5f8",
+          100: "#d6e7ee",
+          200: "#addode",
+          300: "#7eb2c8",
+          400: "#4a90ac",
+          500: "#237294",
+          600: "#0d4f73", // Azul Petróleo oficial — RGB 13 79 115 / CMYK 89 31 0 55
+          700: "#0a3e5b",
+          800: "#082f45",
+          900: "#05202f",
         },
         accent: {
-          50: "#fffbeb",
-          100: "#fef3c7",
-          200: "#fde68a",
-          300: "#fcd34d",
-          400: "#fbbf24",
-          500: "#f59e0b",
-          600: "#d97706",
-          700: "#b45309",
-          800: "#92400e",
-          900: "#78350f",
+          50: "#e9f4fa",
+          100: "#cce7f3",
+          200: "#99cfe8",
+          300: "#5fb3da",
+          400: "#2e96c7",
+          500: "#0e6fa0",
+          600: "#0b5a82",
+          700: "#094865",
+          800: "#06364c",
+          900: "#042433",
         },
         neutral: {
-          50: "#f9fafa",
-          100: "#f2f3f5",
-          200: "#e3e5e8",
-          300: "#c7cbd1",
-          400: "#9aa1ac",
-          500: "#737d8c",
-          600: "#575f6b",
-          700: "#434851",
-          800: "#2E3238",
-          900: "#1e2024",
+          50: "#f5f6f7",
+          100: "#e9eaec",
+          200: "#d3d5d9",
+          300: "#b3b7bd",
+          400: "#888d95",
+          500: "#63676e",
+          600: "#4a4e54",
+          700: "#383b40",
+          800: "#2e3238", // Gris Grafito oficial — RGB 46 50 56 / CMYK 71 60 53 60
+          900: "#1c1e21",
         },
       },
       fontFamily: {
