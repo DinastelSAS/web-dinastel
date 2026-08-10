@@ -128,7 +128,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "ul",
         items: [
-          "Deducción especial de renta: quien invierte en generación con fuentes renovables puede deducir de su impuesto de renta el 50% del valor de la inversión, aplicándolo en los años siguientes a la puesta en marcha, sin que la deducción de cada año supere el 50% de la renta líquida del contribuyente.",
+          "Deducción especial de renta: quien invierte en generación con fuentes renovables puede deducir de su impuesto de renta el 50% del valor de la inversión, aplicándolo hasta por 15 años contados desde el año gravable siguiente a la puesta en marcha, sin que la deducción de cada año supere el 50% de la renta líquida del contribuyente.",
           "Exclusión de IVA: los equipos, elementos y servicios destinados a proyectos de energías renovables están excluidos de IVA, lo que reduce directamente el valor de compra del sistema.",
           "Exención de gravamen arancelario: la maquinaria y equipos importados para el proyecto quedan exentos del arancel de importación.",
           "Depreciación acelerada: los activos del sistema pueden depreciarse de forma acelerada, hasta una tasa anual del 33,33%, lo que mejora el flujo de caja de empresas y personas que declaran renta.",

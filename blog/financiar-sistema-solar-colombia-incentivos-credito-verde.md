@@ -6,7 +6,7 @@ fecha: 2026-08-09
 autor: "Equipo DINASTEL SAS"
 meta_description: "Cómo financiar un sistema solar en Colombia: la deducción de renta de la Ley 1715, las líneas de crédito verde de la banca y la venta de excedentes a la red bajo la Resolución CREG 174 de 2021."
 imagen_destacada_sugerida: /assets/brochure/solar-01.webp
-estado: BORRADOR — pendiente de revisión antes de publicar
+estado: PUBLICADO 2026-08-09 — cifras verificadas contra fuentes oficiales (Ley 2099/2021 art. 8: deducción del 50% hasta por 15 años; CREG 174/2021: AGPE hasta 1 MW y net metering; Bancóldex: tope 15% obras civiles)
 ---
 
 # Solar sin pagarlo todo de una: incentivos, crédito verde y venta de excedentes en Colombia
@@ -19,7 +19,7 @@ La buena noticia es que en Colombia esa barrera hoy se puede desmontar por tres 
 
 La Ley 1715 de 2014, modificada por la Ley 2099 de 2021, es el marco que promueve las energías renovables no convencionales en Colombia. Detrás de ese nombre técnico hay beneficios muy concretos para quien invierte en un sistema solar, y siguen vigentes: los tratamientos fiscales preferenciales aplican por un periodo de 30 años contados desde el 1 de julio de 2021.
 
-- **Deducción especial de renta:** quien invierte en generación con fuentes renovables puede deducir de su impuesto de renta el **50% del valor de la inversión**, aplicándolo en los años siguientes a la puesta en marcha, sin que la deducción de cada año supere el 50% de la renta líquida del contribuyente.
+- **Deducción especial de renta:** quien invierte en generación con fuentes renovables puede deducir de su impuesto de renta el **50% del valor de la inversión**, aplicándolo hasta por **15 años** contados desde el año gravable siguiente a la puesta en marcha, sin que la deducción de cada año supere el 50% de la renta líquida del contribuyente.
 - **Exclusión de IVA:** los equipos, elementos y servicios destinados a proyectos de energías renovables están excluidos de IVA, lo que reduce directamente el valor de compra del sistema.
 - **Exención de gravamen arancelario:** la maquinaria y equipos importados para el proyecto quedan exentos del arancel de importación.
 - **Depreciación acelerada:** los activos del sistema pueden depreciarse de forma acelerada, hasta una tasa anual del **33,33%**, lo que mejora el flujo de caja de empresas y personas que declaran renta.
