@@ -20,4 +20,19 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.dinastel.com/blog/energia-solar-agricultura-colombia-bombeo-riego-fotovoltaico</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.dinastel.com/blog/monitoreo-automatizacion-rendimiento-sistema-solar-electrico-colombia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.dinastel.com/blog/estudio-factibilidad-solar-colombia-cuanto-produce-antes-de-instalar</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>

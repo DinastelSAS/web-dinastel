@@ -207,6 +207,327 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+  {
+    slug: "energia-solar-agricultura-colombia-bombeo-riego-fotovoltaico",
+    title: "Sol para el campo: cómo la energía solar reduce los costos de riego y da autonomía a la agricultura colombiana",
+    excerpt:
+      "El diésel para bombear agua es cada vez más caro y en zonas rurales la red no siempre llega. La energía solar fotovoltaica se está volviendo la forma más rentable de regar, refrigerar y producir en el campo colombiano —y de resistir mejor la próxima sequía.",
+    category: ["Energía Solar", "Agricultura", "Sostenibilidad"],
+    date: "2026-08-11",
+    dateDisplay: "11 de agosto, 2026",
+    author: "Equipo DINASTEL SAS",
+    coverImage: "/assets/brochure/solar-04.webp",
+    readTime: "6 min de lectura",
+    content: [
+      {
+        type: "p",
+        text: "En una finca, la energía casi nunca se ve, pero se paga. Está en la bomba que sube el agua del pozo o del río hasta el cultivo, en el sistema de riego, en el cuarto frío que conserva la cosecha, en la sala de ordeño. Y cuando esa energía depende de un generador diésel —o de una red que en muchas veredas ni siquiera llega—, cada litro de agua bombeado y cada hora de refrigeración cuestan cada vez más.",
+      },
+      {
+        type: "p",
+        text: "La buena noticia es que Colombia está sentada sobre uno de los mejores recursos solares del planeta, y hoy la tecnología para aprovecharlo en el campo ya es madura y rentable. Un sistema solar bien diseñado puede reemplazar buena parte de ese gasto, dar autonomía frente a los cortes y —como se vio en la última sequía— ayudar a que una finca siga produciendo cuando el clima se pone difícil.",
+      },
+      { type: "h2", text: "El campo pesa mucho, y su energía cuesta cada vez más" },
+      {
+        type: "p",
+        text: "El sector agropecuario no es un actor menor en la economía colombiana. En 2024 aportó cerca del 9,3% del PIB, creció 8,1% frente al año anterior y ocupó en promedio a 3,28 millones de personas —el 14,2% de los trabajadores del país—, siendo el segundo mayor generador de empleo. Detrás de esa producción hay una factura energética que rara vez se calcula bien.",
+      },
+      {
+        type: "p",
+        text: "El problema es que buena parte de esa energía se produce quemando combustible. El precio del ACPM (diésel) subió de nuevo en 2026 y ronda un promedio nacional cercano a los $11.282 por galón; en zonas rurales de difícil acceso, sumando transporte, ese valor puede ser bastante más alto. Cada temporada de bombeo se convierte así en un gasto que crece solo, sin que el productor gane nada a cambio.",
+      },
+      { type: "h2", text: "Donde la red no llega: la mitad del territorio" },
+      {
+        type: "p",
+        text: "A esto se suma un dato que sorprende a quien no vive en el campo: las llamadas Zonas No Interconectadas (ZNI) —los territorios que no están conectados al Sistema Interconectado Nacional— representan alrededor del 52% del territorio colombiano. Son extensas regiones de la Orinoquía, la Amazonía, el Pacífico y buena parte de zonas rurales dispersas donde la energía no llega por cable.",
+      },
+      {
+        type: "p",
+        text: "¿Y cómo se produce esa energía hoy? En su gran mayoría, con plantas diésel. Del total de capacidad instalada identificada en las ZNI, cerca del 78% proviene de generación diésel y apenas un 22% de fuentes renovables no convencionales. Es decir: donde más caro sale mover energía, es donde más se depende del combustible. Ahí es justamente donde una solución solar —aislada o híbrida— cambia por completo la ecuación.",
+      },
+      { type: "h2", text: "Un recurso solar de primer nivel" },
+      {
+        type: "p",
+        text: "Colombia, por su ubicación ecuatorial, recibe radiación solar de forma estable durante todo el año, sin las variaciones extremas de estación que sufren los países templados. Según el Atlas de Radiación Solar de Colombia (UPME e IDEAM), el promedio del país ronda los 4,5 kWh/m² al día, y regiones como La Guajira alcanzan entre 5,0 y 6,0 kWh/m² diarios —niveles que superan a varios países europeos con mercados solares ya consolidados.",
+      },
+      {
+        type: "p",
+        text: "Traducido al campo: en gran parte del territorio colombiano hay sol de sobra para bombear agua, refrigerar producto y alimentar sistemas de riego sin depender del galón de diésel ni de una red que no siempre está.",
+      },
+      { type: "h2", text: "Bombeo solar: el ejemplo más claro de retorno" },
+      {
+        type: "p",
+        text: "El caso más contundente es el bombeo solar. Un sistema fotovoltaico de bombeo mueve agua directamente con la energía del sol —para riego, abrevaderos o consumo— sin generador, sin combustible y, en muchos diseños, sin baterías: se bombea cuando hay sol y se almacena el agua, no la electricidad.",
+      },
+      {
+        type: "ul",
+        items: [
+          "Elimina o reduce drásticamente el gasto recurrente en diésel o en energía de red para bombeo.",
+          "Baja el mantenimiento frente a un motor de combustión, que exige combustible, aceite y repuestos constantes.",
+          "Ofrece autonomía real en fincas alejadas de la red, donde llevar una acometida eléctrica es inviable o costosísimo.",
+          "Según reportes del sector, en Colombia el retorno de la inversión en bombeo solar suele ubicarse en un rango de 2 a 4 años, gracias justamente a lo que se deja de gastar en combustible o electricidad.",
+        ],
+      },
+      {
+        type: "quote",
+        text: "El sol no manda factura. Una vez instalado y bien mantenido, el sistema bombea con un costo marginal cercano a cero: el productor cambia un gasto que crecía cada año por un activo que trabaja para la finca.",
+      },
+      { type: "h2", text: "La lección de la última sequía" },
+      {
+        type: "p",
+        text: "Entre finales de 2023 y buena parte de 2024, el fenómeno de El Niño dejó a Colombia con una de las sequías más duras de las últimas décadas. Los embalses cayeron a niveles mínimos del siglo, Bogotá entró en racionamiento de agua por zonas desde abril de 2024 y cerca de una cuarta parte de los municipios del país reportó algún tipo de racionamiento, con decenas de ellos con cortes de suministro.",
+      },
+      {
+        type: "p",
+        text: "Para el agro, episodios así son doblemente golpeadores: hay menos agua disponible y, al mismo tiempo, más necesidad de bombear y regar. Una finca que depende de un solo generador diésel o de una red inestable queda en la peor posición justo cuando más energía necesita. Diversificar la fuente —sumando generación solar propia— es, cada vez más, una decisión de resiliencia, no solo de ahorro.",
+      },
+      { type: "h2", text: "Del panel al cultivo: cómo lo abordamos en DINASTEL" },
+      {
+        type: "p",
+        text: "Un sistema solar agrícola no es solo \"poner paneles\". Es dimensionar bien la bomba y el caudal, diseñar la instalación eléctrica con las protecciones correctas, resolver la estructura y la obra civil que lo soporta, y dejarlo monitoreado para que siga produciendo temporada tras temporada. Ahí es donde la ingeniería marca la diferencia entre un sistema que rinde y uno que se vuelve un problema.",
+      },
+      {
+        type: "ul",
+        items: [
+          "Sistemas solares llave en mano (on-grid o híbridos): diagnóstico del consumo real de la finca, diseño, legalización RETIE, instalación y puesta en marcha, para bombeo, riego, refrigeración o consumo general.",
+          "Ingeniería eléctrica y de redes con RETIE: la base segura sobre la que se conecta cualquier sistema solar, con protecciones y puesta a tierra bien hechas.",
+          "Telecomunicaciones y automatización: control y riego automatizado, sensores y telemetría para operar el bombeo según la humedad del suelo o los horarios óptimos de sol.",
+          "Obras civiles: cimentación, estructuras de soporte y adecuaciones necesarias en campo, hechas para durar a la intemperie.",
+          "Mantenimiento preventivo, correctivo y monitoreo remoto: para que un sistema en una finca alejada no dependa de que alguien suba a revisarlo a ver si sigue funcionando.",
+        ],
+      },
+      {
+        type: "p",
+        text: "La combinación importa: un buen sistema de bombeo solar apoyado en riego automatizado no solo baja la factura energética, también usa mejor el agua —un recurso que, como enseñó la última sequía, no siempre está garantizado.",
+      },
+      {
+        type: "p",
+        text: "Aclaración: las cifras de ahorro y los tiempos de retorno dependen de cada finca —caudal requerido, profundidad del pozo, horas de sol de la zona y precio actual del combustible o de la energía—. Por eso el primer paso siempre es un diagnóstico técnico serio, no una promesa genérica.",
+      },
+      {
+        type: "p",
+        text: "¿Tienes una finca o un proyecto agrícola donde el diésel o la falta de red te están costando caro? Escríbenos y evaluamos contigo si el bombeo solar y un sistema fotovoltaico llave en mano tienen sentido para tu caso.",
+      },
+    ],
+  },
+  {
+    slug: "monitoreo-automatizacion-rendimiento-sistema-solar-electrico-colombia",
+    title: "Lo que no se mide, se paga: monitoreo y automatización para que tu sistema solar (y tu instalación eléctrica) rinda de verdad",
+    excerpt:
+      "Colombia superó los 3 GW solares y la autogeneración se disparó, pero muchos sistemas producen menos de lo que deberían sin que nadie lo note. El monitoreo remoto y la automatización son lo que convierte una instalación en una inversión que se controla con datos, no con suposiciones.",
+    category: ["Automatización", "Energía Solar", "Mantenimiento"],
+    date: "2026-08-17",
+    dateDisplay: "17 de agosto, 2026",
+    author: "Equipo DINASTEL SAS",
+    coverImage: "/assets/brochure/telecom-racks-01.webp",
+    readTime: "6 min de lectura",
+    content: [
+      {
+        type: "p",
+        text: "Hay una idea que se repite en cada conversación seria sobre transición energética: las buenas decisiones se toman con información, no con corazonadas. Suena obvio, pero es justo donde muchos sistemas solares y eléctricos fallan. Se instala el equipo, se enciende, se firma la entrega… y a partir de ahí nadie vuelve a mirar cuánto está produciendo realmente ni si algo dejó de funcionar. El problema no aparece en una explosión: aparece en la factura, meses después, cuando el ahorro prometido nunca llegó.",
+      },
+      {
+        type: "p",
+        text: "En Colombia esto ya no es un detalle menor. La energía solar dejó de ser un piloto para volverse infraestructura del sistema eléctrico, y eso significa miles de instalaciones nuevas cada año que necesitan algo más que estar \"encendidas\": necesitan estar vigiladas.",
+      },
+      { type: "h2", text: "El boom solar colombiano ya no es una promesa" },
+      {
+        type: "p",
+        text: "Los números lo confirman. A comienzos de 2026 el país superó los 3 GW de capacidad solar fotovoltaica instalada según la UPME, y la autogeneración distribuida —los techos residenciales, comerciales e industriales— pasó de representar apenas el 2% de la capacidad instalada en 2022 al 13% al cierre de 2025, con 925 MW que entraron solo en 2025. El crecimiento reciente no lo están jalonando las grandes plantas, sino los tejados.",
+      },
+      {
+        type: "p",
+        text: "Ese mismo año dejó otra lección: entre febrero y marzo de 2026 los precios de la energía en bolsa subieron alrededor del 80% según XM, por el manejo preventivo de embalses ante el riesgo de El Niño. Con una matriz que sigue dependiendo en cerca de dos tercios de la generación hídrica, cada kilovatio que tu propio sistema produce bien es un kilovatio que no le compras a una red volátil. Por eso importa tanto que produzca bien, no solo que produzca.",
+      },
+      { type: "h2", text: "El problema silencioso: producir menos de lo que se debería" },
+      {
+        type: "p",
+        text: "Un panel solar rara vez se \"daña\" de golpe. Lo que ocurre casi siempre es una pérdida lenta e invisible de rendimiento. La capacidad efectiva de un sistema fotovoltaico en Colombia suele ubicarse entre el 75% y el 85% de la capacidad instalada una vez que se descuentan temperatura, sombras y degradación. Ese ya es el punto de partida realista. El problema es todo lo que puede restar por debajo de eso sin avisar:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Suciedad acumulada (soiling): en zonas urbanas las pérdidas suelen ser moderadas (del orden del 2% al 5%), pero la formación de películas orgánicas —polvo mezclado con humedad, moho o algas— puede llevar la caída de producción al rango del 13% al 15%, y en ambientes muy adversos aún más. Es un costo que se paga en silencio cada mes.",
+          "Fallas de inversor: es el componente que más falla en una instalación fotovoltaica. Si un inversor se apaga o entra en modo de error un lunes, sin monitoreo nadie se entera hasta que llega la factura del mes.",
+          "Conexiones que se degradan y generan puntos calientes, strings desbalanceados o módulos que dejaron de aportar.",
+          "Sombras nuevas que antes no existían: un árbol que creció, una construcción vecina, una antena.",
+        ],
+      },
+      {
+        type: "p",
+        text: "La herramienta que el sector usa para detectar todo esto se llama Performance Ratio (PR): compara lo que el sistema realmente produjo contra lo que debería haber producido dadas las condiciones de sol. Cuando el PR cae, algo está pasando. Sin monitoreo, esa caída es invisible; con monitoreo, es una alerta.",
+      },
+      { type: "h2", text: "Qué es el monitoreo remoto y por qué cambia las reglas" },
+      {
+        type: "p",
+        text: "Monitorear un sistema no es \"mirar una app de vez en cuando\". Es instrumentar la instalación con sensores, medidores inteligentes y software que reportan en tiempo real cuánto se genera, cuánto se consume y cómo se comporta cada parte. En plantas más grandes esto se apoya en sensores IoT y sistemas SCADA; en instalaciones residenciales y comerciales, en medidores inteligentes y plataformas en la nube. El objetivo es el mismo: convertir la instalación en algo que se lee, no que se adivina.",
+      },
+      {
+        type: "p",
+        text: "Un buen esquema de monitoreo permite:",
+      },
+      {
+        type: "ul",
+        items: [
+          "Detectar una caída de producción el día que ocurre, no en la factura del mes siguiente.",
+          "Distinguir si el bajón es por suciedad, por un inversor, por sombra o simplemente por un día nublado —cada causa tiene una firma distinta en los datos.",
+          "Pasar de un mantenimiento correctivo (arreglar cuando ya falló) a uno predictivo (actuar antes de que la falla impacte la producción).",
+          "Tener evidencia real del ahorro: cuánto generaste, cuánto dejaste de comprarle a la red, cuánto vale eso.",
+        ],
+      },
+      { type: "h2", text: "Automatización: que el sistema reaccione solo" },
+      {
+        type: "p",
+        text: "El monitoreo te dice qué está pasando; la automatización hace que el sistema actúe sin esperar a que alguien reaccione. Es el terreno donde la ingeniería eléctrica se cruza con las telecomunicaciones y el control. Con la lógica de control adecuada, una instalación puede priorizar el autoconsumo cuando hay sol, gestionar la carga de un banco de baterías, transferir automáticamente a respaldo cuando la red se cae, o apagar equipos no críticos ante una sobrecarga.",
+      },
+      {
+        type: "p",
+        text: "Para una empresa con operación continua, esto es la diferencia entre un corte que detiene la producción y una transferencia que el personal ni siquiera nota. Para un hogar o un conjunto residencial, es la diferencia entre aprovechar de verdad la energía propia y desperdiciar la mitad.",
+      },
+      { type: "h2", text: "No es solo cosa del sol: tu instalación eléctrica también" },
+      {
+        type: "p",
+        text: "El mismo principio aplica a la parte eléctrica \"tradicional\". Un tablero, una subestación o un circuito industrial también se degradan, y también avisan antes de fallar —con calentamiento, con caídas de tensión, con consumos anómalos— si alguien está midiendo. La termografía periódica de tableros, el monitoreo de variables eléctricas y las alarmas ante anomalías son la versión eléctrica de la misma idea: lo que se mide se puede corregir a tiempo; lo que no se mide, se paga cuando ya es tarde.",
+      },
+      {
+        type: "quote",
+        text: "¿Sabes hoy, con datos, cuánto está produciendo tu sistema solar y si tu instalación eléctrica está funcionando como debería? ¿O lo estás asumiendo?",
+      },
+      { type: "h2", text: "Cómo lo resolvemos en DINASTEL SAS" },
+      {
+        type: "p",
+        text: "En DINASTEL no entregamos un sistema y desaparecemos. Trabajamos con un mismo flujo para cualquier proyecto —diagnóstico, diseño integrado, ejecución, y operación y soporte—, y el monitoreo forma parte de esa última etapa, no es un extra que el cliente tenga que resolver por su cuenta.",
+      },
+      {
+        type: "ul",
+        items: [
+          "Telecomunicaciones y automatización: instrumentación, control y monitoreo remoto para que tu instalación se lea en tiempo real y reaccione sola ante lo previsible.",
+          "Sistemas solares llave en mano: diseño, legalización e instalación on-grid o híbrida, entregados con monitoreo de producción incluido para que el ahorro se pueda verificar, no solo prometer.",
+          "Ingeniería eléctrica y de redes: diseño, instalación y subestaciones de baja y media tensión, con interventoría y eficiencia energética.",
+          "Mantenimiento: preventivo, correctivo y monitoreo remoto, para que ninguna instalación quede sin vigilancia una vez entregada.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Aclaración: los rangos de pérdidas y de capacidad efectiva mencionados son referencias técnicas del sector y varían según el clima, la ubicación, el tipo de suciedad y el estado de cada instalación. Por eso el primer paso siempre es un diagnóstico real de tu caso, no un promedio genérico.",
+      },
+      {
+        type: "p",
+        text: "¿Quieres saber cuánto está rindiendo de verdad tu sistema solar o tu instalación eléctrica —y cuánto podrías estar perdiendo sin notarlo? Escríbenos y lo revisamos contigo con datos.",
+      },
+    ],
+  },
+  {
+    slug: "estudio-factibilidad-solar-colombia-cuanto-produce-antes-de-instalar",
+    title: "Antes de comprar los paneles: por qué un estudio de factibilidad decide cuánto vas a ahorrar de verdad",
+    excerpt:
+      "En 2025 la energía solar superó por primera vez al carbón en Colombia y ya hay más de 24.000 techos solares registrados. Pero cada techo produce distinto: la diferencia entre una buena y una mala inversión no está en el panel, está en el estudio que se hace antes de comprarlo.",
+    category: ["Energía Solar", "Ingeniería", "Factibilidad"],
+    date: "2026-08-18",
+    dateDisplay: "18 de agosto, 2026",
+    author: "Equipo DINASTEL SAS",
+    coverImage: "/assets/brochure/solar-05.webp",
+    readTime: "6 min de lectura",
+    content: [
+      {
+        type: "p",
+        text: "Cuando alguien está pensando en pasarse a la energía solar, la pregunta que casi siempre llega primero es la misma: \"¿y yo cuánto ahorro con eso?\". Es la pregunta correcta. El problema es la respuesta fácil: un número redondo, prometido de memoria, sin haber mirado el techo, la factura ni el sol de la zona. Esa cifra suele ser humo.",
+      },
+      {
+        type: "p",
+        text: "La verdad es más aburrida y mucho más útil: cuánto vas a producir —y por lo tanto cuánto vas a ahorrar— depende de datos concretos de tu caso. Y esos datos se levantan antes de comprar nada, en lo que llamamos un estudio de factibilidad. Lo más inteligente que puedes hacer antes de invertir en paneles no es comprar paneles: es medir.",
+      },
+      { type: "h2", text: "El país ya decidió; falta que cada techo decida bien" },
+      {
+        type: "p",
+        text: "Que la energía solar es una buena idea en Colombia ya no está en discusión a nivel de país. En 2025 la generación solar superó por primera vez al carbón en la generación anual de electricidad: el sol produjo 4.473,8 GWh, un 25% más que los 3.564,2 GWh del carbón, según la UPME. Y no es solo tema de grandes plantas: hacia mediados de 2026 Colombia ya superaba los 24.000 techos solares registrados entre hogares, comercios e industria.",
+      },
+      {
+        type: "p",
+        text: "Ese es justamente el punto. La decisión de país ya está tomada; la que falta es la de cada techo. Y ahí no sirve el promedio nacional: sirve el número de tu instalación. Dos casas en la misma cuadra, con el mismo panel, pueden producir muy distinto según hacia dónde miran, qué sombras tienen y cuánta energía consumen. El promedio no paga tu factura; tu sistema sí, si está bien dimensionado.",
+      },
+      { type: "h2", text: "\"¿Cuánto voy a producir?\" empieza por las horas de sol pico" },
+      {
+        type: "p",
+        text: "El primer dato de cualquier estudio serio es el recurso solar del sitio, que en el sector se mide en Horas Sol Pico (HSP): las horas equivalentes al día en las que el sol pega con su máxima intensidad (1.000 W/m²). Es lo que traduce \"aquí hay buen sol\" en un número con el que se puede calcular producción real.",
+      },
+      {
+        type: "p",
+        text: "Y ese número cambia según dónde estés. Cali, donde trabajamos, recibe más de 1.700 horas de sol al año, con un recurso solar del orden de 4,5 kWh/m² al día. Medellín ronda las 4,3 HSP, mientras ciudades de la costa como Barranquilla o Cartagena se acercan a 5,4 HSP. La misma potencia instalada produce distinto en cada una. Por eso el recurso solar de tu ubicación —no el de un folleto genérico— es lo primero que hay que medir.",
+      },
+      { type: "h2", text: "El error más caro es dimensionar a ojo" },
+      {
+        type: "p",
+        text: "Con el sol resuelto, viene la otra mitad de la ecuación: cuánta energía consumes tú. Aquí es donde más proyectos se tuercen, porque el sistema se dimensiona \"a ojo\" o al tamaño que le conviene al vendedor, no al que necesita el cliente. Y equivocarse cuesta en las dos direcciones.",
+      },
+      {
+        type: "ul",
+        items: [
+          "Un sistema sobredimensionado —más grande de lo que tu consumo justifica— encarece el proyecto sin necesidad: pagas por una capacidad que produce excedentes que no siempre recuperas del todo.",
+          "Un sistema subdimensionado —más pequeño de lo que debería— se queda corto: no cubre la demanda prevista y el ahorro real termina muy por debajo de lo prometido.",
+        ],
+      },
+      {
+        type: "p",
+        text: "La forma de acertar no es adivinar: es leer tu consumo real. Tus facturas de energía de los últimos 12 meses dicen cuántos kilovatios-hora gastas mes a mes y cómo varía tu consumo en el año. Ese perfil, cruzado con las HSP de tu zona, es lo que permite dimensionar un sistema a la medida —ni grande de más, ni corto—.",
+      },
+      { type: "h2", text: "Qué mira, en concreto, un estudio de factibilidad" },
+      {
+        type: "p",
+        text: "Un estudio de factibilidad bien hecho no es un formulario ni una cotización de una línea. Es el trabajo de ingeniería que convierte \"quiero paneles\" en \"esto es lo que vas a producir, ahorrar y recuperar\". Reúne, como mínimo:",
+      },
+      {
+        type: "ol",
+        items: [
+          "Recurso solar del sitio: las HSP reales de tu ubicación, no un promedio nacional.",
+          "Perfil de consumo: tus kWh mes a mes durante un año, para dimensionar contra tu demanda real.",
+          "Espacio y estructura: cuántos paneles caben de verdad en tu techo o terreno, y si la estructura los soporta con seguridad.",
+          "Sombras y orientación: un árbol, un tanque, un edificio vecino o una mala orientación pueden restar producción todos los días; se evalúan antes, no después.",
+          "Análisis financiero: costo del sistema, ahorro estimado, tiempo de retorno y cómo entran los incentivos de ley y la venta de excedentes en tu caso particular.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Esa es, en el fondo, la misma lógica que hoy empujan los gobiernos de la región cuando desarrollan plataformas y herramientas de información para que quien invierte en solar decida con datos y no con corazonadas. La herramienta ayuda; el estudio de ingeniería aterriza esos datos a tu techo concreto.",
+      },
+      { type: "h2", text: "Cuánto cuesta y en cuánto se paga" },
+      {
+        type: "p",
+        text: "Con el estudio en la mano, los números dejan de ser promesa y se vuelven rango. Como referencia de mercado en Colombia en 2026, un sistema solar residencial conectado a red —sin baterías— suele costar del orden de $3,5 a $5 millones de pesos por kWp instalado, con el valor por kWp bajando a medida que el sistema crece. En total, una instalación residencial llave en mano suele ubicarse entre unos $10 y $42 millones según su tamaño, e incluye paneles, inversor, estructura, instalación, certificación RETIE y trámites ante el operador de red.",
+      },
+      {
+        type: "p",
+        text: "¿Y el retorno? Para sistemas residenciales conectados a red, el tiempo de recuperación de la inversión suele estimarse en un rango de 4 a 6 años, dependiendo del consumo, la tarifa que pagas y qué tan bien quedó dimensionado el sistema. La palabra clave es \"dependiendo\": ese retorno lo define el estudio, no el folleto.",
+      },
+      {
+        type: "quote",
+        text: "El panel más caro no es el que más vatios tiene: es el que se compró sin saber cuánto iba a producir. Un buen estudio de factibilidad cuesta una fracción del sistema y evita el error que cuesta el proyecto entero.",
+      },
+      { type: "h2", text: "Cómo lo hacemos en DINASTEL SAS" },
+      {
+        type: "p",
+        text: "En DINASTEL trabajamos cualquier proyecto con un mismo flujo integral: diagnóstico, diseño, ejecución y operación. El estudio de factibilidad es la primera etapa —el diagnóstico— y no es un paso suelto ni un extra: es lo que hace que todo lo demás tenga sentido. Preferimos decirte con datos que un proyecto no te conviene, antes que venderte uno que no va a rendir.",
+      },
+      {
+        type: "ul",
+        items: [
+          "Sistemas solares llave en mano: diagnóstico y estudio de factibilidad, diseño, legalización RETIE, instalación on-grid o híbrida y puesta en marcha, con la producción estimada sobre tu consumo real, no sobre un promedio.",
+          "Ingeniería eléctrica y de redes: la base segura y bien dimensionada sobre la que se conecta cualquier sistema solar, con interventoría y eficiencia energética.",
+          "Telecomunicaciones y automatización: instrumentación y monitoreo para verificar, ya en operación, que el sistema produce lo que el estudio prometió.",
+          "Obras civiles: estructuras de soporte y adecuaciones necesarias, hechas para durar.",
+          "Mantenimiento: preventivo, correctivo y monitoreo remoto, para que la producción estimada se sostenga año tras año.",
+        ],
+      },
+      {
+        type: "p",
+        text: "Aclaración: las cifras de costo, HSP y tiempo de retorno de este artículo son referencias de mercado y varían según tu ubicación, tu consumo, la tarifa que pagas y las condiciones de cada proyecto. Precisamente por eso el primer paso siempre es un estudio real de tu caso, no un número prometido de memoria.",
+      },
+      {
+        type: "p",
+        text: "¿Quieres saber, con datos, cuánto produciría y ahorraría un sistema solar en tu techo antes de invertir un peso? Escríbenos y hacemos el estudio de factibilidad contigo.",
+      },
+    ],
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
