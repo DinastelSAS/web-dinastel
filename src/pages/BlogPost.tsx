@@ -69,9 +69,29 @@ export function BlogPost() {
     const prevDesc = metaDesc?.getAttribute("content") ?? "";
     metaDesc?.setAttribute("content", post.excerpt);
     window.scrollTo({ top: 0 });
+
+    // FAQPage estructurada (JSON-LD) para que buscadores de IA puedan citar
+    // directamente las respuestas del artículo.
+    let faqScript: HTMLScriptElement | null = null;
+    if (post.faq && post.faq.length > 0) {
+      faqScript = document.createElement("script");
+      faqScript.type = "application/ld+json";
+      faqScript.text = JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: post.faq.map((item) => ({
+          "@type": "Question",
+          name: item.q,
+          acceptedAnswer: { "@type": "Answer", text: item.a },
+        })),
+      });
+      document.head.appendChild(faqScript);
+    }
+
     return () => {
       document.title = prevTitle;
       metaDesc?.setAttribute("content", prevDesc);
+      if (faqScript) document.head.removeChild(faqScript);
     };
   }, [post]);
 
@@ -127,6 +147,22 @@ export function BlogPost() {
               <Block key={i} block={block} />
             ))}
           </div>
+
+          {post.faq && post.faq.length > 0 && (
+            <div className="mt-10 border-t border-neutral-100 pt-8">
+              <h2 className="mb-5 text-[1.4rem] font-extrabold tracking-tight text-neutral-900 sm:text-[1.65rem]">
+                Preguntas frecuentes
+              </h2>
+              <div className="flex flex-col gap-5">
+                {post.faq.map((item, i) => (
+                  <div key={i}>
+                    <h3 className="mb-1.5 text-[16px] font-bold text-neutral-900 sm:text-[17px]">{item.q}</h3>
+                    <p className="text-[15px] leading-relaxed text-neutral-600 sm:text-[16px]">{item.a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           <div className="mt-8 rounded-2xl border border-primary-100 bg-primary-50 p-6 sm:p-7">
             <h3 className="mb-1.5 text-lg font-extrabold text-neutral-900">

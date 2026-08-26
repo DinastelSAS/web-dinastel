@@ -5,6 +5,11 @@ export type BlogBlock =
   | { type: "ol"; items: string[] }
   | { type: "quote"; text: string };
 
+export interface BlogFaqItem {
+  q: string;
+  a: string;
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -16,6 +21,10 @@ export interface BlogPost {
   coverImage: string;
   readTime: string;
   content: BlogBlock[];
+  // Preguntas frecuentes al final del artículo: mismas preguntas que la gente le
+  // haría a un asistente de IA sobre el tema. Se renderizan en la página y también
+  // se emiten como JSON-LD FAQPage para mejorar la visibilidad en buscadores de IA.
+  faq?: BlogFaqItem[];
 }
 
 export const blogPosts: BlogPost[] = [
@@ -97,6 +106,28 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         text: "¿Quieres saber si tu instalación eléctrica o tu sistema solar cumple con RETIE? Escríbenos y lo revisamos contigo.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Qué es el RETIE y es obligatorio en Colombia?",
+        a: "Es el Reglamento Técnico de Instalaciones Eléctricas, exigido por el Estado colombiano para toda instalación eléctrica residencial, comercial, industrial o solar. Sin la certificación RETIE, una instalación no puede conectarse formalmente a la red y puede quedar sin cobertura de seguro ante un siniestro.",
+      },
+      {
+        q: "¿Las instalaciones eléctricas sin RETIE realmente causan incendios?",
+        a: "Sí. Entre 2020 y 2024 Bomberos Bogotá atendió 3.181 casos por riesgo eléctrico, y un estudio de ANRACI (2025) estima cerca de 6.440 incendios estructurales al año en Colombia, con fallas eléctricas entre las causas más recurrentes.",
+      },
+      {
+        q: "¿Un sistema solar también necesita legalización RETIE?",
+        a: "Sí. Además de ser un requisito de seguridad, es obligatorio para conectar el sistema on-grid con el operador de red — sin RETIE, el sistema no puede conectarse formalmente.",
+      },
+      {
+        q: "¿Cuáles son las fallas eléctricas más comunes que causan incendios?",
+        a: "Sobrecarga de circuitos, cableado sin legalización, cables subdimensionados, conexiones flojas, falta de protecciones térmicas y diferenciales, y sistemas solares instalados sin interventoría ni protecciones DC certificadas.",
+      },
+      {
+        q: "¿Cómo sé si mi instalación eléctrica está en regla?",
+        a: "Un ingeniero certificado debe revisar el calibre de cable, las protecciones, la puesta a tierra y emitir el certificado RETIE correspondiente. En DINASTEL SAS hacemos este diagnóstico como parte de nuestro flujo de trabajo.",
       },
     ],
   },
@@ -206,6 +237,28 @@ export const blogPosts: BlogPost[] = [
         text: "¿Quieres una cotización de tu sistema solar con el panorama claro de incentivos y opciones de financiación para tu caso? Escríbenos y lo estructuramos contigo.",
       },
     ],
+    faq: [
+      {
+        q: "¿Qué beneficios tributarios tiene instalar energía solar en Colombia?",
+        a: "La Ley 1715 (modificada por la Ley 2099 de 2021) permite deducir del impuesto de renta el 50% del valor de la inversión, hasta por 15 años, además de exclusión de IVA en equipos, exención de arancel de importación y depreciación acelerada hasta 33,33% anual. Los beneficios están vigentes por 30 años desde julio de 2021.",
+      },
+      {
+        q: "¿Puedo financiar un sistema solar con crédito en Colombia?",
+        a: "Sí. Hay líneas de \"crédito verde\" específicas para energía solar, como la de Bancóldex (en alianza con FONDES) o la Línea Verde de Bancolombia, con tasas reportadas del sector en el rango de 8% a 10% efectivo anual.",
+      },
+      {
+        q: "¿Puedo vender la energía solar que no consumo?",
+        a: "Sí. La Resolución CREG 174 de 2021 regula la autogeneración a pequeña escala (hasta 1 MW) y permite un esquema de medición bidireccional (net metering) que genera créditos de energía por los excedentes que entregas a la red.",
+      },
+      {
+        q: "¿Necesito legalizar mi sistema para vender excedentes de energía?",
+        a: "Sí. Para conectar y entregar excedentes a la red hay que solicitar la conexión ante el operador de red y cumplir los requisitos técnicos, incluida la legalización RETIE del sistema.",
+      },
+      {
+        q: "¿En cuánto tiempo se paga un sistema solar en Colombia?",
+        a: "Depende del proyecto, pero combinando los incentivos tributarios de la Ley 1715, el crédito verde y la venta de excedentes, muchos sistemas empiezan a pagarse con el mismo dinero que antes se iba en la factura de energía.",
+      },
+    ],
   },
   {
     slug: "energia-solar-agricultura-colombia-bombeo-riego-fotovoltaico",
@@ -307,6 +360,28 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         text: "¿Tienes una finca o un proyecto agrícola donde el diésel o la falta de red te están costando caro? Escríbenos y evaluamos contigo si el bombeo solar y un sistema fotovoltaico llave en mano tienen sentido para tu caso.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Sirve la energía solar para bombear agua en una finca sin acceso a la red eléctrica?",
+        a: "Sí. El bombeo solar fotovoltaico mueve agua directamente con energía del sol, sin generador ni combustible, ideal para las Zonas No Interconectadas (ZNI), que cubren cerca del 52% del territorio colombiano.",
+      },
+      {
+        q: "¿Cuánto se demora en pagarse un sistema de bombeo solar?",
+        a: "Según reportes del sector, el retorno de la inversión en bombeo solar en Colombia suele ubicarse entre 2 y 4 años, gracias al ahorro en diésel o energía de red que reemplaza.",
+      },
+      {
+        q: "¿Qué tan buena es la radiación solar en el campo colombiano?",
+        a: "Muy buena y estable durante todo el año: el promedio nacional ronda los 4,5 kWh/m² al día según el Atlas de Radiación Solar (UPME-IDEAM), y zonas como La Guajira llegan a 5,0-6,0 kWh/m² diarios.",
+      },
+      {
+        q: "¿La energía solar ayuda a una finca a resistir una sequía?",
+        a: "Sí, de forma indirecta: diversificar la fuente de energía (solar propia en vez de depender solo de diésel o de una red inestable) da resiliencia justo cuando más se necesita bombear agua y regar, como se vio en la sequía de El Niño de 2023-2024.",
+      },
+      {
+        q: "¿Qué incluye un sistema solar agrícola además de los paneles?",
+        a: "Dimensionamiento de la bomba y el caudal, diseño eléctrico con protecciones, obra civil de soporte, automatización y telemetría de riego, y mantenimiento con monitoreo remoto — no es solo \"poner paneles\".",
       },
     ],
   },
@@ -414,6 +489,28 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         text: "¿Quieres saber cuánto está rindiendo de verdad tu sistema solar o tu instalación eléctrica —y cuánto podrías estar perdiendo sin notarlo? Escríbenos y lo revisamos contigo con datos.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Cómo sé si mi sistema solar está produciendo lo que debería?",
+        a: "Con monitoreo remoto y el indicador Performance Ratio (PR), que compara lo que el sistema realmente produjo contra lo que debería haber producido dadas las condiciones de sol. Sin monitoreo, una caída de rendimiento es invisible hasta que llega la factura.",
+      },
+      {
+        q: "¿Cuánto puede bajar el rendimiento de un panel solar sucio?",
+        a: "En zonas urbanas la pérdida por suciedad (soiling) suele ser de 2% a 5%, pero con películas orgánicas de polvo y humedad puede llegar al 13-15%, y más en ambientes muy adversos.",
+      },
+      {
+        q: "¿Cuál es la falla más común en un sistema solar?",
+        a: "Las fallas de inversor son las más frecuentes: es el componente que más falla en una instalación fotovoltaica. Si se apaga o entra en modo de error, sin monitoreo nadie se entera hasta la factura del mes siguiente.",
+      },
+      {
+        q: "¿Qué diferencia hay entre monitoreo y automatización?",
+        a: "El monitoreo te dice qué está pasando (producción, fallas, caídas de rendimiento); la automatización hace que el sistema actúe solo — priorizar autoconsumo, gestionar baterías o transferir a respaldo ante un corte, sin esperar intervención humana.",
+      },
+      {
+        q: "¿El monitoreo también sirve para instalaciones eléctricas normales, no solo solares?",
+        a: "Sí. La termografía periódica de tableros, el monitoreo de variables eléctricas y las alarmas ante anomalías detectan calentamiento o consumos anómalos antes de que se conviertan en una falla costosa.",
       },
     ],
   },
@@ -525,6 +622,28 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         text: "¿Quieres saber, con datos, cuánto produciría y ahorraría un sistema solar en tu techo antes de invertir un peso? Escríbenos y hacemos el estudio de factibilidad contigo.",
+      },
+    ],
+    faq: [
+      {
+        q: "¿Qué es un estudio de factibilidad solar y por qué es necesario?",
+        a: "Es el análisis técnico que mide el recurso solar de tu ubicación, tu consumo real, el espacio disponible, las sombras y el retorno financiero antes de comprar un sistema — evita comprar un sistema sobre o subdimensionado.",
+      },
+      {
+        q: "¿Cuánto cuesta un sistema solar residencial en Colombia?",
+        a: "Como referencia de 2026, un sistema on-grid sin baterías suele costar entre $3,5 y $5 millones de pesos por kWp instalado, con una instalación residencial completa entre $10 y $42 millones según el tamaño.",
+      },
+      {
+        q: "¿En cuánto tiempo se recupera la inversión de un sistema solar residencial?",
+        a: "Para sistemas conectados a red, el retorno suele estimarse entre 4 y 6 años, dependiendo del consumo, la tarifa eléctrica y qué tan bien esté dimensionado el sistema.",
+      },
+      {
+        q: "¿Qué son las Horas Sol Pico (HSP) y por qué importan?",
+        a: "Son las horas equivalentes al día en que el sol pega con su máxima intensidad (1.000 W/m²) — el dato base para calcular cuánto producirá realmente un sistema en tu ubicación. Cali tiene cerca de 4,5 HSP, Medellín 4,3, y ciudades de la costa hasta 5,4 HSP.",
+      },
+      {
+        q: "¿Qué pasa si mi sistema solar queda mal dimensionado?",
+        a: "Si queda sobredimensionado, pagas de más por una capacidad que no siempre recuperas en excedentes; si queda subdimensionado, no cubre tu demanda real y el ahorro termina muy por debajo de lo prometido.",
       },
     ],
   },
