@@ -94,6 +94,12 @@ export function Header() {
               {item.label}
             </button>
           ))}
+          <a
+            href="https://app.dinastel.com"
+            className={`text-sm font-medium transition-opacity hover:opacity-70 ${textColor}`}
+          >
+            Iniciar sesión
+          </a>
           <button
             onClick={goContacto}
             className="rounded-full bg-primary-600 px-[18px] py-[9px] text-sm font-semibold text-white transition-colors hover:bg-primary-700"
@@ -128,6 +134,12 @@ export function Header() {
               {item.label}
             </button>
           ))}
+          <a
+            href="https://app.dinastel.com"
+            className="rounded-lg px-3 py-3 text-left text-base font-medium text-neutral-800 hover:bg-neutral-50"
+          >
+            Iniciar sesión
+          </a>
           <button
             onClick={goContacto}
             className="mt-2 rounded-full bg-primary-600 px-5 py-3 text-center text-sm font-semibold text-white"
