@@ -1,34 +1,33 @@
-import { useEffect } from "react";
-import { useLocation } from "react-router-dom";
+import { usePageMeta } from "../ui/usePageMeta";
 import { Hero } from "../components/Hero";
-import { Servicios } from "../components/Servicios";
-import { Integraciones } from "../components/Integraciones";
-import { Movimientos } from "../components/Movimientos";
-import { Crecimiento } from "../components/Crecimiento";
-import { Nosotros } from "../components/Nosotros";
-import { Contacto } from "../components/Contacto";
+import { ServiciosResumen } from "../components/ServiciosResumen";
+import { FAQ } from "../components/FAQ";
+import { CumplimientoStrip } from "../components/CumplimientoStrip";
+import { ProyectoDestacado } from "../components/ProyectoDestacado";
+import { Proceso } from "../components/Proceso";
+import { Trayectoria } from "../components/Trayectoria";
+import { Aliados } from "../components/Aliados";
+import { CtaBanner } from "../components/CtaBanner";
 
 export function Home() {
-  const location = useLocation();
-
-  useEffect(() => {
-    const scrollTo = (location.state as { scrollTo?: string } | null)?.scrollTo;
-    if (!scrollTo) return;
-    const el = document.getElementById(scrollTo);
-    if (!el) return;
-    const top = el.getBoundingClientRect().top + window.scrollY - 84;
-    window.scrollTo({ top, behavior: "smooth" });
-  }, [location.state]);
+  usePageMeta({
+    title: "DINASTEL S.A.S. — Ingeniería eléctrica y energía solar en Cali",
+    description:
+      "Ingeniería eléctrica, energía solar fotovoltaica y cumplimiento normativo (RETIE, AGPE, Ley 1715) en Cali y el suroccidente colombiano. Diseño, legalización, instalación y mantenimiento.",
+    path: "/",
+  });
 
   return (
     <>
       <Hero />
-      <Servicios />
-      <Integraciones />
-      <Movimientos />
-      <Crecimiento />
-      <Nosotros />
-      <Contacto />
+      <ServiciosResumen />
+      <FAQ />
+      <CumplimientoStrip />
+      <ProyectoDestacado />
+      <Proceso />
+      <Trayectoria />
+      <Aliados />
+      <CtaBanner />
     </>
   );
 }

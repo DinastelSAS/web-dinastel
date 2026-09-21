@@ -45,3 +45,24 @@ body {
 .animate-marquee:hover {
   animation-play-state: paused;
 }
+
+/* Barrido de luz del hero — refuerza la sensación de video */
+@keyframes heroSweep {
+  0% { background-position: 130% 0; }
+  100% { background-position: -30% 0; }
+}
+
+.hero-sweep {
+  background: linear-gradient(105deg, transparent 40%, rgba(94, 179, 218, 0.1) 50%, transparent 60%);
+  background-size: 250% 100%;
+  animation: heroSweep 9s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-ken-burns,
+  .animate-chevron,
+  .animate-marquee,
+  .hero-sweep {
+    animation: none;
+  }
+}
