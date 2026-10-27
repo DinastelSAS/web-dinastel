@@ -97,5 +97,3 @@ export const proyectos: Proyecto[] = [
     img: "/assets/brochure/mantenimiento-plantas-01.webp",
   },
 ];
-
-export const proyectosDestacados = proyectos.filter((p) => p.destacado);

@@ -1,5 +1,5 @@
 // Catálogo de servicios DINASTEL S.A.S.
-// Estructura: 4 líneas de negocio visibles + servicios transversales (O&M, eficiencia).
+// Estructura: 5 líneas de negocio visibles (v2: se agrega Movilidad eléctrica) + servicios transversales (O&M, eficiencia).
 // Alineado con el catálogo real de DINASTEL OS (familias SOL, ELE, AUT, EFI, OYM, TEL, OCI, MO).
 // Regla de negocio (PRODUCT.md): ingeniería de detalle y mano de obra se cotizan SIEMPRE separadas.
 
@@ -40,7 +40,7 @@ export const lineas: Linea[] = [
       "Certificación y puesta en servicio",
     ],
     publico: ["B2B", "B2C"],
-    img: "/assets/brochure/electrico-01.webp",
+    img: "/assets/obra/medicion-tablero-02-lg.webp",
   },
   {
     slug: "sistemas-solares",
@@ -48,14 +48,15 @@ export const lineas: Linea[] = [
     tag: "Línea 02",
     title: "Sistemas solares llave en mano",
     summary:
-      "Energía solar fotovoltaica a la medida de su consumo — on-grid o híbrida — sin trámites que coordinar por su cuenta.",
+      "Energía solar a la medida de su consumo — on-grid, híbrida o aislada, con baterías de respaldo — sin trámites que coordinar por su cuenta.",
     descripcion:
-      "Estudio de factibilidad, ingeniería de detalle, legalización AGPE ante el operador de red e instalación de sistemas fotovoltaicos on-grid e híbridos. Estructuramos además los incentivos tributarios de la Ley 1715.",
+      "Estudio de factibilidad, ingeniería de detalle, legalización AGPE ante el operador de red e instalación de sistemas fotovoltaicos on-grid, híbridos y aislados, con almacenamiento en baterías de litio cuando el proyecto necesita respaldo. Estructuramos además los incentivos tributarios de la Ley 1715.",
     incluye: [
       "Estudio de factibilidad y dimensionamiento",
       "Ingeniería de detalle y memorias",
       "Legalización AGPE y conexión simplificada",
       "Instalación, puesta en marcha y monitoreo",
+      "Baterías de respaldo y sistemas BESS",
     ],
     entregables: [
       "Memoria de cálculo y diseño SSFV",
@@ -63,12 +64,35 @@ export const lineas: Linea[] = [
       "Estructuración de incentivos Ley 1715",
     ],
     publico: ["B2C", "B2B"],
-    img: "/assets/brochure/solar-01.webp",
+    img: "/assets/obra/solar-residencial-aereo-05-lg.webp",
+  },
+  {
+    slug: "movilidad-electrica",
+    codigo: "MOV",
+    tag: "Línea 03",
+    title: "Movilidad eléctrica",
+    summary:
+      "Instalación de cargadores para vehículo eléctrico en casas, conjuntos y empresas, con la acometida bien calculada.",
+    descripcion:
+      "Revisamos la capacidad de su instalación, calculamos la acometida y las protecciones, e instalamos el cargador (ABB, Tesla y otras marcas) con su circuito dedicado. En conjuntos residenciales coordinamos el trabajo con la administración.",
+    incluye: [
+      "Visita técnica y revisión de capacidad disponible",
+      "Acometida, tablero y protecciones dedicadas",
+      "Instalación y configuración del cargador",
+      "Integración con sistema solar (opcional)",
+    ],
+    entregables: [
+      "Memoria de cálculo de la acometida",
+      "Certificación RETIE de la instalación",
+      "Pruebas de carga y entrega al usuario",
+    ],
+    publico: ["B2C", "B2B"],
+    img: "/assets/obra/cargador-ve-02-lg.webp",
   },
   {
     slug: "telecomunicaciones-automatizacion",
     codigo: "TEL · AUT",
-    tag: "Línea 03",
+    tag: "Línea 04",
     title: "Telecomunicaciones y automatización",
     summary:
       "Conectividad y control integrados a su infraestructura eléctrica.",
@@ -91,7 +115,7 @@ export const lineas: Linea[] = [
   {
     slug: "obras-civiles",
     codigo: "OCI",
-    tag: "Línea 04",
+    tag: "Línea 05",
     title: "Obras civiles y de remodelación",
     summary:
       "Obra civil de soporte ejecutada por nuestro propio equipo técnico.",
@@ -143,4 +167,3 @@ export const reglaSeparacion = {
 
 export const flujo = ["Diagnóstico", "Diseño integrado", "Ejecución", "Operación y soporte"];
 
-export const omChips = ["Preventivo", "Correctivo", "Monitoreo remoto"];

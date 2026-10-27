@@ -66,6 +66,8 @@ export function ContactoForm() {
         <select id="tipo_proyecto" name="tipo_proyecto" className={inputClass}>
           <option value="solar">Energía solar (cliente final)</option>
           <option value="electrico">Ingeniería eléctrica</option>
+          <option value="baterias">Baterías / respaldo ante cortes</option>
+          <option value="cargador_ve">Cargador para vehículo eléctrico</option>
           <option value="legalizacion">Legalización / RETIE / AGPE</option>
           <option value="b2b">Ingeniería subcontratada (firma integradora)</option>
           <option value="mantenimiento">Operación y mantenimiento</option>

@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { motion } from "framer-motion";
 import { Reveal } from "./Reveal";
 
 // Encabezado de sección. El kicker es opcional a propósito: se usa como acento puntual,
@@ -22,7 +23,15 @@ export function SectionHeading({
   return (
     <Reveal className={`${align === "center" ? "mx-auto max-w-[680px] text-center" : "max-w-[680px]"} ${className}`}>
       {kicker && (
-        <div className={`mb-3 text-[13px] font-bold uppercase tracking-[0.14em] ${isLight ? "text-accent-300" : "text-primary-600"}`}>
+        <div className={`mb-3 flex items-center gap-3 text-[13px] font-bold uppercase tracking-[0.14em] ${align === "center" ? "justify-center" : ""} ${isLight ? "text-accent-300" : "text-primary-600"}`}>
+          <motion.span
+            aria-hidden="true"
+            className="h-[2px] rounded-full bg-current"
+            initial={{ width: 0 }}
+            whileInView={{ width: 28 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
+          />
           {kicker}
         </div>
       )}
