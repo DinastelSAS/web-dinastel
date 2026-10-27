@@ -7,6 +7,6 @@ dist
 FOTOS NUEVAS/
 _trabajo/
 _legacy/
-VIDEO/
+/VIDEO/
 *.HEIC
 dist-ssr/
