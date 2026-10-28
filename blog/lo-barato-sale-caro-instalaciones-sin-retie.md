@@ -23,7 +23,7 @@ Elegir al instalador más económico, saltarse la legalización o dejar pasar el
 
 La conclusión no es alarmista, es simple: la seguridad eléctrica de una vivienda o una empresa no es un detalle estético ni un trámite de papeleo. Es lo que separa una instalación que dura años de una que termina siendo noticia.
 
-## ¿Qué es el RETIE y por qué debería importarte?
+## ¿Qué es el RETIE y por qué debería importarle?
 
 El RETIE (Reglamento Técnico de Instalaciones Eléctricas) es la norma que exige el Estado colombiano para que cualquier instalación eléctrica —residencial, comercial, industrial o solar— cumpla condiciones mínimas de seguridad: calibre de cable adecuado, protecciones térmicas y diferenciales, puesta a tierra, canalización correcta, y certificación de que todo eso quedó bien hecho.
 
@@ -39,20 +39,20 @@ Una instalación sin legalizar RETIE no solo es un riesgo de incendio. Tampoco p
 6. **Cables expuestos o sin canalización**, especialmente en zonas húmedas o de alto tránsito.
 7. **"Arreglos temporales" que se vuelven permanentes.** El parche de emergencia que nadie volvió a revisar.
 8. **Equipos de alto consumo conectados sin dimensionar el circuito** (aires acondicionados, cargadores, maquinaria).
-9. **Sistemas solares instalados sin interventoría ni protecciones DC certificadas.** Un panel o un inversor mal instalado añade un riesgo eléctrico adicional al techo de tu casa o empresa.
+9. **Sistemas solares instalados sin interventoría ni protecciones DC certificadas.** Un panel o un inversor mal instalado añade un riesgo eléctrico adicional al techo de su casa o empresa.
 10. **Cero mantenimiento preventivo.** Nadie revisa tableros, conexiones ni protecciones hasta que algo ya falló.
 
-¿Te deja tranquilo que la instalación eléctrica o el sistema solar de tu casa o tu empresa se haya hecho sin certificación?
+¿Lo deja tranquilo que la instalación eléctrica o el sistema solar de su casa o su empresa se haya hecho sin certificación?
 
 ## Cómo lo resolvemos en DINASTEL SAS
 
 En DINASTEL trabajamos con un mismo flujo para cualquier proyecto, eléctrico o solar: **diagnóstico, diseño integrado, ejecución y operación y soporte**. Eso significa que la legalización RETIE y la interventoría no son un paso aparte que el cliente tiene que coordinar por su cuenta: van incluidas desde el diseño hasta la puesta en marcha.
 
 - **Ingeniería eléctrica y de redes:** diseño, instalación y subestaciones de baja y media tensión, con interventoría, legalización y eficiencia energética incluidas.
-- **Sistemas solares llave en mano:** diseño, legalización e instalación on-grid o híbrida, con interventoría y puesta en marcha incluidas —sin trámites sueltos que coordinar por tu cuenta.
+- **Sistemas solares llave en mano:** diseño, legalización e instalación on-grid o híbrida, con interventoría y puesta en marcha incluidas —sin trámites sueltos que coordinar por su cuenta.
 - **Mantenimiento:** preventivo, correctivo y monitoreo remoto, para que ninguna instalación quede sin revisión una vez entregada.
 
-¿Quieres saber si tu instalación eléctrica o tu sistema solar cumple con RETIE? Escríbenos a comercial@dinastel.com o al +57 314 556 9567.
+¿Quiere saber si su instalación eléctrica o su sistema solar cumple con RETIE? Escríbanos a comercial@dinastel.com o al +57 314 556 9567.
 
 ---
 
@@ -69,4 +69,4 @@ En DINASTEL trabajamos con un mismo flujo para cualquier proyecto, eléctrico o 
 **3 piezas para Instagram (pendientes — requieren autorización del conector de Canva):**
 1. Carrusel/tarjeta con las "10 malas prácticas" en formato lista visual.
 2. Tarjeta de dato con la cifra "3.181 casos de riesgo eléctrico atendidos por Bomberos Bogotá (2020–2024)".
-3. Tarjeta "¿Tu instalación cumple RETIE?" tipo checklist, con CTA a cotizar.
+3. Tarjeta "¿Su instalación cumple RETIE?" tipo checklist, con CTA a cotizar.

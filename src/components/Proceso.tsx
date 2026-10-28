@@ -19,7 +19,7 @@ const icons = [
 
 export function Proceso() {
   return (
-    <section className="bg-neutral-50 px-5 py-16 sm:px-10 sm:py-20 lg:px-20 lg:py-24">
+    <section className="bg-neutral-50 px-5 py-14 sm:px-10 sm:py-16 lg:px-20 lg:py-20">
       <Container>
         <SectionHeading
           kicker="Cómo trabajamos"
@@ -27,11 +27,11 @@ export function Proceso() {
           intro="Eléctrica, solar, telecomunicaciones y consultoría operan como una sola línea de trabajo, sin proveedores que usted tenga que coordinar."
         />
 
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4">
           {flujo.map((label, i) => (
-            <Reveal key={label} delay={i * 0.1} className="relative flex flex-col gap-4 rounded-2xl border border-neutral-200 bg-white p-6 shadow-card">
+            <Reveal key={label} delay={i * 0.1} variant="scale" className="group relative flex flex-col gap-4 rounded-2xl border border-neutral-200 bg-white p-6 shadow-card transition-all duration-300 hover:-translate-y-1 hover:border-primary-200 hover:shadow-card-hover">
               <div className="flex items-center justify-between">
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary-50 text-primary-600 [&>svg]:h-5 [&>svg]:w-5">
+                <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary-50 text-primary-600 transition-colors duration-300 group-hover:bg-primary-600 group-hover:text-white [&>svg]:h-5 [&>svg]:w-5">
                   {icons[i]}
                 </span>
                 <span className="text-[13px] font-bold text-neutral-300">0{i + 1}</span>

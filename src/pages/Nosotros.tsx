@@ -4,6 +4,7 @@ import { Container } from "../ui/Container";
 import { Reveal } from "../ui/Reveal";
 import { CtaBanner } from "../components/CtaBanner";
 import { Trayectoria } from "../components/Trayectoria";
+import { Aliados } from "../components/Aliados";
 import { empresa, nosotrosImg } from "../data/site";
 
 const principios = [
@@ -41,7 +42,7 @@ export function Nosotros() {
         intro="Las empresas necesitan energía confiable para crecer, no más proveedores que coordinar. Integramos ingeniería eléctrica, solar y consultoría en un solo equipo técnico."
       />
 
-      <section className="bg-white px-5 py-14 sm:px-10 sm:py-20 lg:px-20">
+      <section className="bg-white px-5 py-12 sm:px-10 sm:py-16 lg:px-20">
         <Container className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <Reveal className="aspect-[4/3] w-full overflow-hidden rounded-[20px] lg:order-2">
             <img src={nosotrosImg} alt="Equipo técnico DINASTEL en obra" className="h-full w-full object-cover" loading="lazy" />
@@ -72,7 +73,7 @@ export function Nosotros() {
       <section className="bg-neutral-50 px-5 py-16 sm:px-10 sm:py-20 lg:px-20">
         <Container>
           <Reveal>
-            <h2 className="text-[1.6rem] font-extrabold tracking-tight text-neutral-900 sm:text-[2.1rem]">Cómo trabajamos</h2>
+            <h2 className="text-[1.6rem] font-extrabold tracking-tight text-neutral-900 sm:text-[2.1rem]">Nuestros principios</h2>
           </Reveal>
           <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2">
             {principios.map((p, i) => (
@@ -86,6 +87,8 @@ export function Nosotros() {
       </section>
 
       <Trayectoria />
+
+      <Aliados />
 
       <CtaBanner />
     </>

@@ -58,7 +58,45 @@ body {
   animation: heroSweep 9s ease-in-out infinite;
 }
 
+/* Retícula de plano técnico del hero (desplazamiento lento) */
+@keyframes gridDrift {
+  0% { background-position: 0 0, 0 0; }
+  100% { background-position: 64px 64px, 64px 64px; }
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 64px 64px;
+  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 45%, black 20%, transparent 75%);
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 45%, black 20%, transparent 75%);
+  animation: gridDrift 18s linear infinite;
+}
+
+/* Galería: cada foto aparece escalonada al cargar o filtrar */
+@keyframes obraIn {
+  from { opacity: 0; transform: translateY(14px) scale(0.98); }
+  to { opacity: 1; transform: none; }
+}
+.obra-item { animation: obraIn 0.55s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+/* Brillo que cruza los botones principales al pasar el mouse */
+.btn-brillo { position: relative; overflow: hidden; }
+.btn-brillo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.35) 50%, transparent 70%);
+  transform: translateX(-120%);
+  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.btn-brillo:hover::after { transform: translateX(120%); }
+
 @media (prefers-reduced-motion: reduce) {
+  .obra-item,
+  .hero-grid,
+  .animate-ping,
   .animate-ken-burns,
   .animate-chevron,
   .animate-marquee,

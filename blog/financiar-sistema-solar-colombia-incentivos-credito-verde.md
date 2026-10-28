@@ -13,7 +13,7 @@ estado: PUBLICADO 2026-08-09 — cifras verificadas contra fuentes oficiales (Le
 
 Cuando alguien piensa en instalar paneles solares, casi siempre la primera pregunta no es técnica: es "¿y eso cuánto cuesta de una?". Es una pregunta razonable. Durante años, el costo inicial fue la barrera que frenaba a muchas familias y empresas que sí querían dar el paso.
 
-La buena noticia es que en Colombia esa barrera hoy se puede desmontar por tres vías que se combinan entre sí: los incentivos tributarios de la Ley 1715, las líneas de crédito verde de la banca, y la posibilidad de vender a la red la energía que te sobra. Bien estructuradas, hacen que un sistema solar deje de ser un gasto de una sola vez y se convierta en una inversión que se paga con el mismo dinero que hoy se va en la factura de luz.
+La buena noticia es que en Colombia esa barrera hoy se puede desmontar por tres vías que se combinan entre sí: los incentivos tributarios de la Ley 1715, las líneas de crédito verde de la banca, y la posibilidad de vender a la red la energía que le sobra. Bien estructuradas, hacen que un sistema solar deje de ser un gasto de una sola vez y se convierta en una inversión que se paga con el mismo dinero que hoy se va en la factura de luz.
 
 ## 1. Los incentivos que la mayoría no aprovecha (Ley 1715)
 
@@ -28,24 +28,24 @@ En la práctica, estos incentivos pueden recortar de forma significativa el cost
 
 ## 2. Crédito verde: financiar hoy, pagar con el ahorro
 
-El segundo componente es el financiamiento. La banca colombiana abrió líneas de crédito específicas para energía solar y eficiencia energética, las llamadas "líneas verdes", pensadas justamente para que no tengas que poner todo el capital de entrada.
+El segundo componente es el financiamiento. La banca colombiana abrió líneas de crédito específicas para energía solar y eficiencia energética, las llamadas "líneas verdes", pensadas justamente para que no tenga que poner todo el capital de entrada.
 
 - **Bancóldex** reactivó su línea de crédito para energía solar (en alianza con FONDES), un mecanismo de redescuento a través de bancos aliados para financiar la estructuración e implementación de proyectos fotovoltaicos. Un detalle a tener en cuenta: en esa línea, el monto destinado a obras civiles no puede superar el **15%** de los recursos solicitados.
 - Otras entidades como **Findeter, BBVA, Davivienda** (con esquemas de leasing) y **Bancolombia** con su Línea Verde también ofrecen productos para financiar energías renovables.
-- Según reportes del sector, las líneas de crédito verde privadas se han venido ofreciendo con tasas del orden del **8% al 10% efectivo anual**, aunque las condiciones dependen de cada entidad, del perfil del cliente y del momento — siempre conviene cotizar con tu banco.
+- Según reportes del sector, las líneas de crédito verde privadas se han venido ofreciendo con tasas del orden del **8% al 10% efectivo anual**, aunque las condiciones dependen de cada entidad, del perfil del cliente y del momento — siempre conviene cotizar con su banco.
 
-> La idea de fondo es sencilla: si la cuota mensual del crédito se acerca a lo que hoy pagas de energía, empiezas a cambiar un gasto que no te deja nada por una inversión que al final del plazo queda tuya.
+> La idea de fondo es sencilla: si la cuota mensual del crédito se acerca a lo que hoy paga de energía, empieza a cambiar un gasto que no le deja nada por una inversión que al final del plazo queda suya.
 
-Combinar el crédito verde con los incentivos de la Ley 1715 es lo que hace la diferencia: financias la inversión con la línea del banco y, al mismo tiempo, recuperas parte de ese valor vía deducción de renta y exclusión de IVA.
+Combinar el crédito verde con los incentivos de la Ley 1715 es lo que hace la diferencia: financia la inversión con la línea del banco y, al mismo tiempo, recupera parte de ese valor vía deducción de renta y exclusión de IVA.
 
-## 3. La energía que te sobra también cuenta: venta de excedentes
+## 3. La energía que le sobra también cuenta: venta de excedentes
 
-La tercera vía es la que más sorprende a quien apenas está conociendo el tema. En Colombia, un sistema solar conectado a la red (on-grid) no solo te ahorra la energía que consumes: la energía que produces y no usas se puede entregar a la red y descontarla de tu factura.
+La tercera vía es la que más sorprende a quien apenas está conociendo el tema. En Colombia, un sistema solar conectado a la red (on-grid) no solo le ahorra la energía que consume: la energía que produce y no usa se puede entregar a la red y descontarla de su factura.
 
 Esto lo regula la **Resolución CREG 174 de 2021**, que ordena las actividades de autogeneración a pequeña escala y generación distribuida en el Sistema Interconectado Nacional. Sus puntos clave para un usuario residencial o comercial:
 
 - Se considera autogeneración a pequeña escala hasta una capacidad instalada de **1 MW**, un rango que cubre de sobra a viviendas, comercios y buena parte de la pequeña y mediana industria.
-- Con fuentes renovables, los excedentes que entregas a la red se reconocen mediante un esquema de **medición bidireccional (net metering)**, es decir, con un medidor que cuenta lo que consumes y lo que entregas, generando créditos de energía a tu favor.
+- Con fuentes renovables, los excedentes que entrega a la red se reconocen mediante un esquema de **medición bidireccional (net metering)**, es decir, con un medidor que cuenta lo que consume y lo que entrega, generando créditos de energía a su favor.
 - La resolución simplificó los procedimientos de conexión y la entrega de excedentes, precisamente para que instalar y conectar un sistema pequeño no sea un trámite eterno.
 
 El punto fino aquí es la conexión: para entregar excedentes hay que solicitar la conexión ante el operador de red y cumplir los requisitos técnicos, incluida la legalización RETIE del sistema. Un proyecto mal legalizado no solo pierde este beneficio: puede quedarse sin poder conectarse formalmente.
@@ -60,9 +60,9 @@ Por eso en DINASTEL SAS trabajamos los proyectos solares llave en mano con un mi
 - **Ingeniería eléctrica y de redes:** diseño e instalación con RETIE, para que el sistema solar se integre sobre una instalación segura y en regla.
 - **Mantenimiento:** preventivo, correctivo y monitoreo remoto, para que el sistema siga produciendo —y ahorrando— año tras año.
 
-Aclaración importante: este artículo es orientativo. Las condiciones de cada crédito y la forma exacta de aplicar los beneficios tributarios dependen de tu situación particular y conviene validarlas con tu entidad financiera y tu contador. Lo que sí podemos garantizar desde la ingeniería es que tu proyecto quede bien diseñado y legalizado para que puedas aprovecharlos.
+Aclaración importante: este artículo es orientativo. Las condiciones de cada crédito y la forma exacta de aplicar los beneficios tributarios dependen de su situación particular y conviene validarlas con su entidad financiera y su contador. Lo que sí podemos garantizar desde la ingeniería es que su proyecto quede bien diseñado y legalizado para que pueda aprovecharlos.
 
-¿Quieres una cotización de tu sistema solar con el panorama claro de incentivos y opciones de financiación para tu caso? Escríbenos a comercial@dinastel.com o al +57 314 556 9567.
+¿Quiere una cotización de su sistema solar con el panorama claro de incentivos y opciones de financiación para su caso? Escríbanos a comercial@dinastel.com o al +57 314 556 9567.
 
 ---
 
@@ -78,13 +78,13 @@ Aclaración importante: este artículo es orientativo. Las condiciones de cada c
 - Tasas de crédito verde 8%–10% EA y panorama de financiación 2026 — OPS Colombia: https://www.opscolombia.com/blog/financiacion-de-paneles-solares-en-colombia-pagos
 - Resolución CREG 174 de 2021 (autogeneración a pequeña escala hasta 1 MW, medición bidireccional/net metering, simplificación de conexión) — CREG: https://creg.gov.co/publicaciones/14153/la-creg-actualizo-las-reglas-de-autogeneracion-a-pequena-escala-y-generacion-distribuida/
 
-**Origen de la idea:** artículo "¡Transforma tu hogar y ahorra con el Crédito Verde!" de Energías Limpias (Chile), que promociona una línea de financiamiento solar con Banco Estado (Chile). Solo se tomó la idea/ángulo (financiar solar para que se pague solo). El texto original se apoyaba en datos y entidades chilenas (Banco Estado, RUT, financiamiento a 10 años) que **no aplican en Colombia** y se descartaron por completo. Todo el contenido se reescribió con el marco legal y financiero real colombiano: Ley 1715/2099, líneas de crédito verde de la banca local y Resolución CREG 174 de 2021.
+**Origen de la idea:** artículo "¡Transforma su hogar y ahorra con el Crédito Verde!" de Energías Limpias (Chile), que promociona una línea de financiamiento solar con Banco Estado (Chile). Solo se tomó la idea/ángulo (financiar solar para que se pague solo). El texto original se apoyaba en datos y entidades chilenas (Banco Estado, RUT, financiamiento a 10 años) que **no aplican en Colombia** y se descartaron por completo. Todo el contenido se reescribió con el marco legal y financiero real colombiano: Ley 1715/2099, líneas de crédito verde de la banca local y Resolución CREG 174 de 2021.
 
 **Nota de precisión:** las tasas 8%–10% EA provienen de un reporte de sector (OPS Colombia), no de una tarifa oficial de banco; se presentó como referencia "según reportes del sector" y no como cifra garantizada. Ninguna cifra chilena del original se reutilizó.
 
 **Imagen destacada sugerida:** foto propia de archivo de brochure (`solar-01.webp`) — no se reutiliza imagen ajena del artículo original.
 
 **3 piezas para Instagram (pendientes — requieren autorización del conector de Canva):**
-1. Tarjeta "3 formas de financiar tu solar en Colombia" (incentivos / crédito verde / venta de excedentes).
-2. Tarjeta de dato: "Deduce el 50% de tu inversión en renta — Ley 1715".
-3. Tarjeta "Tu energía sobrante = crédito en tu factura" explicando net metering (CREG 174 de 2021), con CTA a cotizar.
+1. Tarjeta "3 formas de financiar su solar en Colombia" (incentivos / crédito verde / venta de excedentes).
+2. Tarjeta de dato: "Deduce el 50% de su inversión en renta — Ley 1715".
+3. Tarjeta "Su energía sobrante = crédito en su factura" explicando net metering (CREG 174 de 2021), con CTA a cotizar.

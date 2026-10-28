@@ -61,7 +61,7 @@ export const blogPosts: BlogPost[] = [
         type: "p",
         text: "La conclusión no es alarmista, es simple: la seguridad eléctrica de una vivienda o una empresa no es un detalle estético ni un trámite de papeleo. Es lo que separa una instalación que dura años de una que termina siendo noticia.",
       },
-      { type: "h2", text: "¿Qué es el RETIE y por qué debería importarte?" },
+      { type: "h2", text: "¿Qué es el RETIE y por qué debería importarle?" },
       {
         type: "p",
         text: "El RETIE (Reglamento Técnico de Instalaciones Eléctricas) es la norma que exige el Estado colombiano para que cualquier instalación eléctrica —residencial, comercial, industrial o solar— cumpla condiciones mínimas de seguridad: calibre de cable adecuado, protecciones térmicas y diferenciales, puesta a tierra, canalización correcta, y certificación de que todo eso quedó bien hecho.",
@@ -82,13 +82,13 @@ export const blogPosts: BlogPost[] = [
           "Cables expuestos o sin canalización, especialmente en zonas húmedas o de alto tránsito.",
           "\"Arreglos temporales\" que se vuelven permanentes. El parche de emergencia que nadie volvió a revisar.",
           "Equipos de alto consumo conectados sin dimensionar el circuito (aires acondicionados, cargadores, maquinaria).",
-          "Sistemas solares instalados sin interventoría ni protecciones DC certificadas. Un panel o un inversor mal instalado añade un riesgo eléctrico adicional al techo de tu casa o empresa.",
+          "Sistemas solares instalados sin interventoría ni protecciones DC certificadas. Un panel o un inversor mal instalado añade un riesgo eléctrico adicional al techo de su casa o empresa.",
           "Cero mantenimiento preventivo. Nadie revisa tableros, conexiones ni protecciones hasta que algo ya falló.",
         ],
       },
       {
         type: "quote",
-        text: "¿Te deja tranquilo que la instalación eléctrica o el sistema solar de tu casa o tu empresa se haya hecho sin certificación?",
+        text: "¿Lo deja tranquilo que la instalación eléctrica o el sistema solar de su casa o su empresa se haya hecho sin certificación?",
       },
       { type: "h2", text: "Cómo lo resolvemos en DINASTEL SAS" },
       {
@@ -99,13 +99,13 @@ export const blogPosts: BlogPost[] = [
         type: "ul",
         items: [
           "Ingeniería eléctrica y de redes: diseño, instalación y subestaciones de baja y media tensión, con interventoría, legalización y eficiencia energética incluidas.",
-          "Sistemas solares llave en mano: diseño, legalización e instalación on-grid o híbrida, con interventoría y puesta en marcha incluidas — sin trámites sueltos que coordinar por tu cuenta.",
+          "Sistemas solares llave en mano: diseño, legalización e instalación on-grid o híbrida, con interventoría y puesta en marcha incluidas — sin trámites sueltos que coordinar por su cuenta.",
           "Mantenimiento: preventivo, correctivo y monitoreo remoto, para que ninguna instalación quede sin revisión una vez entregada.",
         ],
       },
       {
         type: "p",
-        text: "¿Quieres saber si tu instalación eléctrica o tu sistema solar cumple con RETIE? Escríbenos y lo revisamos contigo.",
+        text: "¿Quiere saber si su instalación eléctrica o su sistema solar cumple con RETIE? Escríbanos y lo revisamos con usted.",
       },
     ],
     faq: [
@@ -149,7 +149,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "La buena noticia es que en Colombia esa barrera hoy se puede desmontar por tres vías que se combinan entre sí: los incentivos tributarios de la Ley 1715, las líneas de crédito verde de la banca, y la posibilidad de vender a la red la energía que te sobra. Bien estructuradas, hacen que un sistema solar deje de ser un gasto de una sola vez y se convierta en una inversión que se paga con el mismo dinero que hoy se va en la factura de luz.",
+        text: "La buena noticia es que en Colombia esa barrera hoy se puede desmontar por tres vías que se combinan entre sí: los incentivos tributarios de la Ley 1715, las líneas de crédito verde de la banca, y la posibilidad de vender a la red la energía que le sobra. Bien estructuradas, hacen que un sistema solar deje de ser un gasto de una sola vez y se convierta en una inversión que se paga con el mismo dinero que hoy se va en la factura de luz.",
       },
       { type: "h2", text: "1. Los incentivos que la mayoría no aprovecha (Ley 1715)" },
       {
@@ -172,28 +172,28 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "2. Crédito verde: financiar hoy, pagar con el ahorro" },
       {
         type: "p",
-        text: "El segundo componente es el financiamiento. La banca colombiana abrió líneas de crédito específicas para energía solar y eficiencia energética, las llamadas \"líneas verdes\", pensadas justamente para que no tengas que poner todo el capital de entrada.",
+        text: "El segundo componente es el financiamiento. La banca colombiana abrió líneas de crédito específicas para energía solar y eficiencia energética, las llamadas \"líneas verdes\", pensadas justamente para que no tenga que poner todo el capital de entrada.",
       },
       {
         type: "ul",
         items: [
           "Bancóldex reactivó su línea de crédito para energía solar (en alianza con FONDES), un mecanismo de redescuento a través de bancos aliados para financiar la estructuración e implementación de proyectos fotovoltaicos. Un detalle a tener en cuenta: en esa línea, el monto destinado a obras civiles no puede superar el 15% de los recursos solicitados.",
           "Otras entidades como Findeter, BBVA, Davivienda (con esquemas de leasing) y Bancolombia con su Línea Verde también ofrecen productos para financiar energías renovables.",
-          "Según reportes del sector, las líneas de crédito verde privadas se han venido ofreciendo con tasas del orden del 8% al 10% efectivo anual, aunque las condiciones dependen de cada entidad, del perfil del cliente y del momento — siempre conviene cotizar con tu banco.",
+          "Según reportes del sector, las líneas de crédito verde privadas se han venido ofreciendo con tasas del orden del 8% al 10% efectivo anual, aunque las condiciones dependen de cada entidad, del perfil del cliente y del momento — siempre conviene cotizar con su banco.",
         ],
       },
       {
         type: "quote",
-        text: "La idea de fondo es sencilla: si la cuota mensual del crédito se acerca a lo que hoy pagas de energía, empiezas a cambiar un gasto que no te deja nada por una inversión que al final del plazo queda tuya.",
+        text: "La idea de fondo es sencilla: si la cuota mensual del crédito se acerca a lo que hoy paga de energía, empieza a cambiar un gasto que no le deja nada por una inversión que al final del plazo queda suya.",
       },
       {
         type: "p",
-        text: "Combinar el crédito verde con los incentivos de la Ley 1715 es lo que hace la diferencia: financias la inversión con la línea del banco y, al mismo tiempo, recuperas parte de ese valor vía deducción de renta y exclusión de IVA.",
+        text: "Combinar el crédito verde con los incentivos de la Ley 1715 es lo que hace la diferencia: financia la inversión con la línea del banco y, al mismo tiempo, recupera parte de ese valor vía deducción de renta y exclusión de IVA.",
       },
-      { type: "h2", text: "3. La energía que te sobra también cuenta: venta de excedentes" },
+      { type: "h2", text: "3. La energía que le sobra también cuenta: venta de excedentes" },
       {
         type: "p",
-        text: "La tercera vía es la que más sorprende a quien apenas está conociendo el tema. En Colombia, un sistema solar conectado a la red (on-grid) no solo te ahorra la energía que consumes: la energía que produces y no usas se puede entregar a la red y descontarla de tu factura.",
+        text: "La tercera vía es la que más sorprende a quien apenas está conociendo el tema. En Colombia, un sistema solar conectado a la red (on-grid) no solo le ahorra la energía que consume: la energía que produce y no usa se puede entregar a la red y descontarla de su factura.",
       },
       {
         type: "p",
@@ -203,7 +203,7 @@ export const blogPosts: BlogPost[] = [
         type: "ul",
         items: [
           "Se considera autogeneración a pequeña escala hasta una capacidad instalada de 1 MW, un rango que cubre de sobra a viviendas, comercios y buena parte de la pequeña y mediana industria.",
-          "Con fuentes renovables, los excedentes que entregas a la red se reconocen mediante un esquema de medición bidireccional (net metering), es decir, con un medidor que cuenta lo que consumes y lo que entregas, generando créditos de energía a tu favor.",
+          "Con fuentes renovables, los excedentes que entrega a la red se reconocen mediante un esquema de medición bidireccional (net metering), es decir, con un medidor que cuenta lo que consume y lo que entrega, generando créditos de energía a su favor.",
           "La resolución simplificó los procedimientos de conexión y la entrega de excedentes, precisamente para que instalar y conectar un sistema pequeño no sea un trámite eterno.",
         ],
       },
@@ -230,11 +230,11 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Aclaración importante: este artículo es orientativo. Las condiciones de cada crédito y la forma exacta de aplicar los beneficios tributarios dependen de tu situación particular y conviene validarlas con tu entidad financiera y tu contador. Lo que sí podemos garantizar desde la ingeniería es que tu proyecto quede bien diseñado y legalizado para que puedas aprovecharlos.",
+        text: "Aclaración importante: este artículo es orientativo. Las condiciones de cada crédito y la forma exacta de aplicar los beneficios tributarios dependen de su situación particular y conviene validarlas con su entidad financiera y su contador. Lo que sí podemos garantizar desde la ingeniería es que su proyecto quede bien diseñado y legalizado para que pueda aprovecharlos.",
       },
       {
         type: "p",
-        text: "¿Quieres una cotización de tu sistema solar con el panorama claro de incentivos y opciones de financiación para tu caso? Escríbenos y lo estructuramos contigo.",
+        text: "¿Quiere una cotización de su sistema solar con el panorama claro de incentivos y opciones de financiación para su caso? Escríbanos y lo estructuramos con usted.",
       },
     ],
     faq: [
@@ -248,7 +248,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         q: "¿Puedo vender la energía solar que no consumo?",
-        a: "Sí. La Resolución CREG 174 de 2021 regula la autogeneración a pequeña escala (hasta 1 MW) y permite un esquema de medición bidireccional (net metering) que genera créditos de energía por los excedentes que entregas a la red.",
+        a: "Sí. La Resolución CREG 174 de 2021 regula la autogeneración a pequeña escala (hasta 1 MW) y permite un esquema de medición bidireccional (net metering) que genera créditos de energía por los excedentes que entrega a la red.",
       },
       {
         q: "¿Necesito legalizar mi sistema para vender excedentes de energía?",
@@ -359,7 +359,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "¿Tienes una finca o un proyecto agrícola donde el diésel o la falta de red te están costando caro? Escríbenos y evaluamos contigo si el bombeo solar y un sistema fotovoltaico llave en mano tienen sentido para tu caso.",
+        text: "¿Tiene una finca o un proyecto agrícola donde el diésel o la falta de red le están costando caro? Escríbanos y evaluamos con usted si el bombeo solar y un sistema fotovoltaico llave en mano tienen sentido para su caso.",
       },
     ],
     faq: [
@@ -387,7 +387,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "monitoreo-automatizacion-rendimiento-sistema-solar-electrico-colombia",
-    title: "Lo que no se mide, se paga: monitoreo y automatización para que tu sistema solar (y tu instalación eléctrica) rinda de verdad",
+    title: "Lo que no se mide, se paga: monitoreo y automatización para que su sistema solar (y su instalación eléctrica) rinda de verdad",
     excerpt:
       "Colombia superó los 3 GW solares y la autogeneración se disparó, pero muchos sistemas producen menos de lo que deberían sin que nadie lo note. El monitoreo remoto y la automatización son lo que convierte una instalación en una inversión que se controla con datos, no con suposiciones.",
     category: ["Automatización", "Energía Solar", "Mantenimiento"],
@@ -412,7 +412,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Ese mismo año dejó otra lección: entre febrero y marzo de 2026 los precios de la energía en bolsa subieron alrededor del 80% según XM, por el manejo preventivo de embalses ante el riesgo de El Niño. Con una matriz que sigue dependiendo en cerca de dos tercios de la generación hídrica, cada kilovatio que tu propio sistema produce bien es un kilovatio que no le compras a una red volátil. Por eso importa tanto que produzca bien, no solo que produzca.",
+        text: "Ese mismo año dejó otra lección: entre febrero y marzo de 2026 los precios de la energía en bolsa subieron alrededor del 80% según XM, por el manejo preventivo de embalses ante el riesgo de El Niño. Con una matriz que sigue dependiendo en cerca de dos tercios de la generación hídrica, cada kilovatio que su propio sistema produce bien es un kilovatio que no le compra a una red volátil. Por eso importa tanto que produzca bien, no solo que produzca.",
       },
       { type: "h2", text: "El problema silencioso: producir menos de lo que se debería" },
       {
@@ -453,20 +453,20 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Automatización: que el sistema reaccione solo" },
       {
         type: "p",
-        text: "El monitoreo te dice qué está pasando; la automatización hace que el sistema actúe sin esperar a que alguien reaccione. Es el terreno donde la ingeniería eléctrica se cruza con las telecomunicaciones y el control. Con la lógica de control adecuada, una instalación puede priorizar el autoconsumo cuando hay sol, gestionar la carga de un banco de baterías, transferir automáticamente a respaldo cuando la red se cae, o apagar equipos no críticos ante una sobrecarga.",
+        text: "El monitoreo le dice qué está pasando; la automatización hace que el sistema actúe sin esperar a que alguien reaccione. Es el terreno donde la ingeniería eléctrica se cruza con las telecomunicaciones y el control. Con la lógica de control adecuada, una instalación puede priorizar el autoconsumo cuando hay sol, gestionar la carga de un banco de baterías, transferir automáticamente a respaldo cuando la red se cae, o apagar equipos no críticos ante una sobrecarga.",
       },
       {
         type: "p",
         text: "Para una empresa con operación continua, esto es la diferencia entre un corte que detiene la producción y una transferencia que el personal ni siquiera nota. Para un hogar o un conjunto residencial, es la diferencia entre aprovechar de verdad la energía propia y desperdiciar la mitad.",
       },
-      { type: "h2", text: "No es solo cosa del sol: tu instalación eléctrica también" },
+      { type: "h2", text: "No es solo cosa del sol: su instalación eléctrica también" },
       {
         type: "p",
         text: "El mismo principio aplica a la parte eléctrica \"tradicional\". Un tablero, una subestación o un circuito industrial también se degradan, y también avisan antes de fallar —con calentamiento, con caídas de tensión, con consumos anómalos— si alguien está midiendo. La termografía periódica de tableros, el monitoreo de variables eléctricas y las alarmas ante anomalías son la versión eléctrica de la misma idea: lo que se mide se puede corregir a tiempo; lo que no se mide, se paga cuando ya es tarde.",
       },
       {
         type: "quote",
-        text: "¿Sabes hoy, con datos, cuánto está produciendo tu sistema solar y si tu instalación eléctrica está funcionando como debería? ¿O lo estás asumiendo?",
+        text: "¿Sabe hoy, con datos, cuánto está produciendo su sistema solar y si su instalación eléctrica está funcionando como debería? ¿O lo está asumiendo?",
       },
       { type: "h2", text: "Cómo lo resolvemos en DINASTEL SAS" },
       {
@@ -476,7 +476,7 @@ export const blogPosts: BlogPost[] = [
       {
         type: "ul",
         items: [
-          "Telecomunicaciones y automatización: instrumentación, control y monitoreo remoto para que tu instalación se lea en tiempo real y reaccione sola ante lo previsible.",
+          "Telecomunicaciones y automatización: instrumentación, control y monitoreo remoto para que su instalación se lea en tiempo real y reaccione sola ante lo previsible.",
           "Sistemas solares llave en mano: diseño, legalización e instalación on-grid o híbrida, entregados con monitoreo de producción incluido para que el ahorro se pueda verificar, no solo prometer.",
           "Ingeniería eléctrica y de redes: diseño, instalación y subestaciones de baja y media tensión, con interventoría y eficiencia energética.",
           "Mantenimiento: preventivo, correctivo y monitoreo remoto, para que ninguna instalación quede sin vigilancia una vez entregada.",
@@ -484,11 +484,11 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Aclaración: los rangos de pérdidas y de capacidad efectiva mencionados son referencias técnicas del sector y varían según el clima, la ubicación, el tipo de suciedad y el estado de cada instalación. Por eso el primer paso siempre es un diagnóstico real de tu caso, no un promedio genérico.",
+        text: "Aclaración: los rangos de pérdidas y de capacidad efectiva mencionados son referencias técnicas del sector y varían según el clima, la ubicación, el tipo de suciedad y el estado de cada instalación. Por eso el primer paso siempre es un diagnóstico real de su caso, no un promedio genérico.",
       },
       {
         type: "p",
-        text: "¿Quieres saber cuánto está rindiendo de verdad tu sistema solar o tu instalación eléctrica —y cuánto podrías estar perdiendo sin notarlo? Escríbenos y lo revisamos contigo con datos.",
+        text: "¿Quiere saber cuánto está rindiendo de verdad su sistema solar o su instalación eléctrica —y cuánto podría estar perdiendo sin notarlo? Escríbanos y lo revisamos con usted con datos.",
       },
     ],
     faq: [
@@ -506,7 +506,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         q: "¿Qué diferencia hay entre monitoreo y automatización?",
-        a: "El monitoreo te dice qué está pasando (producción, fallas, caídas de rendimiento); la automatización hace que el sistema actúe solo — priorizar autoconsumo, gestionar baterías o transferir a respaldo ante un corte, sin esperar intervención humana.",
+        a: "El monitoreo le dice qué está pasando (producción, fallas, caídas de rendimiento); la automatización hace que el sistema actúe solo — priorizar autoconsumo, gestionar baterías o transferir a respaldo ante un corte, sin esperar intervención humana.",
       },
       {
         q: "¿El monitoreo también sirve para instalaciones eléctricas normales, no solo solares?",
@@ -516,7 +516,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "estudio-factibilidad-solar-colombia-cuanto-produce-antes-de-instalar",
-    title: "Antes de comprar los paneles: por qué un estudio de factibilidad decide cuánto vas a ahorrar de verdad",
+    title: "Antes de comprar los paneles: por qué un estudio de factibilidad decide cuánto va a ahorrar de verdad",
     excerpt:
       "En 2025 la energía solar superó por primera vez al carbón en Colombia y ya hay más de 24.000 techos solares registrados. Pero cada techo produce distinto: la diferencia entre una buena y una mala inversión no está en el panel, está en el estudio que se hace antes de comprarlo.",
     category: ["Energía Solar", "Ingeniería", "Factibilidad"],
@@ -532,7 +532,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "La verdad es más aburrida y mucho más útil: cuánto vas a producir —y por lo tanto cuánto vas a ahorrar— depende de datos concretos de tu caso. Y esos datos se levantan antes de comprar nada, en lo que llamamos un estudio de factibilidad. Lo más inteligente que puedes hacer antes de invertir en paneles no es comprar paneles: es medir.",
+        text: "La verdad es más aburrida y mucho más útil: cuánto va a producir —y por lo tanto cuánto va a ahorrar— depende de datos concretos de su caso. Y esos datos se levantan antes de comprar nada, en lo que llamamos un estudio de factibilidad. Lo más inteligente que puede hacer antes de invertir en paneles no es comprar paneles: es medir.",
       },
       { type: "h2", text: "El país ya decidió; falta que cada techo decida bien" },
       {
@@ -541,7 +541,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Ese es justamente el punto. La decisión de país ya está tomada; la que falta es la de cada techo. Y ahí no sirve el promedio nacional: sirve el número de tu instalación. Dos casas en la misma cuadra, con el mismo panel, pueden producir muy distinto según hacia dónde miran, qué sombras tienen y cuánta energía consumen. El promedio no paga tu factura; tu sistema sí, si está bien dimensionado.",
+        text: "Ese es justamente el punto. La decisión de país ya está tomada; la que falta es la de cada techo. Y ahí no sirve el promedio nacional: sirve el número de su instalación. Dos casas en la misma cuadra, con el mismo panel, pueden producir muy distinto según hacia dónde miran, qué sombras tienen y cuánta energía consumen. El promedio no paga su factura; su sistema sí, si está bien dimensionado.",
       },
       { type: "h2", text: "\"¿Cuánto voy a producir?\" empieza por las horas de sol pico" },
       {
@@ -550,42 +550,42 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Y ese número cambia según dónde estés. Cali, donde trabajamos, recibe más de 1.700 horas de sol al año, con un recurso solar del orden de 4,5 kWh/m² al día. Medellín ronda las 4,3 HSP, mientras ciudades de la costa como Barranquilla o Cartagena se acercan a 5,4 HSP. La misma potencia instalada produce distinto en cada una. Por eso el recurso solar de tu ubicación —no el de un folleto genérico— es lo primero que hay que medir.",
+        text: "Y ese número cambia según dónde esté. Cali, donde trabajamos, recibe más de 1.700 horas de sol al año, con un recurso solar del orden de 4,5 kWh/m² al día. Medellín ronda las 4,3 HSP, mientras ciudades de la costa como Barranquilla o Cartagena se acercan a 5,4 HSP. La misma potencia instalada produce distinto en cada una. Por eso el recurso solar de su ubicación —no el de un folleto genérico— es lo primero que hay que medir.",
       },
       { type: "h2", text: "El error más caro es dimensionar a ojo" },
       {
         type: "p",
-        text: "Con el sol resuelto, viene la otra mitad de la ecuación: cuánta energía consumes tú. Aquí es donde más proyectos se tuercen, porque el sistema se dimensiona \"a ojo\" o al tamaño que le conviene al vendedor, no al que necesita el cliente. Y equivocarse cuesta en las dos direcciones.",
+        text: "Con el sol resuelto, viene la otra mitad de la ecuación: cuánta energía consume usted. Aquí es donde más proyectos se tuercen, porque el sistema se dimensiona \"a ojo\" o al tamaño que le conviene al vendedor, no al que necesita el cliente. Y equivocarse cuesta en las dos direcciones.",
       },
       {
         type: "ul",
         items: [
-          "Un sistema sobredimensionado —más grande de lo que tu consumo justifica— encarece el proyecto sin necesidad: pagas por una capacidad que produce excedentes que no siempre recuperas del todo.",
+          "Un sistema sobredimensionado —más grande de lo que su consumo justifica— encarece el proyecto sin necesidad: paga por una capacidad que produce excedentes que no siempre recupera del todo.",
           "Un sistema subdimensionado —más pequeño de lo que debería— se queda corto: no cubre la demanda prevista y el ahorro real termina muy por debajo de lo prometido.",
         ],
       },
       {
         type: "p",
-        text: "La forma de acertar no es adivinar: es leer tu consumo real. Tus facturas de energía de los últimos 12 meses dicen cuántos kilovatios-hora gastas mes a mes y cómo varía tu consumo en el año. Ese perfil, cruzado con las HSP de tu zona, es lo que permite dimensionar un sistema a la medida —ni grande de más, ni corto—.",
+        text: "La forma de acertar no es adivinar: es leer su consumo real. Sus facturas de energía de los últimos 12 meses dicen cuántos kilovatios-hora gasta mes a mes y cómo varía su consumo en el año. Ese perfil, cruzado con las HSP de su zona, es lo que permite dimensionar un sistema a la medida —ni grande de más, ni corto—.",
       },
       { type: "h2", text: "Qué mira, en concreto, un estudio de factibilidad" },
       {
         type: "p",
-        text: "Un estudio de factibilidad bien hecho no es un formulario ni una cotización de una línea. Es el trabajo de ingeniería que convierte \"quiero paneles\" en \"esto es lo que vas a producir, ahorrar y recuperar\". Reúne, como mínimo:",
+        text: "Un estudio de factibilidad bien hecho no es un formulario ni una cotización de una línea. Es el trabajo de ingeniería que convierte \"quiero paneles\" en \"esto es lo que va a producir, ahorrar y recuperar\". Reúne, como mínimo:",
       },
       {
         type: "ol",
         items: [
-          "Recurso solar del sitio: las HSP reales de tu ubicación, no un promedio nacional.",
-          "Perfil de consumo: tus kWh mes a mes durante un año, para dimensionar contra tu demanda real.",
-          "Espacio y estructura: cuántos paneles caben de verdad en tu techo o terreno, y si la estructura los soporta con seguridad.",
+          "Recurso solar del sitio: las HSP reales de su ubicación, no un promedio nacional.",
+          "Perfil de consumo: sus kWh mes a mes durante un año, para dimensionar contra su demanda real.",
+          "Espacio y estructura: cuántos paneles caben de verdad en su techo o terreno, y si la estructura los soporta con seguridad.",
           "Sombras y orientación: un árbol, un tanque, un edificio vecino o una mala orientación pueden restar producción todos los días; se evalúan antes, no después.",
-          "Análisis financiero: costo del sistema, ahorro estimado, tiempo de retorno y cómo entran los incentivos de ley y la venta de excedentes en tu caso particular.",
+          "Análisis financiero: costo del sistema, ahorro estimado, tiempo de retorno y cómo entran los incentivos de ley y la venta de excedentes en su caso particular.",
         ],
       },
       {
         type: "p",
-        text: "Esa es, en el fondo, la misma lógica que hoy empujan los gobiernos de la región cuando desarrollan plataformas y herramientas de información para que quien invierte en solar decida con datos y no con corazonadas. La herramienta ayuda; el estudio de ingeniería aterriza esos datos a tu techo concreto.",
+        text: "Esa es, en el fondo, la misma lógica que hoy empujan los gobiernos de la región cuando desarrollan plataformas y herramientas de información para que quien invierte en solar decida con datos y no con corazonadas. La herramienta ayuda; el estudio de ingeniería aterriza esos datos a su techo concreto.",
       },
       { type: "h2", text: "Cuánto cuesta y en cuánto se paga" },
       {
@@ -594,7 +594,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "¿Y el retorno? Para sistemas residenciales conectados a red, el tiempo de recuperación de la inversión suele estimarse en un rango de 4 a 6 años, dependiendo del consumo, la tarifa que pagas y qué tan bien quedó dimensionado el sistema. La palabra clave es \"dependiendo\": ese retorno lo define el estudio, no el folleto.",
+        text: "¿Y el retorno? Para sistemas residenciales conectados a red, el tiempo de recuperación de la inversión suele estimarse en un rango de 4 a 6 años, dependiendo del consumo, la tarifa que paga y qué tan bien quedó dimensionado el sistema. La palabra clave es \"dependiendo\": ese retorno lo define el estudio, no el folleto.",
       },
       {
         type: "quote",
@@ -603,12 +603,12 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Cómo lo hacemos en DINASTEL SAS" },
       {
         type: "p",
-        text: "En DINASTEL trabajamos cualquier proyecto con un mismo flujo integral: diagnóstico, diseño, ejecución y operación. El estudio de factibilidad es la primera etapa —el diagnóstico— y no es un paso suelto ni un extra: es lo que hace que todo lo demás tenga sentido. Preferimos decirte con datos que un proyecto no te conviene, antes que venderte uno que no va a rendir.",
+        text: "En DINASTEL trabajamos cualquier proyecto con un mismo flujo integral: diagnóstico, diseño, ejecución y operación. El estudio de factibilidad es la primera etapa —el diagnóstico— y no es un paso suelto ni un extra: es lo que hace que todo lo demás tenga sentido. Preferimos decirle con datos que un proyecto no le conviene, antes que venderle uno que no va a rendir.",
       },
       {
         type: "ul",
         items: [
-          "Sistemas solares llave en mano: diagnóstico y estudio de factibilidad, diseño, legalización RETIE, instalación on-grid o híbrida y puesta en marcha, con la producción estimada sobre tu consumo real, no sobre un promedio.",
+          "Sistemas solares llave en mano: diagnóstico y estudio de factibilidad, diseño, legalización RETIE, instalación on-grid o híbrida y puesta en marcha, con la producción estimada sobre su consumo real, no sobre un promedio.",
           "Ingeniería eléctrica y de redes: la base segura y bien dimensionada sobre la que se conecta cualquier sistema solar, con interventoría y eficiencia energética.",
           "Telecomunicaciones y automatización: instrumentación y monitoreo para verificar, ya en operación, que el sistema produce lo que el estudio prometió.",
           "Obras civiles: estructuras de soporte y adecuaciones necesarias, hechas para durar.",
@@ -617,17 +617,17 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Aclaración: las cifras de costo, HSP y tiempo de retorno de este artículo son referencias de mercado y varían según tu ubicación, tu consumo, la tarifa que pagas y las condiciones de cada proyecto. Precisamente por eso el primer paso siempre es un estudio real de tu caso, no un número prometido de memoria.",
+        text: "Aclaración: las cifras de costo, HSP y tiempo de retorno de este artículo son referencias de mercado y varían según su ubicación, su consumo, la tarifa que paga y las condiciones de cada proyecto. Precisamente por eso el primer paso siempre es un estudio real de su caso, no un número prometido de memoria.",
       },
       {
         type: "p",
-        text: "¿Quieres saber, con datos, cuánto produciría y ahorraría un sistema solar en tu techo antes de invertir un peso? Escríbenos y hacemos el estudio de factibilidad contigo.",
+        text: "¿Quiere saber, con datos, cuánto produciría y ahorraría un sistema solar en su techo antes de invertir un peso? Escríbanos y hacemos el estudio de factibilidad con usted.",
       },
     ],
     faq: [
       {
         q: "¿Qué es un estudio de factibilidad solar y por qué es necesario?",
-        a: "Es el análisis técnico que mide el recurso solar de tu ubicación, tu consumo real, el espacio disponible, las sombras y el retorno financiero antes de comprar un sistema — evita comprar un sistema sobre o subdimensionado.",
+        a: "Es el análisis técnico que mide el recurso solar de su ubicación, su consumo real, el espacio disponible, las sombras y el retorno financiero antes de comprar un sistema — evita comprar un sistema sobre o subdimensionado.",
       },
       {
         q: "¿Cuánto cuesta un sistema solar residencial en Colombia?",
@@ -639,11 +639,11 @@ export const blogPosts: BlogPost[] = [
       },
       {
         q: "¿Qué son las Horas Sol Pico (HSP) y por qué importan?",
-        a: "Son las horas equivalentes al día en que el sol pega con su máxima intensidad (1.000 W/m²) — el dato base para calcular cuánto producirá realmente un sistema en tu ubicación. Cali tiene cerca de 4,5 HSP, Medellín 4,3, y ciudades de la costa hasta 5,4 HSP.",
+        a: "Son las horas equivalentes al día en que el sol pega con su máxima intensidad (1.000 W/m²) — el dato base para calcular cuánto producirá realmente un sistema en su ubicación. Cali tiene cerca de 4,5 HSP, Medellín 4,3, y ciudades de la costa hasta 5,4 HSP.",
       },
       {
         q: "¿Qué pasa si mi sistema solar queda mal dimensionado?",
-        a: "Si queda sobredimensionado, pagas de más por una capacidad que no siempre recuperas en excedentes; si queda subdimensionado, no cubre tu demanda real y el ahorro termina muy por debajo de lo prometido.",
+        a: "Si queda sobredimensionado, paga de más por una capacidad que no siempre recupera en excedentes; si queda subdimensionado, no cubre su demanda real y el ahorro termina muy por debajo de lo prometido.",
       },
     ],
   },
@@ -661,7 +661,7 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "p",
-        text: "Un panel solar produce cuando hay sol. Suena obvio, pero encierra el límite de fondo de la energía solar: al mediodía te sobra energía y en la noche —o cuando pasa una nube, o cuando se cae la red— no tienes nada. Durante años esa fue la letra pequeña que casi nadie leía al instalar paneles. Hoy, con un sistema eléctrico nacional cada vez más ajustado, esa letra pequeña se volvió la pregunta principal: ¿qué pasa cuando el sol no está… o cuando la red simplemente falla?",
+        text: "Un panel solar produce cuando hay sol. Suena obvio, pero encierra el límite de fondo de la energía solar: al mediodía le sobra energía y en la noche —o cuando pasa una nube, o cuando se cae la red— no tiene nada. Durante años esa fue la letra pequeña que casi nadie leía al instalar paneles. Hoy, con un sistema eléctrico nacional cada vez más ajustado, esa letra pequeña se volvió la pregunta principal: ¿qué pasa cuando el sol no está… o cuando la red simplemente falla?",
       },
       {
         type: "p",
@@ -696,20 +696,20 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Qué hace realmente el almacenamiento" },
       {
         type: "p",
-        text: "Una batería en un sistema solar cumple tres funciones que se suman entre sí, y entender cuál pesa más en tu caso es la mitad del diseño:",
+        text: "Una batería en un sistema solar cumple tres funciones que se suman entre sí, y entender cuál pesa más en su caso es la mitad del diseño:",
       },
       {
         type: "ul",
         items: [
           "Respaldo ante cortes: cuando la red se cae, un sistema híbrido bien diseñado transfiere la carga a las baterías en fracciones de segundo, y las cargas críticas —nevera, internet, un cuarto frío, un servidor, luces— siguen funcionando como si nada. Es el equivalente silencioso y sin humo de una planta diésel, pero sin combustible ni arranque manual.",
-          "Aprovechar tu propia energía (autoconsumo): en vez de entregar a la red el excedente del mediodía y volver a comprarlo caro en la noche, lo guardas y lo usas tú. En zonas donde la remuneración de excedentes no es la ideal, almacenar y autoconsumir puede rendir más que vender.",
+          "Aprovechar su propia energía (autoconsumo): en vez de entregar a la red el excedente del mediodía y volver a comprarlo caro en la noche, lo guarda y lo usa usted. En zonas donde la remuneración de excedentes no es la ideal, almacenar y autoconsumir puede rendir más que vender.",
           "Gestión de tarifa y demanda: para una empresa, las baterías permiten recortar picos de consumo y usar energía almacenada en las horas más caras, suavizando la factura sin apagar la operación.",
         ],
       },
       { type: "h2", text: "On-grid, híbrido o aislado: no todos necesitan lo mismo" },
       {
         type: "p",
-        text: "Aquí es donde conviene bajar las expectativas de marketing y subir las de ingeniería. No todo el mundo necesita —ni le conviene pagar— un banco de baterías enorme. La decisión depende de tu objetivo:",
+        text: "Aquí es donde conviene bajar las expectativas de marketing y subir las de ingeniería. No todo el mundo necesita —ni le conviene pagar— un banco de baterías enorme. La decisión depende de su objetivo:",
       },
       {
         type: "ol",
@@ -721,7 +721,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "El error costoso es comprar un sistema con baterías sin haber definido antes qué cargas quieres respaldar y por cuántas horas. Respaldar una casa entera con aire acondicionado durante ocho horas no es lo mismo que sostener la nevera, el wifi y unas luces por una noche: la diferencia en tamaño —y en precio— es enorme.",
+        text: "El error costoso es comprar un sistema con baterías sin haber definido antes qué cargas quiere respaldar y por cuántas horas. Respaldar una casa entera con aire acondicionado durante ocho horas no es lo mismo que sostener la nevera, el wifi y unas luces por una noche: la diferencia en tamaño —y en precio— es enorme.",
       },
       { type: "h2", text: "El precio de las baterías va en la dirección correcta" },
       {
@@ -744,12 +744,12 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Cómo lo abordamos en DINASTEL SAS" },
       {
         type: "p",
-        text: "En DINASTEL trabajamos cualquier proyecto con un mismo flujo integral: diagnóstico, diseño, ejecución y operación. Con el almacenamiento ese primer paso pesa aún más, porque un sistema híbrido mal dimensionado es caro por partida doble: se paga de más y no respalda lo que debía. Preferimos empezar por entender qué necesitas mantener encendido y por cuánto tiempo, y a partir de ahí diseñar.",
+        text: "En DINASTEL trabajamos cualquier proyecto con un mismo flujo integral: diagnóstico, diseño, ejecución y operación. Con el almacenamiento ese primer paso pesa aún más, porque un sistema híbrido mal dimensionado es caro por partida doble: se paga de más y no respalda lo que debía. Preferimos empezar por entender qué necesita mantener encendido y por cuánto tiempo, y a partir de ahí diseñar.",
       },
       {
         type: "ul",
         items: [
-          "Sistemas solares llave en mano (on-grid, híbridos o aislados): diagnóstico del consumo y de las cargas críticas, diseño, legalización RETIE, instalación y puesta en marcha, con el banco de baterías dimensionado a lo que de verdad quieres respaldar.",
+          "Sistemas solares llave en mano (on-grid, híbridos o aislados): diagnóstico del consumo y de las cargas críticas, diseño, legalización RETIE, instalación y puesta en marcha, con el banco de baterías dimensionado a lo que de verdad quiere respaldar.",
           "Ingeniería eléctrica y de redes con RETIE: tableros de transferencia, protecciones y puesta a tierra bien hechas, la base segura sobre la que se conecta cualquier sistema de respaldo.",
           "Telecomunicaciones y automatización: control inteligente de carga y descarga, transferencia automática a respaldo y monitoreo remoto del estado de las baterías, para que el sistema reaccione solo ante un corte.",
           "Obras civiles: adecuación de espacios ventilados y seguros para el banco de baterías y el inversor, hechos para durar.",
@@ -758,17 +758,17 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "Aclaración: las cifras de precios de baterías, tiempos de respaldo y el escenario de abastecimiento nacional son referencias del sector y de los reportes oficiales citados, y varían según la evolución del mercado, el clima y cada proyecto. El respaldo real que necesita tu caso —qué cargas, cuántas horas, con qué presupuesto— solo lo define un diseño serio, no un tamaño de batería prometido de memoria.",
+        text: "Aclaración: las cifras de precios de baterías, tiempos de respaldo y el escenario de abastecimiento nacional son referencias del sector y de los reportes oficiales citados, y varían según la evolución del mercado, el clima y cada proyecto. El respaldo real que necesita su caso —qué cargas, cuántas horas, con qué presupuesto— solo lo define un diseño serio, no un tamaño de batería prometido de memoria.",
       },
       {
         type: "p",
-        text: "¿Quieres saber si un sistema solar híbrido con baterías tiene sentido para tu casa, tu finca o tu empresa antes de que el próximo corte te agarre desprevenido? Escríbenos y lo evaluamos contigo.",
+        text: "¿Quiere saber si un sistema solar híbrido con baterías tiene sentido para su casa, su finca o su empresa antes de que el próximo corte lo agarre desprevenido? Escríbanos y lo evaluamos con usted.",
       },
     ],
     faq: [
       {
         q: "¿Vale la pena instalar baterías en un sistema solar en Colombia?",
-        a: "Depende del objetivo. Si buscas respaldo ante cortes o racionamiento, un sistema híbrido con baterías es la única opción que mantiene encendidas tus cargas críticas cuando la red se cae. Si solo buscas bajar la factura, un on-grid sin baterías puede bastar. Con el margen ajustado del sistema eléctrico en 2026-2027, el respaldo cobra más sentido que nunca.",
+        a: "Depende del objetivo. Si busca respaldo ante cortes o racionamiento, un sistema híbrido con baterías es la única opción que mantiene encendidas sus cargas críticas cuando la red se cae. Si solo busca bajar la factura, un on-grid sin baterías puede bastar. Con el margen ajustado del sistema eléctrico en 2026-2027, el respaldo cobra más sentido que nunca.",
       },
       {
         q: "¿Un sistema solar normal funciona cuando se va la luz?",
@@ -776,7 +776,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         q: "¿Cuánto respaldo dan las baterías?",
-        a: "Depende del tamaño del banco y de las cargas que quieras sostener. No es lo mismo mantener nevera, wifi y luces por una noche que respaldar una casa con aire acondicionado por varias horas. Por eso el diseño parte de definir qué cargas críticas quieres respaldar y por cuánto tiempo.",
+        a: "Depende del tamaño del banco y de las cargas que quiera sostener. No es lo mismo mantener nevera, wifi y luces por una noche que respaldar una casa con aire acondicionado por varias horas. Por eso el diseño parte de definir qué cargas críticas quiere respaldar y por cuánto tiempo.",
       },
       {
         q: "¿Por qué hoy se habla tanto de almacenamiento si antes no?",
@@ -894,7 +894,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "¿Tienes un terreno agrícola en el suroccidente colombiano y te preguntas si podría producir energía sin sacrificar el cultivo? Escríbenos y evaluamos contigo si un proyecto agrivoltaico tiene sentido para tu caso.",
+        text: "¿Tiene un terreno agrícola en el suroccidente colombiano y se pregunta si podría producir energía sin sacrificar el cultivo? Escríbanos y evaluamos con usted si un proyecto agrivoltaico tiene sentido para su caso.",
       },
     ],
     faq: [
@@ -1019,7 +1019,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "¿Tienes un cultivo o un distrito de riego en el suroccidente colombiano y sospechas que estás gastando de más en agua o en energía de bombeo? Escríbenos y evaluamos contigo si instrumentar y automatizar el riego tiene sentido para tu caso.",
+        text: "¿Tiene un cultivo o un distrito de riego en el suroccidente colombiano y sospecha que está gastando de más en agua o en energía de bombeo? Escríbanos y evaluamos con usted si instrumentar y automatizar el riego tiene sentido para su caso.",
       },
     ],
     faq: [
@@ -1156,7 +1156,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "¿Tienes una operación productiva en el suroccidente colombiano a la que la energía inestable o la falta de conexión le están costando caro? Escríbenos y evaluamos contigo cómo dejarla conectada y con energía confiable.",
+        text: "¿Tiene una operación productiva en el suroccidente colombiano a la que la energía inestable o la falta de conexión le están costando caro? Escríbanos y evaluamos con usted cómo dejarla conectada y con energía confiable.",
       },
     ],
     faq: [
@@ -1266,7 +1266,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "quote",
-        text: "¿Sabes hoy, con datos, cuánto te cuesta la energía de tu frío y qué pasaría con tu producto si la red se cae un fin de semana entero?",
+        text: "¿Sabe hoy, con datos, cuánto le cuesta la energía de su frío y qué pasaría con su producto si la red se cae un fin de semana entero?",
       },
       { type: "h2", text: "Cómo lo abordamos en DINASTEL SAS" },
       {
@@ -1289,7 +1289,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "¿Tienes una finca, un centro de acopio o una planta de proceso donde el costo de la energía o los cortes de luz te están costando producto? Escríbenos a comercial@dinastel.com o al +57 314 556 9567 y evaluamos contigo cómo sostener tu cadena de frío con energía solar confiable.",
+        text: "¿Tiene una finca, un centro de acopio o una planta de proceso donde el costo de la energía o los cortes de luz le están costando producto? Escríbanos a comercial@dinastel.com o al +57 314 556 9567 y evaluamos con usted cómo sostener su cadena de frío con energía solar confiable.",
       },
     ],
     faq: [
@@ -1382,7 +1382,7 @@ export const blogPosts: BlogPost[] = [
       { type: "h2", text: "Del dato a la decisión: por qué un estudio serio importa" },
       {
         type: "p",
-        text: "Un atlas de radiación y un boletín agroclimático son el punto de partida, no la respuesta. Dicen cuánto sol recibe una región en promedio y qué se espera del clima, pero no dicen cuántos paneles necesita tu bomba, cómo se comporta tu consumo hora a hora, cuánta sombra tiene tu terreno o si conviene un sistema conectado a la red, híbrido o aislado. Esa es la distancia entre un dato público y una inversión que de verdad rinde.",
+        text: "Un atlas de radiación y un boletín agroclimático son el punto de partida, no la respuesta. Dicen cuánto sol recibe una región en promedio y qué se espera del clima, pero no dicen cuántos paneles necesita su bomba, cómo se comporta su consumo hora a hora, cuánta sombra tiene su terreno o si conviene un sistema conectado a la red, híbrido o aislado. Esa es la distancia entre un dato público y una inversión que de verdad rinde.",
       },
       {
         type: "p",
@@ -1390,7 +1390,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "quote",
-        text: "¿Sabes hoy, con datos, cuánto te cuesta regar en temporada seca y qué pasaría con tu producción si la red se cae una semana entera en plena cosecha?",
+        text: "¿Sabe hoy, con datos, cuánto le cuesta regar en temporada seca y qué pasaría con su producción si la red se cae una semana entera en plena cosecha?",
       },
       { type: "h2", text: "Cómo lo abordamos en DINASTEL SAS" },
       {
@@ -1413,7 +1413,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "p",
-        text: "¿Tienes una finca o una agroindustria donde la sequía, el costo del diésel o los cortes de luz te están costando producción? Escríbenos a comercial@dinastel.com o al +57 314 556 9567 y evaluamos contigo cómo convertir los datos del clima y del sol en un sistema que responda cuando más lo necesitas.",
+        text: "¿Tiene una finca o una agroindustria donde la sequía, el costo del diésel o los cortes de luz le están costando producción? Escríbanos a comercial@dinastel.com o al +57 314 556 9567 y evaluamos con usted cómo convertir los datos del clima y del sol en un sistema que responda cuando más lo necesita.",
       },
     ],
     faq: [
@@ -1435,7 +1435,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         q: "¿Basta con mirar el atlas solar para instalar un sistema?",
-        a: "No. El atlas y los boletines son el punto de partida, no la respuesta. Dicen el promedio de una región, pero no cuántos paneles necesita tu bomba, cómo se comporta tu consumo, cuánta sombra tiene tu terreno o si conviene on-grid, híbrido o aislado. Por eso el primer paso es un estudio de factibilidad y un diseño de ingeniería sobre tu caso concreto.",
+        a: "No. El atlas y los boletines son el punto de partida, no la respuesta. Dicen el promedio de una región, pero no cuántos paneles necesita su bomba, cómo se comporta su consumo, cuánta sombra tiene su terreno o si conviene on-grid, híbrido o aislado. Por eso el primer paso es un estudio de factibilidad y un diseño de ingeniería sobre su caso concreto.",
       },
     ],
   },

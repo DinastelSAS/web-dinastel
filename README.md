@@ -1,7 +1,7 @@
 # DINASTEL SAS — Sitio web
 
-Landing page de DINASTEL S.A.S.: Vite + React + TypeScript + Tailwind + Framer Motion,
-publicada en GitHub Pages bajo `www.dinastel.com`.
+Sitio corporativo de DINASTEL S.A.S.: Vite + React + TypeScript + Tailwind + Framer Motion,
+publicado en GitHub Pages bajo `www.dinastel.com`.
 
 ## Desarrollo local
 
@@ -17,20 +17,29 @@ npm run build
 npm run preview
 ```
 
+## Prerender
+
+`npm run build` genera un HTML completo por ruta (para Google y buscadores de IA), además de
+`sitemap.xml`, `rss.xml` y `llms.txt`. Ver `CLAUDE.md`.
+
 ## Publicación
 
-El repo está configurado para publicar automáticamente en cada push a `main`
-(`.github/workflows/deploy.yml` hace build y deploy a GitHub Pages). El dominio
-personalizado (`www.dinastel.com`, con `dinastel.com` redirigiendo) y el certificado
-HTTPS ya están activos.
+Cada push a `main` ejecuta `.github/workflows/deploy.yml` (build + deploy a GitHub Pages).
+El dominio `www.dinastel.com` (con `dinastel.com` redirigiendo) y HTTPS ya están activos.
+Pasos detallados, verificación y reversión: **`INSTRUCCIONES-DESPLIEGUE.md`**.
 
-## Notas de contenido pendientes
+## Documentación
 
-- Las cifras de la sección "Crecimiento" (+150 proyectos, +12 años, +8 regiones, 98%) no están
-  verificadas contra datos reales de la sociedad — DINASTEL SAS se constituyó julio 2026. Se
-  dejaron por decisión explícita del fundador; revisar antes de una publicación formal a gran
-  escala. Ver `src/data/site.ts`.
-- El formulario de contacto no envía datos a ningún backend todavía (solo confirma en pantalla).
-  Falta conectar un servicio de envío (ej. Formspree, o función serverless) si se requiere
-  recepción real de leads.
-- Sin logo ni manual de marca formal — la paleta de color es una propuesta de trabajo.
+- `CLAUDE.md` — contexto y reglas del proyecto (contenido, imágenes, git).
+- `CAMBIOS-V2.md` — qué cambió en la versión 2 (oct-2026).
+- `DIAGNOSTICO-FALLAS.md` — fallas encontradas, estado y pendientes.
+
+## Notas
+
+- Formulario de contacto: envía a Formspree (`src/components/ContactoForm.tsx`).
+- Video del hero: desactivado hasta tener el archivo (`heroVideo` en `src/data/site.ts`).
+- Las cifras de trayectoria corresponden al equipo técnico fundador, previas a la constitución
+  de la sociedad (julio 2026), y se muestran con ese aviso.
+
+---
+Elaborado por Manuel Mina y propiedad de Dinastel SAS

@@ -21,7 +21,7 @@ export function Cumplimiento() {
         intro={promesaCumplimiento.desc}
       />
 
-      <section className="bg-white px-5 py-14 sm:px-10 sm:py-20 lg:px-20">
+      <section className="bg-white px-5 py-12 sm:px-10 sm:py-16 lg:px-20">
         <Container>
           <Reveal className="max-w-[680px]">
             <h2 className="text-[1.5rem] font-extrabold tracking-tight text-neutral-900 sm:text-[1.9rem]">

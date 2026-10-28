@@ -3,7 +3,8 @@ import { PageHero } from "../ui/PageHero";
 import { Container } from "../ui/Container";
 import { Reveal } from "../ui/Reveal";
 import { ContactoForm } from "../components/ContactoForm";
-import { contacto } from "../data/site";
+import { Link } from "react-router-dom";
+import { contacto, whatsappUrl } from "../data/site";
 
 function Row({ icon, label, value, href }: { icon: JSX.Element; label: string; value: string; href?: string }) {
   const content = (
@@ -40,7 +41,7 @@ export function Contacto() {
         intro="Cuéntenos los requerimientos y le presentamos una propuesta técnica y comercial a la medida. Si es un sistema solar, su factura de energía acelera el estudio."
       />
 
-      <section className="bg-white px-5 py-14 sm:px-10 sm:py-20 lg:px-20">
+      <section className="bg-white px-5 py-12 sm:px-10 sm:py-16 lg:px-20">
         <Container className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1.4fr] lg:gap-16">
           <Reveal className="flex flex-col gap-7">
             <Row
@@ -52,7 +53,7 @@ export function Contacto() {
             <Row
               label="WhatsApp"
               value={contacto.telefonoDisplay}
-              href={`https://wa.me/57${contacto.telefono}`}
+              href={whatsappUrl()}
               icon={<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M3 21l1.65-4.95A9 9 0 1 1 8.5 19.5Z" /></svg>}
             />
             <Row
@@ -72,6 +73,10 @@ export function Contacto() {
                 para acuerdos de ingeniería subcontratada e interventoría.
               </p>
             </div>
+            <Link to="/preguntas-frecuentes" className="group inline-flex items-center gap-2 text-[14px] font-semibold text-primary-700">
+              ¿Tiene dudas? Vea las preguntas frecuentes
+              <span className="transition-transform duration-200 group-hover:translate-x-1" aria-hidden="true">→</span>
+            </Link>
           </Reveal>
 
           <Reveal delay={0.1}>

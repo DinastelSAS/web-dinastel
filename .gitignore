@@ -2,3 +2,11 @@ node_modules
 dist
 .DS_Store
 *.local
+
+# v2 — material de trabajo que NO se publica
+FOTOS NUEVAS/
+_trabajo/
+_legacy/
+/VIDEO/
+*.HEIC
+dist-ssr/

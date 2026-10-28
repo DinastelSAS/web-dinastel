@@ -64,7 +64,7 @@ La combinación importa: un buen sistema de bombeo solar apoyado en riego automa
 
 Aclaración: las cifras de ahorro y los tiempos de retorno dependen de cada finca —caudal requerido, profundidad del pozo, horas de sol de la zona y precio actual del combustible o de la energía—. Por eso el primer paso siempre es un diagnóstico técnico serio, no una promesa genérica.
 
-¿Tienes una finca o un proyecto agrícola donde el diésel o la falta de red te están costando caro? Escríbenos a comercial@dinastel.com o al +57 314 556 9567 y evaluamos contigo si el bombeo solar y un sistema fotovoltaico llave en mano tienen sentido para tu caso.
+¿Tiene una finca o un proyecto agrícola donde el diésel o la falta de red le están costando caro? Escríbanos a comercial@dinastel.com o al +57 314 556 9567 y evaluamos con usted si el bombeo solar y un sistema fotovoltaico llave en mano tienen sentido para su caso.
 
 ---
 
@@ -85,6 +85,6 @@ Aclaración: las cifras de ahorro y los tiempos de retorno dependen de cada finc
 **Imagen destacada:** foto propia de archivo de brochure (`solar-04.webp`) — no se reutiliza imagen del artículo original.
 
 **3 piezas para Instagram (pendientes — requieren autorización del conector de Canva):**
-1. Tarjeta "El diésel de tu bomba no para de subir" (dato ACPM ~$11.282/galón 2026) con vuelco a bombeo solar.
+1. Tarjeta "El diésel de su bomba no para de subir" (dato ACPM ~$11.282/galón 2026) con vuelco a bombeo solar.
 2. Tarjeta de dato: "La mitad de Colombia no está conectada a la red — y el 78% de esa energía es diésel" (ZNI).
 3. Tarjeta "Sol de sobra para el campo" (4,5 kWh/m²/día; Guajira 5–6) con CTA a diagnóstico de bombeo solar.

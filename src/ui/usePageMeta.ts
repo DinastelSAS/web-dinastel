@@ -1,6 +1,5 @@
 import { useEffect } from "react";
-
-const SITE = "https://www.dinastel.com";
+import { absoluteUrl, canonicalUrl, isServer, ssrHead } from "../seo/head";
 
 function setMeta(attr: "name" | "property", key: string, content: string) {
   let el = document.head.querySelector<HTMLMetaElement>(`meta[${attr}="${key}"]`);
@@ -22,28 +21,55 @@ function setCanonical(url: string) {
   el.setAttribute("href", url);
 }
 
-// SEO por página: título, descripción, canónica y Open Graph.
+// SEO por página: título, descripción, canónica, Open Graph y Twitter.
 export function usePageMeta({
   title,
   description,
   path = "/",
-  image = "/assets/brochure/almacenamiento-energia-01.webp",
+  image,
+  type = "website",
 }: {
   title: string;
   description: string;
   path?: string;
   image?: string;
+  type?: "website" | "article";
 }) {
+  // Por defecto: 1200x630 JPG, compatible con WhatsApp, Facebook y LinkedIn.
+  const img = absoluteUrl(image || "/og-image.jpg");
+  const url = canonicalUrl(path);
+
+  if (isServer) {
+    Object.assign(ssrHead, { title, description, url, image: img, type });
+  }
+
   useEffect(() => {
-    const url = `${SITE}${path}`;
     document.title = title;
     setMeta("name", "description", description);
     setCanonical(url);
+    setMeta("property", "og:type", type);
     setMeta("property", "og:title", title);
     setMeta("property", "og:description", description);
     setMeta("property", "og:url", url);
-    setMeta("property", "og:image", image.startsWith("http") ? image : `${SITE}${image}`);
+    setMeta("property", "og:image", img);
     setMeta("name", "twitter:title", title);
     setMeta("name", "twitter:description", description);
-  }, [title, description, path, image]);
+    setMeta("name", "twitter:image", img);
+  }, [title, description, url, img, type]);
+}
+
+// Datos estructurados (schema.org) por página. `id` evita duplicados al navegar.
+export function useJsonLd(id: string, data: Record<string, unknown> | null) {
+  if (isServer && data) ssrHead.jsonLd.push(data);
+  const json = data ? JSON.stringify(data) : "";
+  useEffect(() => {
+    if (!json) return;
+    document.getElementById(`ld-${id}`)?.remove();
+    const s = document.createElement("script");
+    s.type = "application/ld+json";
+    s.id = `ld-${id}`;
+    s.text = json;
+    document.head.appendChild(s);
+    return () => s.remove();
+  }, [id, json]);
 }
