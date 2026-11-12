@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DinOS ERP — Gestiona tu empresa de la cotización al cobro</title>
+  <meta name="description" content="DinOS ERP es el software de gestión en la nube para pymes y empresas de servicios: comercial, contabilidad, operaciones en campo, caja menor, personal e inteligencia artificial en un solo lugar.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <a href="index.html" class="logo"><span class="logo__mark">D</span><span class="logo__word">Din<b>OS</b> ERP</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="funciones.html">Funciones</a>
+      <a href="como-funciona.html">Cómo funciona</a>
+      <a href="precios.html">Precios</a>
+      <a href="contacto.html">Contacto</a>
+      <div class="nav__cta">
+        <a class="btn btn--ghost" href="https://app.dinastel.com" target="_blank" rel="noopener">Iniciar sesión</a>
+        <a class="btn btn--primary" href="contacto.html">Solicitar demo</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- ================= HERO ================= -->
+  <section class="hero dark-bg on-dark">
+    <span class="glow-blue"></span>
+    <div class="container">
+      <div class="hero__grid">
+        <div>
+          <span class="badge-new"><b>Nuevo</b> Dinai, tu asistente con inteligencia artificial</span>
+          <h1>Toda tu empresa, <span class="grad">de la cotización al cobro</span>, en un solo lugar</h1>
+          <p class="lead">DinOS ERP une ventas, contabilidad, proyectos, personal en campo y caja menor en una sola plataforma. Sabrás en tiempo real cuánto deja cada proyecto, sin hojas de Excel sueltas.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="contacto.html">Solicitar demo gratis <span data-icon="arrow"></span></a>
+            <a class="btn btn--ghost" href="funciones.html">Ver funciones</a>
+          </div>
+          <div class="hero__note">
+            <span data-icon="check">Prueba de 15 días</span>
+            <span data-icon="check">Sin instalar nada</span>
+            <span data-icon="check">Funciona en el celular</span>
+          </div>
+        </div>
+
+        <!-- Mockup del panel (datos ficticios) -->
+        <div class="hero__visual" aria-hidden="true">
+          <div class="float float--b"><span class="float__ico" data-icon="sparkles"></span><div><strong>Dinai</strong><span>3 proyectos con saldo por cobrar</span></div></div>
+          <div class="mockup">
+            <div class="mockup__bar"><i></i><i></i><i></i><em>DinOS ERP · Panel</em></div>
+            <div class="app">
+              <div class="app__rail"><b>D</b><i class="on"></i><i></i><i></i><i></i><i></i></div>
+              <div class="app__main">
+                <div class="app__top">Resumen general <small>Este mes</small></div>
+                <div class="kpis">
+                  <div class="kpi"><small>Ingresos</small><b>$48,2 M</b><br><span class="up">▲ 12%</span></div>
+                  <div class="kpi"><small>Margen</small><b>31%</b><br><span class="up">▲ 4 pts</span></div>
+                  <div class="kpi"><small>Por cobrar</small><b>$9,7 M</b><br><span class="up" style="color:#b45309">3 proyectos</span></div>
+                </div>
+                <div class="chart">
+                  <div class="chart__head"><span>Ingresos vs. gastos</span><span>6 meses</span></div>
+                  <svg viewBox="0 0 300 86" preserveAspectRatio="none">
+                    <defs><linearGradient id="ga" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#f59e0b" stop-opacity=".35"/><stop offset="1" stop-color="#f59e0b" stop-opacity="0"/></linearGradient></defs>
+                    <path d="M0 70 L50 58 L100 62 L150 40 L200 46 L250 22 L300 12 L300 86 L0 86Z" fill="url(#ga)"/>
+                    <path d="M0 70 L50 58 L100 62 L150 40 L200 46 L250 22 L300 12" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
+                    <path d="M0 76 L50 70 L100 72 L150 62 L200 64 L250 54 L300 50" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="4 4"/>
+                  </svg>
+                </div>
+                <table class="mini-table">
+                  <thead><tr><th>Proyecto</th><th class="hide-sm">Avance</th><th>Estado</th></tr></thead>
+                  <tbody>
+                    <tr><td>Proyecto Alfa</td><td class="hide-sm">80%</td><td><span class="pill pill--info">En ejecución</span></td></tr>
+                    <tr><td>Proyecto Beta</td><td class="hide-sm">100%</td><td><span class="pill pill--ok">Pagado</span></td></tr>
+                    <tr><td>Proyecto Gamma</td><td class="hide-sm">35%</td><td><span class="pill pill--warn">Por cobrar</span></td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="float float--a"><span class="float__ico" data-icon="check"></span><div><strong>Cuenta de cobro aprobada</strong><span>Pago registrado en contabilidad</span></div></div>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><b data-count="8">8</b><span>módulos conectados</span></div>
+        <div class="stat"><b data-count="15">15</b><span>días de prueba</span></div>
+        <div class="stat"><b data-count="100" data-suffix="%">100%</b><span>en la nube</span></div>
+        <div class="stat"><b>24/7</b><span>acceso desde cualquier lugar</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTORES ================= -->
+  <div class="marquee" aria-label="Sectores">
+    <p>Pensado para empresas que trabajan por proyectos</p>
+    <div class="marquee__track">
+      <span class="chip" data-icon="hardhat">Construcción</span>
+      <span class="chip" data-icon="sun">Energía solar</span>
+      <span class="chip" data-icon="cog">Ingeniería</span>
+      <span class="chip" data-icon="wrench">Instalaciones y mantenimiento</span>
+      <span class="chip" data-icon="lightbulb">Consultoría</span>
+      <span class="chip" data-icon="building">Servicios técnicos</span>
+      <span class="chip" data-icon="truck">Contratistas</span>
+      <span class="chip" data-icon="briefcase">Firmas de servicios</span>
+    </div>
+  </div>
+
+  <!-- ================= ANTES / DESPUÉS ================= -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow">¿Te suena?</span>
+        <h2>Cuando la empresa crece, el Excel y el WhatsApp ya no alcanzan</h2>
+        <p>DinOS ERP reemplaza el desorden por un solo sistema donde todo está conectado.</p>
+      </div>
+      <div class="versus">
+        <div class="versus__col versus--before">
+          <h3>Sin DinOS ERP</h3>
+          <ul>
+            <li><span data-icon="x"></span>Cotizaciones, pagos y gastos repartidos en mil archivos</li>
+            <li><span data-icon="x"></span>La rentabilidad de cada proyecto aparece cuando ya es tarde</li>
+            <li><span data-icon="x"></span>Cuentas de cobro y soportes perdidos en el chat</li>
+            <li><span data-icon="x"></span>Los mismos datos se digitan dos y tres veces</li>
+            <li><span data-icon="x"></span>Nadie tiene la foto completa de la empresa</li>
+          </ul>
+        </div>
+        <div class="versus__col versus--after">
+          <h3>Con DinOS ERP</h3>
+          <ul>
+            <li><span data-icon="check"></span>Toda la información en un solo lugar, en la nube</li>
+            <li><span data-icon="check"></span>Saldo y rentabilidad por proyecto en tiempo real</li>
+            <li><span data-icon="check"></span>Aprobaciones con soporte y trazabilidad</li>
+            <li><span data-icon="check"></span>Lo que pasa en la operación llega solo a contabilidad</li>
+            <li><span data-icon="check"></span>Un panel de resumen para tomar decisiones</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MÓDULOS (BENTO) ================= -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow">Qué es DinOS ERP</span>
+        <h2>Un sistema, todos los procesos de tu empresa</h2>
+        <p>Contrata los módulos que necesitas y activa más cuando tu empresa crezca.</p>
+      </div>
+      <div class="bento">
+        <div class="card card--feature span-2">
+          <div class="icon" data-icon="briefcase"></div>
+          <h3>Comercial</h3>
+          <p>De la cotización al proyecto adjudicado. Hitos de pago, pagos recibidos y retenciones que se suman solas al saldo del proyecto.</p>
+          <div class="mini-tags"><span>Clientes</span><span>Cotizaciones</span><span>Proyectos</span><span>Retenciones</span></div>
+          <a class="card__link" href="funciones.html#comercial">Ver más <span data-icon="arrow"></span></a>
+        </div>
+        <div class="card">
+          <div class="icon" data-icon="book"></div>
+          <h3>Contabilidad</h3>
+          <p>Facturas, centros de costo, notas crédito y reportes en Excel.</p>
+          <a class="card__link" href="funciones.html#contabilidad">Ver más <span data-icon="arrow"></span></a>
+        </div>
+        <div class="card">
+          <div class="icon" data-icon="wrench"></div>
+          <h3>Operaciones</h3>
+          <p>Técnicos en campo, actividades diarias y cuentas de cobro con aprobación.</p>
+          <a class="card__link" href="funciones.html#operaciones">Ver más <span data-icon="arrow"></span></a>
+        </div>
+        <div class="card">
+          <div class="icon" data-icon="map-pin"></div>
+          <h3>Seguimiento y caja menor</h3>
+          <p>Avances de proyecto y gastos de cada técnico con soportes.</p>
+          <a class="card__link" href="funciones.html#seguimiento">Ver más <span data-icon="arrow"></span></a>
+        </div>
+        <div class="card">
+          <div class="icon" data-icon="users"></div>
+          <h3>Personal</h3>
+          <p>Fichas de colaboradores, familiares y documentos.</p>
+          <a class="card__link" href="funciones.html#personal">Ver más <span data-icon="arrow"></span></a>
+        </div>
+        <div class="card card--ink span-2">
+          <div class="icon" data-icon="sparkles"></div>
+          <h3>Dinai, asistente con IA</h3>
+          <p>Pregúntale a tu empresa en lenguaje natural. Dinai responde con tus datos y crea tareas automáticas con lo que necesita tu atención.</p>
+          <div class="mini-tags"><span>Preguntas en lenguaje natural</span><span>Tareas automáticas</span><span>Respeta permisos</span></div>
+          <a class="card__link" href="funciones.html#dinai" style="color:var(--amber)">Conocer a Dinai <span data-icon="arrow"></span></a>
+        </div>
+        <div class="card span-2">
+          <div class="icon" data-icon="wallet"></div>
+          <h3>Vendedores</h3>
+          <p>Comisiones y cuentas de cobro de tu fuerza de ventas.</p>
+          <a class="card__link" href="funciones.html#vendedores">Ver más <span data-icon="arrow"></span></a>
+        </div>
+        <div class="card span-2">
+          <div class="icon" data-icon="check-square"></div>
+          <h3>Tareas y chat</h3>
+          <p>Tareas, chat interno y notificaciones para todo el equipo.</p>
+          <a class="card__link" href="funciones.html">Ver más <span data-icon="arrow"></span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= DINAI (OSCURO) ================= -->
+  <section class="section dark-bg on-dark">
+    <span class="glow-blue"></span>
+    <div class="container feature-row" style="padding:0;border:0">
+      <div class="feature-row__text">
+        <span class="eyebrow">Inteligencia artificial</span>
+        <h2>Pregúntale a tu empresa y obtén <span class="grad">respuestas al instante</span></h2>
+        <p>Dinai conoce tus proyectos, tus pagos y tus pendientes. Escríbele como le escribirías a tu mano derecha y recibe la respuesta con tus datos reales, respetando lo que cada usuario puede ver.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="contacto.html">Verlo en una demo <span data-icon="arrow"></span></a>
+        </div>
+      </div>
+      <div class="chat-window" aria-hidden="true">
+        <div class="chat-window__head"><span class="float__ico" data-icon="sparkles"></span><div><strong>Dinai</strong><span>● En línea</span></div></div>
+        <div class="chat">
+          <div class="msg msg--user">¿Qué proyectos tienen saldo pendiente?</div>
+          <div class="msg msg--bot">Tienes <strong>3 proyectos</strong> con saldo por cobrar por <strong>$9,7 M</strong>. El más antiguo es Proyecto Gamma.</div>
+          <div class="msg msg--user">¿Qué cuentas de cobro faltan por aprobar?</div>
+          <div class="msg msg--bot">Hay <strong>2 cuentas de cobro</strong> esperando tu aprobación. Ya te creé la tarea.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= POR QUÉ ================= -->
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow">Por qué DinOS ERP</span>
+        <h2>Hecho para empresas que trabajan por proyectos</h2>
+        <p>Nació dentro de una empresa de ingeniería para resolver problemas reales: proyectos, técnicos en campo y flujo de caja.</p>
+      </div>
+      <div class="grid grid--3">
+        <div class="card"><div class="icon" data-icon="target"></div><h3>Rentabilidad por proyecto</h3><p>Cada ingreso, gasto, retención y pago queda ligado a su proyecto. Ves el saldo real al instante.</p></div>
+        <div class="card"><div class="icon" data-icon="users"></div><h3>Usuarios incluidos</h3><p>Pagas un plan por empresa con usuarios incluidos, no una licencia por cada persona.</p></div>
+        <div class="card"><div class="icon" data-icon="palette"></div><h3>Con tu marca</h3><p>Tu logo y tus colores dentro de la plataforma. Tu equipo trabaja en un sistema que se siente propio.</p></div>
+        <div class="card"><div class="icon" data-icon="shield"></div><h3>Tus datos, aislados y seguros</h3><p>Cada empresa ve únicamente su información, con roles y permisos por persona.</p></div>
+        <div class="card"><div class="icon" data-icon="smartphone"></div><h3>Desde cualquier lugar</h3><p>Computador, tableta o celular. Tus técnicos reportan directamente desde el campo.</p></div>
+        <div class="card"><div class="icon" data-icon="zap"></div><h3>Menos trabajo manual</h3><p>Facturación del proyecto, tareas y pagos se sincronizan solos con lo que pasa en la operación.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CÓMO EMPEZAR ================= -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section__head">
+        <span class="eyebrow">Cómo empezar</span>
+        <h2>Listo para trabajar en días, no en meses</h2>
+      </div>
+      <div class="grid grid--3 steps">
+        <div class="step"><div class="step__num">01</div><h3>Agenda tu demo</h3><p>Te mostramos DinOS ERP con un caso parecido al de tu empresa.</p></div>
+        <div class="step"><div class="step__num">02</div><h3>Configuramos tu empresa</h3><p>Activamos tus módulos, tu marca y tus usuarios. Sin instalar nada.</p></div>
+        <div class="step"><div class="step__num">03</div><h3>Prueba 15 días</h3><p>Tu equipo lo usa con su trabajo real y decides con información en la mano.</p></div>
+      </div>
+      <p class="note-small"><a href="como-funciona.html">Ver cómo funciona en detalle →</a></p>
+    </div>
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section class="section">
+    <div class="container">
+      <div class="cta">
+        <span class="eyebrow" style="color:var(--amber)">Precios claros</span>
+        <h2>Planes desde <span class="grad">$150.000 al mes</span>, con 5 usuarios incluidos</h2>
+        <p>Sin costos de instalación. Elige tu plan y crece cuando lo necesites.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="precios.html">Ver precios <span data-icon="arrow"></span></a>
+          <a class="btn btn--ghost" href="contacto.html">Hablar con un asesor</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a href="index.html" class="logo"><span class="logo__mark">D</span><span class="logo__word">Din<b>OS</b> ERP</span></a>
+        <p>Software de gestión en la nube para pymes y empresas de servicios en Latinoamérica.</p>
+      </div>
+      <div><h4>Producto</h4><ul><li><a href="funciones.html">Funciones</a></li><li><a href="como-funciona.html">Cómo funciona</a></li><li><a href="precios.html">Precios</a></li></ul></div>
+      <div><h4>Empresa</h4><ul><li><a href="contacto.html">Contacto</a></li><li><a href="contacto.html">Solicitar demo</a></li><li><a href="https://wa.me/573145569567" target="_blank" rel="noopener">+57 314 556 9567</a></li><li><a href="mailto:comercial@dinastel.com">comercial@dinastel.com</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="#">Política de privacidad</a></li><li><a href="#">Términos de uso</a></li></ul></div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year></span> DinOS ERP. Todos los derechos reservados.</span>
+      <span>Hecho en Latinoamérica</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

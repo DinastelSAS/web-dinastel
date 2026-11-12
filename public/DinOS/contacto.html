@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto — DinOS ERP</title>
+  <meta name="description" content="Solicita una demo de DinOS ERP o habla con un asesor.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container header__inner">
+    <a href="index.html" class="logo"><span class="logo__mark">D</span><span class="logo__word">Din<b>OS</b> ERP</span></a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="funciones.html">Funciones</a>
+      <a href="como-funciona.html">Cómo funciona</a>
+      <a href="precios.html">Precios</a>
+      <a href="contacto.html">Contacto</a>
+      <div class="nav__cta">
+        <a class="btn btn--ghost" href="https://app.dinastel.com" target="_blank" rel="noopener">Iniciar sesión</a>
+        <a class="btn btn--primary" href="contacto.html">Solicitar demo</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero dark-bg on-dark"><span class="glow-blue"></span>
+    <div class="container">
+      <span class="eyebrow">Contacto</span>
+      <h1>Hablemos de <span class="grad">tu empresa</span></h1>
+      <p>Déjanos tus datos y te contactamos para agendar una demo personalizada.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container grid grid--2" style="gap:56px;align-items:start">
+      <form id="contact-form" class="form card" novalidate>
+        <div class="form__row">
+          <div class="field"><label for="nombre">Nombre completo</label><input id="nombre" name="nombre" required></div>
+          <div class="field"><label for="empresa">Empresa</label><input id="empresa" name="empresa" required></div>
+        </div>
+        <div class="form__row">
+          <div class="field"><label for="email">Correo electrónico</label><input id="email" name="email" type="email" required></div>
+          <div class="field"><label for="telefono">Teléfono / WhatsApp</label><input id="telefono" name="telefono" type="tel"></div>
+        </div>
+        <div class="form__row">
+          <div class="field">
+            <label for="pais">País</label>
+            <select id="pais" name="pais">
+              <option>Colombia</option><option>México</option><option>Perú</option><option>Chile</option>
+              <option>Ecuador</option><option>Panamá</option><option>Otro</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="equipo">Tamaño del equipo</label>
+            <select id="equipo" name="equipo">
+              <option>1 a 5 personas</option><option>6 a 10 personas</option><option>11 a 20 personas</option><option>Más de 20 personas</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="plan">Plan de interés</label>
+          <select id="plan" name="plan">
+            <option value="">Aún no lo sé</option>
+            <option value="basico">Básico</option>
+            <option value="profesional">Profesional</option>
+            <option value="enterprise">Enterprise</option>
+          </select>
+        </div>
+        <div class="field"><label for="mensaje">¿Qué te gustaría resolver?</label><textarea id="mensaje" name="mensaje" rows="4"></textarea></div>
+        <label class="field--check"><input type="checkbox" required> Acepto la política de privacidad y el tratamiento de mis datos para ser contactado.</label>
+        <button class="btn btn--primary btn--block" type="submit">Solicitar demo</button>
+        <div class="form__ok" role="status">¡Gracias! Recibimos tu solicitud y te contactaremos pronto.</div>
+      </form>
+
+      <div>
+        <h2>Otras formas de contactarnos</h2>
+        <p style="color:var(--text-muted)">Respondemos en horario laboral, de lunes a viernes.</p>
+        <ul class="contact-info">
+          <li><div class="icon" data-icon="mail"></div><div><strong>Correo</strong><span><a href="mailto:comercial@dinastel.com">comercial@dinastel.com</a></span></div></li>
+          <li><div class="icon" data-icon="message"></div><div><strong>Teléfono / WhatsApp</strong><span><a href="https://wa.me/573145569567" target="_blank" rel="noopener">+57 314 556 9567</a></span></div></li>
+          <li><div class="icon" data-icon="globe"></div><div><strong>Cobertura</strong><span>Empresas en Latinoamérica</span></div></li>
+        </ul>
+        <div class="mock-panel" style="margin-top:24px">
+          <h4>¿Qué pasa después?</h4>
+          <div class="mock-row"><span>1. Te contactamos para agendar</span></div>
+          <div class="mock-row"><span>2. Demo personalizada de 30 minutos</span></div>
+          <div class="mock-row"><span>3. Configuramos tu prueba de 15 días</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a href="index.html" class="logo"><span class="logo__mark">D</span><span class="logo__word">Din<b>OS</b> ERP</span></a>
+        <p>Software de gestión en la nube para pymes y empresas de servicios en Latinoamérica.</p>
+      </div>
+      <div><h4>Producto</h4><ul><li><a href="funciones.html">Funciones</a></li><li><a href="como-funciona.html">Cómo funciona</a></li><li><a href="precios.html">Precios</a></li></ul></div>
+      <div><h4>Empresa</h4><ul><li><a href="contacto.html">Contacto</a></li><li><a href="contacto.html">Solicitar demo</a></li><li><a href="https://wa.me/573145569567" target="_blank" rel="noopener">+57 314 556 9567</a></li><li><a href="mailto:comercial@dinastel.com">comercial@dinastel.com</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="#">Política de privacidad</a></li><li><a href="#">Términos de uso</a></li></ul></div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year></span> DinOS ERP. Todos los derechos reservados.</span>
+      <span>Hecho en Latinoamérica</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
